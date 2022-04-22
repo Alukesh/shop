@@ -5,6 +5,8 @@ import Brands from "../../pages/Brands/Brands";
 import Contact from "../../pages/Contact/Contact";
 import Wrong from "../../pages/Wrong/Wrong";
 import Cart from "../../pages/Cart/Cart";
+import Login from "../../pages/Login/Login";
+import Register from "../../pages/Register/Register";
 
 const Main = () => {
 
@@ -18,6 +20,8 @@ const Main = () => {
                     <Route path='/brands' element={<Brands/>}/>
                     <Route path='/contact' element={<Contact/>}/>
                     <Route path='/cart' element={<Cart/>}/>
+                    <Route path='/login' element={<Login/>}/>
+                    <Route path='/register' element={<Register/>}/>
                     <Route path='*' element={<Wrong/>}/>
                 </Routes>
             </div>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
 
 *{
   padding: 0;
@@ -19,12 +19,7 @@
   padding: 5px;
   margin: 0 auto;
 }
-//.link{
-//  transition: all .4s;
-//  &:hover{
-//    color: #6E9C9F;
-//  }
-//}
+
 html,body{
   height: 100%;
 }
@@ -40,3 +35,10 @@ html,body{
 
 @import "Layout/Header/header";
 @import "Layout/Footer/footer";
+@import "src/pages/Home/NewSeason/newSeason";
+@import "src/pages/Home/Collection/collection";
+@import "src/pages/Home/Important/important";
+//это все принимает home.js
+
+@import "pages/Login/login";
+@import "pages/Register/register";

@@ -1,13 +1,18 @@
+import { FaUserCircle } from 'react-icons/fa';
 import {Link, NavLink} from "react-router-dom";
 import {useTranslation} from "react-i18next";
+import {loadLanguages, use} from "i18next";
+import React, {useContext} from "react";
+import {CustomContext} from "../../Context";
 
 const Header = () => {
     const {t, i18n} = useTranslation();
+    const {user, logOutUser} = useContext(CustomContext);
+
 
     const changeLanguage = (lang) =>{
       i18n.changeLanguage(lang)
     };
-
 
     return (
         <header className=" header">
@@ -51,7 +56,7 @@ const Header = () => {
                     </span>
                             +7 (495) 823-54-12</a>
                         <Link to="/cart">
-                            <span>
+                            <span className={'header__links-cart'} >
                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path
     d="M23.8454 8.2243C23.7281 8.10906 23.5642 8.05442 23.4012 8.07624H17.0343V5.26295C17.0343 2.4826 14.7804 0.228699 12.0001 0.228699C9.21971 0.228699 6.96582 2.4826 6.96582 5.26295V8.07624H0.598861C0.421164 8.07624 0.243523 8.07624 0.154646 8.2243C0.0352739 8.33902 -0.0201042 8.5051 0.00659291 8.66851L2.22761 20.81C2.53789 22.5037 4.00034 23.7431 5.72199 23.7713H18.278C20.0046 23.7289 21.464 22.4797 21.7724 20.7804L23.9934 8.66851C24.0201 8.5051 23.9647 8.33902 23.8454 8.2243ZM8.1503 5.26295C8.1503 3.13682 9.87388 1.41324 12 1.41324C14.1261 1.41324 15.8497 3.13682 15.8497 5.26295V8.07624H8.1503V5.26295ZM20.5879 20.6323C20.3884 21.7547 19.4179 22.5759 18.278 22.5868H5.72199C4.58212 22.5759 3.61161 21.7547 3.41215 20.6323L1.30959 9.26078H22.6904L20.5879 20.6323Z"
@@ -65,11 +70,19 @@ const Header = () => {
 </svg>
                     </span>
                         </Link>
-                        <div>
-                            <button type='button' onClick={() => changeLanguage("ru")}>ru</button>
-                            ----
-                            <button type='button' onClick={() => changeLanguage("en")}>en</button>
+                        <div className={'header__language'}>
+                            <button className={'header__language-btn'} style={{background: loadLanguages.prototype === 'ru' ? 'yellow' : ''}} type='button' onClick={() => changeLanguage("ru")}>Ru</button>
+                            <button className={'header__language-btn'} style={{background: loadLanguages.prototype === 'en' ? 'yellow' : ''}} type='button' onClick={() => changeLanguage("en")}>En</button>
                         </div>
+                        
+                        {
+                            user.login.length
+                                ? <Link style={{color: "red"}} onClick={() => logOutUser()} to={'/'}>Выйти
+                                  </Link>
+                                :  <Link style={{color: "darkblue"}} to={'/login'}>Войти
+                                </Link>
+                        }
+                        <FaUserCircle/>
                     </div>
                 </nav>
             </div>

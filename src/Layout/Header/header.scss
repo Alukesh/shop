@@ -24,7 +24,10 @@
     &links{
       display: flex;
       align-items: center;
-      column-gap: 67px;
+      column-gap: 10px;
+      &-cart{
+        margin-left: 40px;
+      }
     }
     &logo-icon{
       width: 18px;
@@ -35,6 +38,24 @@
       margin-right: 13px;
     }
 
+    &language{
+      //margin-top: 10px;
+      display: flex;
+      gap: 1px;
+      margin-right: 12px;
+      &-btn{
+        padding: 5px 10px;
+        background-color: white;
+        cursor: pointer;
+        font-weight: bold;
+        border: navy;
+        border-radius: 5px;
+        transition: all .5s;
+        &:hover{
+          //transform: scale(1.25);
+        }
+      }
+    }
 
   }
 }

@@ -1,9 +1,9 @@
 
 const Shop = () => {
     return (
-        <div>
+        <section className={'name'}>
             Shops
-        </div>
+        </section>
     );
 };
 

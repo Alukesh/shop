@@ -1,4 +1,4 @@
-import Header from "./Header/header";
+import Header from "./Header/Header";
 import Footer from "./Footer/footer";
 import Main from "./Main/Main";
 import {useLocation} from "react-router-dom";
@@ -15,7 +15,11 @@ const Layout = () => {
 
     return (
         <>
-            <Header/>
+            {
+                location.pathname !== '/login' && location.pathname !== '/register' ?
+                    <Header/>
+                    : ''
+            }
             <Main/>
             {
                 location.pathname === '/' ||
