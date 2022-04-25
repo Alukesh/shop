@@ -18,7 +18,8 @@
       letter-spacing: 0.02em;
       transition: all .3s;
       cursor: pointer;
-      &:hover, &_active{
+      &:hover, &_active
+      {
         background: #000;
         color: white;
       }

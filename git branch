@@ -1,0 +1,23 @@
+[33mcommit e3e79ec3bd878521ea504c94d2fd28f041322f90[m[33m ([m[1;36mHEAD -> [m[1;32mdevelop[m[33m)[m
+Author: Alukesh <akenzhebaev422@gmail.com>
+Date:   Mon Apr 25 20:03:16 2022 +0600
+
+    Снова создал ветку для последих обновлений с shop page
+
+[33mcommit 590be91378ca9ac62528b6e6637d40c19a546682[m[33m ([m[1;31morigin/gh-pages[m[33m, [m[1;32mgh-pages[m[33m)[m
+Author: Alukesh <akenzhebaev422@gmail.com>
+Date:   Fri Apr 22 17:29:51 2022 +0600
+
+    add login
+
+[33mcommit 0f4d9bd777b6ed602d0c58f5c5cb151342f444d1[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Alukesh <akenzhebaev422@gmail.com>
+Date:   Wed Apr 20 19:21:19 2022 +0600
+
+    it-run first add of our womazing shop
+
+[33mcommit f01ae87381d9fa3c0ddbde5d75f68018111f125a[m
+Author: Alukesh <akenzhebaev422@gmail.com>
+Date:   Sun Apr 17 21:02:25 2022 +0600
+
+    Initialize project using Create React App
