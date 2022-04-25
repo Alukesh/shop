@@ -1,0 +1,26 @@
+.contact{
+  &__{
+    &map{
+      height: 476px;
+      width: 100%;
+      background-color: rgba(221, 221, 221, 1);
+      margin-bottom: 130px;
+      &Block-links{
+        display: flex;
+        margin-bottom: 130px;
+        & p{
+          display: flex;
+          flex-direction: column;
+          row-gap: 20px;
+          width: calc(33% - 60px);
+          font-weight: 500;
+          font-size: 17px;
+          line-height: 140%;
+          letter-spacing: 0.02em;
+        }
+      }
+    }
+
+
+  }
+}

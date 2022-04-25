@@ -1,0 +1,51 @@
+.profile{
+  &__{
+
+    &top{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 50px;
+      &-btn{
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        &s{}
+      }
+      &-setting{
+        background: orange;
+        color: white;
+      }
+    }
+
+    &user{
+      border: 1px solid black;
+      padding: 30px;
+      border-radius: 12px;
+      &-btn{
+        background-color: #fff;
+        border-radius: 8px;
+        border: none;
+        color: orange;
+        font-size: 17px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+      &-change{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+      &-info{
+        display: flex;
+        justify-content: space-between;
+      }
+      &-data{
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+
+  }
+}

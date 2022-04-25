@@ -1,0 +1,39 @@
+.contact__form{
+  display: flex;
+  flex-direction: column;
+  max-width: 443px;
+  row-gap: 35px;
+  margin-bottom: 276px;
+  &-title{
+    margin-bottom: 30px;
+  }
+  &-input{
+    border: none;
+    border-bottom:  1px solid black;
+    width: 350px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #868686;
+    padding: 0 0 16px;
+    outline: none;
+  }
+  &-text{
+    border: none;
+    border-bottom:  1px solid black;
+    height: 134px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    outline: none;
+    color: #868686;
+  }
+  &-btn{
+    width: 189px;
+    height: 68px;
+    background: rgba(110, 156, 159, 1);
+    border: none;
+  }
+}

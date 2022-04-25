@@ -71,18 +71,22 @@ const Header = () => {
                     </span>
                         </Link>
                         <div className={'header__language'}>
-                            <button className={'header__language-btn'} style={{background: loadLanguages.prototype === 'ru' ? 'yellow' : ''}} type='button' onClick={() => changeLanguage("ru")}>Ru</button>
-                            <button className={'header__language-btn'} style={{background: loadLanguages.prototype === 'en' ? 'yellow' : ''}} type='button' onClick={() => changeLanguage("en")}>En</button>
+                            {/*{i18n.language === 'ru' ? <button className={'header__language-btn'} style={{background: loadLanguages.prototype === 'en' ? 'yellow' : ''}} type='button' onClick={() => changeLanguage("en")}>En</button>*/}
+                            {/*        : <button className={'header__language-btn'} style={{background: loadLanguages.prototype === 'ru' ? 'yellow' : ''}} type='button' onClick={() => changeLanguage("ru")}>Ru</button>*/}
+                            {/*}*/}
+                            <button className={'header__language-btn'} style={{background: i18n.language === 'ru' ? "lightgrey" : ''}} type='button' onClick={() => changeLanguage("ru")}>Ru</button>
+                            <button className={'header__language-btn'} style={{background: i18n.language === 'en' ? "lightgrey" : ''}} type='button' onClick={() => changeLanguage("en")}>En</button>
                         </div>
-                        
+
                         {
                             user.login.length
-                                ? <Link style={{color: "red"}} onClick={() => logOutUser()} to={'/'}>Выйти
-                                  </Link>
-                                :  <Link style={{color: "darkblue"}} to={'/login'}>Войти
-                                </Link>
+                                ? <Link style={{color: "red"}} onClick={() => logOutUser()} to={'/'}>{t("setUser.logout")}</Link>
+                                :  <Link style={{color: "darkblue"}} to={'/login'}>{t("setUser.login.btn")}</Link>
                         }
-                        <FaUserCircle/>
+                        {
+                            user.login.length ? <Link className={'header__links-profile'} to="/profile"> <FaUserCircle/></Link> : ''
+                        }
+
                     </div>
                 </nav>
             </div>

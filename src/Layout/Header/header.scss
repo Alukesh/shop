@@ -28,6 +28,9 @@
       &-cart{
         margin-left: 40px;
       }
+      &-profile{
+        display: flex;
+      }
     }
     &logo-icon{
       width: 18px;
@@ -41,11 +44,11 @@
     &language{
       //margin-top: 10px;
       display: flex;
-      gap: 1px;
+      gap: 10px;
       margin-right: 12px;
       &-btn{
         padding: 5px 10px;
-        background-color: white;
+        background-color: inherit;
         cursor: pointer;
         font-weight: bold;
         border: navy;

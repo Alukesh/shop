@@ -10,11 +10,20 @@
       font-size: 55px;
       line-height: 110%;
       letter-spacing: 0.02em;
-      color: #000000;
       margin: 145px 0 45px;
     }
     &textblock{
       max-width: 385px;
+    }
+    &right{
+      position: absolute;
+      padding: 122px 0 54px 50px;
+      z-index: -2;
+      width: 50%;
+      height: 826px;
+      background-color: #F1EADC;
+      top: 0;
+      right: 0;
     }
     &subtitle{
       max-width: 385px;
@@ -23,7 +32,6 @@
       line-height: 140%;
       text-align: right;
       letter-spacing: 0.02em;
-      color: #000000;
       margin-bottom: 52px;
     }
     &btns{

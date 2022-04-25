@@ -5,6 +5,7 @@ import Collection from "./Collection/Collection";
 import Important from "./Important/Important";
 import {useContext} from "react";
 import {CustomContext} from "../../Context";
+import Team from "./Team/Team";
 
 
 const Home = () => {
@@ -17,7 +18,7 @@ const {count, setCount} = useContext(CustomContext);
             <NewSeason/>
             <Collection/>
             <Important/>
-
+            <Team/>
 
 
         </div>

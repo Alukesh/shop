@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom";
 import {useTranslation} from "react-i18next";
 import {useForm} from "react-hook-form";
-import {useContext} from "react";
+import React, {useContext} from "react";
 import {CustomContext} from "../../Context";
 
 const Login = () => {
@@ -33,17 +33,17 @@ const Login = () => {
             </div>
 
             <Link style={{color: "darkblue"}} className={'login__back'} to={'/'}>
-                На главную
+                {t("setUser.return")}
             </Link>
             <form className={'login__form'} onSubmit={handleSubmit(loginUser)}>
-                <h1 className={'form__title'}>Вход в аккаунт</h1>
+                <h1 className={'form__title'}>{t("setUser.login.title")}</h1>
                 <input {...register('email',{
                     required: 'This priority'
-                })} className={'form__input'} type="email" placeholder={'Введите email'}/> <br/>
-                <input {...register('password')} className={'form__input'} type='password' placeholder={'Введите пароль'}/> <br/>
-                <button className={'form__input form__btn'} type='submit'>Войти</button>
+                })} className={'form__input'} type="email" placeholder={t("setUser.userEmail")}/> <br/>
+                <input {...register('password')} className={'form__input'} type='password' placeholder={t("setUser.userPassword")}/> <br/>
+                <button className={'form__input form__btn'} type='submit'>{t("setUser.login.btn")}</button>
 
-                <p>Нет аккаунта, <Link className={'form__link'} to={'/register'}>регистрация</Link></p>
+                <p> {t("setUser.noAccount.title")}<Link className={'form__link'} to={'/register'}>{t("setUser.noAccount.register")}</Link></p>
             </form>
         </section>
     );

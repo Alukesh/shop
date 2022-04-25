@@ -1,0 +1,50 @@
+.team{
+  margin-bottom: 130px;
+  &__{
+
+    &title{
+      margin-bottom: 92px;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 110%;
+      letter-spacing: 0.02em;
+    }
+    &content{
+      display: flex;
+      column-gap: 20px;
+      justify-content: space-between;
+    }
+    &slider{}
+    &slide{
+      max-height: 487px;
+      width: 100%;
+      //max-width: 729px;
+      //width: 100%;
+    }
+
+    &info{
+      max-width: 255px;
+      &-title{
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        margin-bottom: 28px;
+      }
+      &-text{
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 140%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 28px;
+        //color: #000000;
+        letter-spacing: 0.02em;
+      }
+      &-link{
+        color: #6E9C9F;
+      }
+    }
+
+  }
+}

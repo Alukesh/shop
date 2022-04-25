@@ -1,12 +1,36 @@
 {
   "users": [
     {
-      "email": "xzcsacsadas@mail.ru",
-      "password": "$2a$10$KQJC85hlWLmiF6QErFMBk.w6qEzcJFjW1Uwc7fNzOScAn0ulDj0pm",
-      "login": "asdasdasdasdasda",
-      "phone": "asdasdasdas",
+      "email": "q@q",
+      "password": "$2a$10$qxpI5UmnEe8YQ2bUUt.siuYJlkno5ZTas3y13ANYRl84195fR7ApK",
+      "login": "wert",
+      "phone": "12345",
       "orders": [],
       "id": 1
+    },
+    {
+      "email": "wer@mail.ru",
+      "password": "$2a$10$IGlyWx9V3l6WKaFWBlb2Q.Wf0MFuB1CkwZBZLURVD3KtkYQ1JLn1G",
+      "login": "wer",
+      "phone": "1234",
+      "orders": [],
+      "id": 2
+    },
+    {
+      "email": "asd@ad",
+      "password": "$2a$10$iEc3kE39zd206JSgGDfHI.pRpB04W2MS1FiCAL.QBxq.rpvAOaDbe",
+      "login": "asdasda",
+      "phone": "asdasda",
+      "orders": [],
+      "id": 3
+    },
+    {
+      "email": "doc@mail.ru",
+      "password": "$2a$10$xgbrpVUsKgWn2O1i6mQTF.BDzuz.wrJ9O7iOn6LXjalUriy95mv9.",
+      "login": "asd",
+      "phone": "1231",
+      "orders": [],
+      "id": 4
     }
   ],
   "closest": [

@@ -1,5 +1,6 @@
 import {useTranslation} from 'react-i18next'
 import CollectionCard from "./CollectionCard";
+import {Link} from "react-router-dom";
 
 const Collection = () => {
 
@@ -13,7 +14,7 @@ const Collection = () => {
                 <CollectionCard img={'card2.jpg'} title={'Купальник Glow'} price={'$129'}/>
                 <CollectionCard img={'card3.jpg'} arrow={'active'} title={`Свитшот Sweet Shot`} price={'$129'}/>
             </div>
-            <button className={'collection__btn'}>{t("home.collection.btn")}</button>
+            <Link to={"/shop"} className={'collection__btn'}>{t("home.collection.btn")}</Link>
         </section>
         // <div className="collection__card">
         //     <div className="collection__hover">

@@ -7,6 +7,7 @@ import {useNavigate} from "react-router-dom";
 
 export const CustomContext = createContext();
 
+
 export const Context = (props) =>{
     const navigate = useNavigate();
     const [page, setPage] = useState(1);
@@ -14,37 +15,45 @@ export const Context = (props) =>{
         login: '',
 
     });
+    const [shop, setShop] = useState([]);
 
+    useEffect(() =>{
+        if (localStorage.getItem('user') !== null){
+             setUser(JSON.parse(localStorage.getItem('user')))
+        }
+    },[]);
 
     const registerUser = (data) =>{
         axios.post('http://localhost:8080/register',{...data, orders: []})
-            .then(({data}) => {
-                localStorage.setItem('user', JSON.stringify(data.user));
-                setUser(data.user);
+            .then((res) => {
+                localStorage.setItem('user', JSON.stringify(res.data.user));
+                setUser(res.data.user);
                 navigate("/")
             });
     };
 
     const loginUser = (data) =>{
+        // console.log(data);
         axios.post('http://localhost:8080/login', data)
             .then((res) => {
-                setUser(data.user);
-                localStorage.setItem('user', JSON.stringify(data.user));
+                localStorage.setItem('user', JSON.stringify(res.data.user));
+                setUser(res.data.user);
                 navigate("/")
             })
     };
 
-    useEffect(() =>{
-        if (localStorage.getItem('user') !== null){
-            // setUser(JSON.parse(localStorage.getItem('user')))
-        }
-    },[]);
+
 
     const logOutUser = () =>{
-        localStorage.removeItem('user');
-        setUser({
-            login:''
-        })
+        // confirm('delete user?')
+        if (window.confirm('Continue Logout?')){
+            localStorage.removeItem('user');
+            setUser({
+                login:''
+            })
+        }
+
+
     };
 
 

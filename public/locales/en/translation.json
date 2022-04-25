@@ -5,6 +5,26 @@
     "link3": "About Brand",
     "link4": "Contact"
   },
+  "setUser": {
+    "login": {
+      "title": "Login to account",
+      "btn": "Login"
+    },
+    "noAccount": {
+      "title": "No account,",
+      "register": " register"
+    },
+    "logout": "Logout",
+    "register": "Register",
+    "return": "Home",
+    "makeAccount": "Make account",
+    "haveAccount": "Already have account?",
+    "userEmail": "Use your email",
+    "userLogin": "Use your login",
+    "userNumber": "Use your number",
+    "userPassword": "Use your password",
+    "checkPassword": "Repeat password"
+  },
   "home": {
     "newSeason": {
       "title": "New this season",
@@ -50,6 +70,17 @@
     },
     "btn": "Перейти в магазин"
   },
+  "Contact": {
+    "title": "Contacts",
+    "link1": "Main",
+    "link2": "Contacts"
+  },
+  "Shop": {
+    "title": "Shop",
+    "link1": "Main",
+    "link2": "Shop"
+  },
+
   "footer": {
     "link1": "Main",
     "link2": "Shop",
