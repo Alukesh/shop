@@ -25,6 +25,57 @@
       }
     }
 
+    &row{
+      display: flex;
+      flex-wrap: wrap;
+      //justify-content: space-between;
+      row-gap: 65px;
+      column-gap: 8px;
+    }
+
+    &card{
+      width: calc(33% - 4px);
+      cursor: pointer;
+      &-title{
+        text-align: center;
+        margin: 24px 0  7px;
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: 0.02em;
+      }
+    }
+    &img{
+      width: 100%;
+    }
+    &hover{
+      position: relative;
+    }
+    &arrow{
+      display: none;
+      justify-content: center;
+      align-items: center;
+      left: 0;
+      bottom: 5px;
+      position: absolute;
+      height: 98%;
+      width: 100%;
+      background: rgba(110, 156, 159, 0.64);
+      &.active{
+        display: flex;
+      }
+    }
+    &price{
+      display: flex;
+      justify-content: center;
+      column-gap: 10px;
+      font-weight: 500;
+      font-size: 15px;
+      letter-spacing: 0.02em;
+      color: #9C9C9C;
+      &-old{
+        text-decoration-line: line-through;
+      }
+    }
 
 
 

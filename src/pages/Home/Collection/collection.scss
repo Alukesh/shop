@@ -16,12 +16,16 @@
     &card{
       cursor: pointer;
       &-title{
+        text-align: center;
         margin: 24px 0  7px;
         font-weight: 500;
         font-size: 20px;
         letter-spacing: 0.02em;
         //color: #000000;
       }
+    }
+    &img{
+      width: 100%;
     }
 
     &hover{

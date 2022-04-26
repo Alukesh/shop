@@ -21,6 +21,9 @@ export const Context = (props) =>{
         if (localStorage.getItem('user') !== null){
              setUser(JSON.parse(localStorage.getItem('user')))
         }
+
+        axios('http://localhost:8080/clothes')
+            .then(({data}) => setShop(data))
     },[]);
 
     const registerUser = (data) =>{
@@ -64,7 +67,8 @@ export const Context = (props) =>{
         setUser,
         registerUser,
         logOutUser,
-        loginUser
+        loginUser,
+        shop
     };
 
 

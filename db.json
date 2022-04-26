@@ -33,12 +33,12 @@
       "id": 4
     }
   ],
-  "closest": [
+  "clothes": [
     {
       "id": 1,
-      "title": "Футболка USA",
+      "title": " PATTERNED TANK TOP",
       "price": 229,
-      "image": "",
+      "image": "t-shirt1.jpg",
       "category": "T-short",
       "size": [
         "s",
@@ -56,9 +56,9 @@
     },
     {
       "id": 2,
-      "title": "Футболка KG",
+      "title": "SHORT SLEEVE POLO WITH LUREX",
       "price": 29,
-      "image": "",
+      "image": "t-shirt2.jpg",
       "category": "T-short",
       "size": [
         "s",
@@ -74,9 +74,9 @@
     },
     {
       "id": 3,
-      "title": "Футболка USA",
+      "title": "T-SHIRT IN 100% COTTON WITH PRINT",
       "price": 229,
-      "image": "",
+      "image": "t-shirt3.jpg",
       "category": "T-short",
       "size": [
         "s",
@@ -94,9 +94,9 @@
     },
     {
       "id": 4,
-      "title": "Футболка KG",
+      "title": "100% COTTON BOXY FIT T-SHIRT",
       "price": 29,
-      "image": "",
+      "image": "t-shirt4.jpg",
       "category": "T-short",
       "size": [
         "s",
@@ -112,9 +112,9 @@
     },
     {
       "id": 5,
-      "title": "Футболка USA",
-      "price": 229,
-      "image": "",
+      "title": "TANK TOP IN VISCOSE AND LUREX",
+      "price": 29,
+      "image": "t-shirt5.jpg",
       "category": "T-short",
       "size": [
         "s",
@@ -132,10 +132,10 @@
     },
     {
       "id": 6,
-      "title": "Футболка KG",
-      "price": 29,
-      "image": "",
-      "category": "T-short",
+      "title": "LONG CHECK TRENCH COAT",
+      "price": 292,
+      "image": "coat1.jpg",
+      "category": "coat",
       "size": [
         "s",
         "m",
@@ -150,10 +150,10 @@
     },
     {
       "id": 7,
-      "title": "Футболка USA",
-      "price": 229,
-      "image": "",
-      "category": "T-short",
+      "title": "DUSTER COAT IN 100% COTTON",
+      "price": 279,
+      "image": "coat2.jpg",
+      "category": "coat",
       "size": [
         "s",
         "m",
@@ -170,10 +170,10 @@
     },
     {
       "id": 8,
-      "title": "Футболка KG",
-      "price": 29,
-      "image": "",
-      "category": "T-short",
+      "title": "DUSTER COAT IN 100% COTTON",
+      "price": 199,
+      "image": "coat5.jpg",
+      "category": "coat",
       "size": [
         "s",
         "m",
@@ -188,14 +188,12 @@
     },
     {
       "id": 9,
-      "title": "Футболка USA",
-      "price": 229,
-      "image": "",
-      "category": "T-short",
+      "title": "COAT IN RECYCLED FABRIC",
+      "price": 329,
+      "image": "coat3.jpg",
+      "category": "coat",
       "size": [
-        "s",
         "m",
-        "l",
         "xl"
       ],
       "colors": [
@@ -208,10 +206,10 @@
     },
     {
       "id": 10,
-      "title": "Футболка USA",
-      "price": 229,
-      "image": "",
-      "category": "T-short",
+      "title": "DOUBLE-BREASTED TRENCH COAT IN FABRIC",
+      "price": 429,
+      "image": "coat4.jpg",
+      "category": "coat",
       "size": [
         "s",
         "m",
@@ -228,10 +226,10 @@
     },
     {
       "id": 11,
-      "title": "Футболка KG",
+      "title": "COTTON SWEATSHIRT WITH PUFF SLEEVES",
       "price": 29,
-      "image": "",
-      "category": "T-short",
+      "image": "sweatshirt1.jpg",
+      "category": "sweatshirt",
       "size": [
         "s",
         "m",
@@ -246,10 +244,10 @@
     },
     {
       "id": 12,
-      "title": "Футболка USA",
+      "title": "COTTON BLEND SWEATSHIRT",
       "price": 229,
-      "image": "",
-      "category": "T-short",
+      "image": "sweatshirt2.jpg",
+      "category": "sweatshirt",
       "size": [
         "s",
         "m",
@@ -266,13 +264,15 @@
     },
     {
       "id": 13,
-      "title": "Футболка KG",
+      "title": "SWEATSHIRT WITH BOW AND PUFF SLEEVE",
       "price": 29,
-      "image": "",
-      "category": "T-short",
+      "image": "sweatshirt3.jpg",
+      "category": "sweatshirt",
       "size": [
+        "xs",
         "s",
         "m",
+        "l",
         "xl"
       ],
       "colors": [
@@ -284,10 +284,10 @@
     },
     {
       "id": 14,
-      "title": "Футболка USA",
+      "title": "100% COTTON SWEATSHIRT WITH LOGO PRINT",
       "price": 229,
-      "image": "",
-      "category": "T-short",
+      "image": "sweatshirt4.jpg",
+      "category": "sweatshirt",
       "size": [
         "s",
         "m",
@@ -304,10 +304,10 @@
     },
     {
       "id": 15,
-      "title": "Футболка KG",
+      "title": "BOXY SWEATSHIRT WITH MAXI POCKETS",
       "price": 29,
-      "image": "",
-      "category": "T-short",
+      "image": "sweatshirt5.jpg",
+      "category": "sweatshirt",
       "size": [
         "s",
         "m",
@@ -322,10 +322,10 @@
     },
     {
       "id": 16,
-      "title": "Футболка USA",
+      "title": "3/4 SLEEVE MAXI CARDIGAN",
       "price": 229,
-      "image": "",
-      "category": "T-short",
+      "image": "cardigan1.jpg",
+      "category": "cardigan",
       "size": [
         "s",
         "m",
@@ -342,10 +342,10 @@
     },
     {
       "id": 17,
-      "title": "Футболка KG",
+      "title": "CROSSOVER CARDIGAN WITH BOW",
       "price": 29,
-      "image": "",
-      "category": "T-short",
+      "image": "cardigan2.jpg",
+      "category": "cardigan",
       "size": [
         "s",
         "m",
@@ -360,10 +360,10 @@
     },
     {
       "id": 18,
-      "title": "Футболка USA",
+      "title": "LONG JACQUARD CARDIGAN",
       "price": 229,
-      "image": "",
-      "category": "T-short",
+      "image": "cardigan3.jpg",
+      "category": "cardigan",
       "size": [
         "s",
         "m",
@@ -380,10 +380,10 @@
     },
     {
       "id": 19,
-      "title": "Футболка KG",
+      "title": "LONG PERFORATED CARDIGAN",
       "price": 29,
-      "image": "",
-      "category": "T-short",
+      "image": "cardigan4.jpg",
+      "category": "cardigan",
       "size": [
         "s",
         "m",
@@ -398,10 +398,10 @@
     },
     {
       "id": 20,
-      "title": "Футболка USA",
+      "title": "CROPPED CARDIGAN WITH BUTTONS",
       "price": 229,
-      "image": "",
-      "category": "T-short",
+      "image": "cardigan5.jpg",
+      "category": "cardigan",
       "size": [
         "s",
         "m",
@@ -418,10 +418,10 @@
     },
     {
       "id": 21,
-      "title": "Футболка KG",
+      "title": "HOODIE",
       "price": 29,
-      "image": "",
-      "category": "T-short",
+      "image": "hoodie1.jpg",
+      "category": "hoodie",
       "size": [
         "s",
         "m",
@@ -436,10 +436,10 @@
     },
     {
       "id": 22,
-      "title": "Футболка KG",
+      "title": "HOODIE",
       "price": 29,
-      "image": "",
-      "category": "T-short",
+      "image": "hoodie2.jpg",
+      "category": "hoodie",
       "size": [
         "s",
         "m",
@@ -454,10 +454,10 @@
     },
     {
       "id": 23,
-      "title": "Футболка USA",
+      "title": "HOODIE",
       "price": 229,
-      "image": "",
-      "category": "T-short",
+      "image": "hoodie3.jpg",
+      "category": "hoodie",
       "size": [
         "s",
         "m",
@@ -474,10 +474,10 @@
     },
     {
       "id": 24,
-      "title": "Футболка KG",
+      "title": "HOODIE",
       "price": 29,
-      "image": "",
-      "category": "T-short",
+      "image": "hoodie4.jpg",
+      "category": "hoodie",
       "size": [
         "s",
         "m",
@@ -492,10 +492,10 @@
     },
     {
       "id": 25,
-      "title": "Футболка USA",
+      "title": "HOODIE",
       "price": 229,
-      "image": "",
-      "category": "T-short",
+      "image": "hoodie5.jpg",
+      "category": "hoodie",
       "size": [
         "s",
         "m",
@@ -512,10 +512,10 @@
     },
     {
       "id": 26,
-      "title": "Футболка KG",
+      "title": "HOODIE",
       "price": 29,
-      "image": "",
-      "category": "T-short",
+      "image": "hoodie6.jpg",
+      "category": "hoodie",
       "size": [
         "s",
         "m",
@@ -530,10 +530,10 @@
     },
     {
       "id": 27,
-      "title": "Футболка USA",
+      "title": "WHITE BOTANICAL PATTERNED SHIRT IN PURE COTTON",
       "price": 229,
-      "image": "",
-      "category": "T-short",
+      "image": "shirt1.jpg",
+      "category": "short",
       "size": [
         "s",
         "m",
@@ -550,9 +550,9 @@
     },
     {
       "id": 28,
-      "title": "Футболка KG",
-      "price": 29,
-      "image": "",
+      "title": "SHIRT WITH ASYMMETRICAL BOTTOM",
+      "price": 229,
+      "image": "shirt2.jpg",
       "category": "T-short",
       "size": [
         "s",
