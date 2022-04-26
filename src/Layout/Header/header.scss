@@ -1,5 +1,8 @@
 .header{
   padding: 51px 0 44px;
+  & a{
+    color: black;
+  }
   &__{
 
     &wrapper{
@@ -15,6 +18,7 @@
         font-weight: 400;
         font-size: 15px;
         letter-spacing: 0.02em;
+        color: black;
       }
       &-item.active{
         color: #6E9C9F;
@@ -25,6 +29,7 @@
       display: flex;
       align-items: center;
       column-gap: 10px;
+
       &-cart{
         margin-left: 40px;
       }
