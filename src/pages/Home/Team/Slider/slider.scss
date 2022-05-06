@@ -2,6 +2,8 @@
   max-width: 729px;
   width: 100%;
   height: 100%;
+  padding: 0 40px;
+
 }
 
 .swiper-slide {
@@ -35,6 +37,8 @@
   //content: '🡨';
   font-size: 28px;
   font-weight: bold;
+  top: -100%;
+  position: absolute;
   color: rgba(0, 0, 0, 1);
 }
 .swiper-button-next::after{
@@ -42,6 +46,8 @@
   //content: '🡪';
   font-size: 28px;
   font-weight: bold;
+  position: absolute;
+  top: -100%;
   color: rgba(0, 0, 0, 1);
 }
 

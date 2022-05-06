@@ -14,7 +14,7 @@ const Collection = () => {
                 <CollectionCard img={'card2.jpg'} title={'Купальник Glow'} price={'$129'}/>
                 <CollectionCard img={'card3.jpg'} arrow={'active'} title={`Свитшот Sweet Shot`} price={'$129'}/>
             </div>
-            <Link to={"/shop"} className={'collection__btn'}>{t("home.collection.btn")}</Link>
+            <Link to={"/shop"} onClick={() =>  window.scrollTo('pageYOffset', 0)} className={'collection__btn'}>{t("home.collection.btn")}</Link>
         </section>
         // <div className="collection__card">
         //     <div className="collection__hover">

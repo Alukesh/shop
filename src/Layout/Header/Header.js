@@ -7,7 +7,7 @@ import {CustomContext} from "../../Context";
 
 const Header = () => {
     const {t, i18n} = useTranslation();
-    const {user, logOutUser} = useContext(CustomContext);
+    const {user, logOutUser, setCart, cart} = useContext(CustomContext);
 
 
     const changeLanguage = (lang) =>{
@@ -68,6 +68,10 @@ const Header = () => {
     d="M7.55803 15.0354C7.88514 15.0354 8.1503 14.7702 8.1503 14.4431V12.6663C8.1503 12.3392 7.88514 12.074 7.55803 12.074C7.23092 12.074 6.96576 12.3392 6.96576 12.6663V14.4431C6.96576 14.7702 7.23092 15.0354 7.55803 15.0354Z"
     fill="black"/>
 </svg>
+                                {cart.length &&
+                                <span className={'header__links-cartNum'}>{cart.length ? cart.reduce((acc,rec) => [+acc + +rec.count],0) : ''}</span>
+
+                                }
                     </span>
                         </Link>
                         <div className={'header__language'}>
@@ -80,7 +84,7 @@ const Header = () => {
 
                         {
                             user.login.length
-                                ? <Link style={{color: "red"}} onClick={() => logOutUser()} to={'/'}>{t("setUser.logout")}</Link>
+                                ? <Link style={{color: "red"}} onClick={() =>{ logOutUser(); setCart([])}} to={'/'}>{t("setUser.logout")}</Link>
                                 :  <Link style={{color: "darkblue"}} to={'/login'}>{t("setUser.login.btn")}</Link>
                         }
                         {

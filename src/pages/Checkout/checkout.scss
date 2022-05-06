@@ -1,0 +1,108 @@
+.checkout{
+  &__{
+
+    &title{
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 140%;
+      letter-spacing: 0.02em;
+      margin-bottom: 30px;
+    }
+    &inner{
+      padding: 200px 0 130px;
+    }
+    &form{
+      display: flex;
+      &-info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 80px;
+      }
+      &-order{
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 47px;
+        margin-bottom: 150px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+
+      }
+      &-pay{
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        & h2:first-child{
+          margin-bottom: 0;
+        }
+      }
+      &-left{
+        width: 56%;
+      }
+      &-right{
+        width: 34%;
+      }
+      &-checkbox{
+        margin-left: 15px;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+      }
+      &-input{
+        padding: 16px 0;
+        width: 350px;
+        border: none;
+        border-bottom: 1px solid black;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        color: #868686;
+        outline: none;
+        margin-bottom: 20px;
+        &_massage{
+          resize: none;
+        }
+      }
+    }
+
+    &order{
+
+      &-title{
+        margin: 0 18px;
+        display: none;
+      }
+      &-total{
+        padding: 15px 18px 0;
+        display: flex;
+        justify-content: space-between;
+        background: #F1EADC;
+      }
+      &-top, &-bot{
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+      }
+      &-name{
+        max-width: 50%;
+      }
+      &-cart{
+        padding: 15px 18px 0;
+        margin-bottom: 15px;
+        background: #6E9C9F;
+        & p{
+          color: white;
+        }
+        &-top{
+          display: flex;
+        }
+      }
+    }
+
+
+  }
+}

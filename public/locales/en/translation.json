@@ -78,8 +78,23 @@
   "Shop": {
     "title": "Shop",
     "link1": "Main",
-    "link2": "Shop"
+    "link2": "Shop",
+    "sortTitle": "Sort By"
+
   },
+  "Cart": {
+    "title": "Cart",
+    "link1": "Main",
+    "link2": "Cart"
+  },
+
+  "Checkout": {
+    "title": "Checkout",
+    "link1": "Main",
+    "link2": "Cart",
+    "link3": "Cart"
+  },
+
 
   "footer": {
     "link1": "Main",

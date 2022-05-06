@@ -1,0 +1,146 @@
+.product{
+
+  &__{
+
+    &content{
+      padding-top: 100px;
+      display: flex;
+      column-gap: 6%;
+      margin-bottom: 130px;
+      &-img{
+        //width: 55%;
+        width: 60%;
+        height: auto;
+        max-height: 490px;
+      }
+    }
+    &info{
+      margin-top: 20px;
+      &-price{
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 110%;
+        letter-spacing: 0.02em;
+        color: #998E78;
+      }
+      &-title{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+      }
+      &-sizes{
+        display: flex;
+        column-gap: 15px;
+      }
+      &-size{
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        width: 41px;
+        height: 41px;
+        border: 1px solid #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        transition: all .4s;
+        cursor: pointer;
+        margin-bottom: 35px;
+        &:hover, &_active{
+          background: #000;
+          color: white;
+        }
+      }
+      &-color{
+        height: 41px;
+        width: 41px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        &s{
+          display: flex;
+          column-gap: 15px;
+        }
+        &_active{
+          position: relative;
+          &::before{
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            bottom: -7px;
+            background-color: #6E9C9F;
+          }
+        }
+      }
+
+      &-form{
+        display: flex;
+        height: 68px;
+        column-gap: 11px;
+      }
+      &-input{
+        width: 68px;
+        padding: 0 13px 0 15px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        color: #000000;
+        border: 1px solid #AFAFAF;
+        text-align: center;
+      }
+      input[type="number"]::-webkit-outer-spin-button,
+      input[type="number"]::-webkit-inner-spin-button{
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      &-btn{
+        padding: 0 50px;
+        border: none;
+        background-color: #6E9C9F;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 138.9%;
+        text-align: center;
+        letter-spacing: 0.02em;
+        transition: all .08s ease;
+        color: #FFFFFF;
+        &_buy{
+          &:active{
+            background: limegreen;
+            transform: scale(.9);
+            //font-size: 19px;
+          }
+        }
+        &_sold{
+          &:active{
+            background: lightcoral;
+          }
+        }
+
+
+      }
+
+    }
+
+    &similar{
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 110%;
+      letter-spacing: 0.02em;
+      color: #000000;
+    }
+    &row{
+      display: flex;
+      column-gap: 25px;
+      margin-bottom: 130px;
+      flex-wrap: wrap;
+    }
+
+    &card{
+      width:calc(100% - 15px);
+    }
+  }
+}

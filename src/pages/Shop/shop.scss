@@ -2,12 +2,40 @@
   padding-bottom: 130px;
   &__{
 
+    &inner{
+      position: relative;
+    }
+    &info-stock{
+      position: absolute;
+      //bottom: -10px;
+      transform: translateY(-100%);
+      font-size: 18px;
+      color: white;
+      width: 100%;
+      background: rgba(255, 100 , 0, .3);
+    }
     &list{
+
       display: flex;
       align-items: center;
       column-gap: 15px;
       margin-bottom: 92px;
-      margin-top: -40px;
+      margin-top: 140px;
+    }
+    &sorts{
+      display: flex;
+      column-gap: 10px;
+      position: absolute;
+      right: 0;
+    }
+    &sort{
+      padding: 6px 10px;
+      border: 1px solid black;
+      background-color: snow;
+      border-radius: 5px;
+      &-active{
+        background: lightsteelblue;
+      }
     }
     &item{
       padding: 20px 65px;
@@ -29,6 +57,7 @@
       display: flex;
       flex-wrap: wrap;
       //justify-content: space-between;
+      margin: 65px 0;
       row-gap: 65px;
       column-gap: 8px;
     }
@@ -49,20 +78,21 @@
     }
     &hover{
       position: relative;
+      &:hover .shop__arrow{
+        display: flex;
+      }
     }
     &arrow{
       display: none;
       justify-content: center;
       align-items: center;
       left: 0;
-      bottom: 5px;
+      bottom: 0;
       position: absolute;
-      height: 98%;
+      height: 100%;
       width: 100%;
       background: rgba(110, 156, 159, 0.64);
-      &.active{
-        display: flex;
-      }
+
     }
     &price{
       display: flex;

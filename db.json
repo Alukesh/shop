@@ -38,6 +38,7 @@
       "id": 1,
       "title": " PATTERNED TANK TOP",
       "price": 229,
+      "priceSale": 200,
       "image": "t-shirt1.jpg",
       "category": "T-short",
       "size": [
@@ -52,12 +53,14 @@
         "green",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 12
     },
     {
       "id": 2,
       "title": "SHORT SLEEVE POLO WITH LUREX",
       "price": 29,
+      "priceSale": "",
       "image": "t-shirt2.jpg",
       "category": "T-short",
       "size": [
@@ -70,12 +73,14 @@
         "yellow",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 0
     },
     {
       "id": 3,
       "title": "T-SHIRT IN 100% COTTON WITH PRINT",
       "price": 229,
+      "priceSale": "",
       "image": "t-shirt3.jpg",
       "category": "T-short",
       "size": [
@@ -90,12 +95,14 @@
         "green",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 18
     },
     {
       "id": 4,
       "title": "100% COTTON BOXY FIT T-SHIRT",
-      "price": 29,
+      "price": 290,
+      "priceSale": 200,
       "image": "t-shirt4.jpg",
       "category": "T-short",
       "size": [
@@ -108,12 +115,14 @@
         "yellow",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 5
     },
     {
       "id": 5,
       "title": "TANK TOP IN VISCOSE AND LUREX",
       "price": 29,
+      "priceSale": "",
       "image": "t-shirt5.jpg",
       "category": "T-short",
       "size": [
@@ -128,12 +137,14 @@
         "green",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 42
     },
     {
       "id": 6,
       "title": "LONG CHECK TRENCH COAT",
       "price": 292,
+      "priceSale": "",
       "image": "coat1.jpg",
       "category": "coat",
       "size": [
@@ -146,12 +157,14 @@
         "yellow",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 0
     },
     {
       "id": 7,
       "title": "DUSTER COAT IN 100% COTTON",
       "price": 279,
+      "priceSale": "",
       "image": "coat2.jpg",
       "category": "coat",
       "size": [
@@ -166,12 +179,14 @@
         "green",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 8
     },
     {
       "id": 8,
       "title": "DUSTER COAT IN 100% COTTON",
-      "price": 199,
+      "price": 256,
+      "priceSale": 199,
       "image": "coat5.jpg",
       "category": "coat",
       "size": [
@@ -184,12 +199,14 @@
         "yellow",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 11
     },
     {
       "id": 9,
       "title": "COAT IN RECYCLED FABRIC",
       "price": 329,
+      "priceSale": 200,
       "image": "coat3.jpg",
       "category": "coat",
       "size": [
@@ -202,12 +219,14 @@
         "green",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 32
     },
     {
       "id": 10,
       "title": "DOUBLE-BREASTED TRENCH COAT IN FABRIC",
       "price": 429,
+      "priceSale": "",
       "image": "coat4.jpg",
       "category": "coat",
       "size": [
@@ -222,12 +241,14 @@
         "green",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 12
     },
     {
       "id": 11,
       "title": "COTTON SWEATSHIRT WITH PUFF SLEEVES",
       "price": 29,
+      "priceSale": 200,
       "image": "sweatshirt1.jpg",
       "category": "sweatshirt",
       "size": [
@@ -240,12 +261,14 @@
         "yellow",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 5
     },
     {
       "id": 12,
       "title": "COTTON BLEND SWEATSHIRT",
       "price": 229,
+      "priceSale": 200,
       "image": "sweatshirt2.jpg",
       "category": "sweatshirt",
       "size": [
@@ -260,12 +283,14 @@
         "green",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 11
     },
     {
       "id": 13,
       "title": "SWEATSHIRT WITH BOW AND PUFF SLEEVE",
-      "price": 29,
+      "price": 229,
+      "priceSale": "",
       "image": "sweatshirt3.jpg",
       "category": "sweatshirt",
       "size": [
@@ -280,12 +305,14 @@
         "yellow",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 32
     },
     {
       "id": 14,
       "title": "100% COTTON SWEATSHIRT WITH LOGO PRINT",
       "price": 229,
+      "priceSale": "",
       "image": "sweatshirt4.jpg",
       "category": "sweatshirt",
       "size": [
@@ -300,12 +327,14 @@
         "green",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 0
     },
     {
       "id": 15,
       "title": "BOXY SWEATSHIRT WITH MAXI POCKETS",
-      "price": 29,
+      "price": 269,
+      "priceSale": 165,
       "image": "sweatshirt5.jpg",
       "category": "sweatshirt",
       "size": [
@@ -318,12 +347,14 @@
         "yellow",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 14
     },
     {
       "id": 16,
       "title": "3/4 SLEEVE MAXI CARDIGAN",
       "price": 229,
+      "priceSale": "",
       "image": "cardigan1.jpg",
       "category": "cardigan",
       "size": [
@@ -338,12 +369,14 @@
         "green",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 15
     },
     {
       "id": 17,
       "title": "CROSSOVER CARDIGAN WITH BOW",
-      "price": 29,
+      "price": 49,
+      "priceSale": 29,
       "image": "cardigan2.jpg",
       "category": "cardigan",
       "size": [
@@ -356,12 +389,14 @@
         "yellow",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 2
     },
     {
       "id": 18,
       "title": "LONG JACQUARD CARDIGAN",
       "price": 229,
+      "priceSale": "",
       "image": "cardigan3.jpg",
       "category": "cardigan",
       "size": [
@@ -376,12 +411,14 @@
         "green",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 16
     },
     {
       "id": 19,
       "title": "LONG PERFORATED CARDIGAN",
-      "price": 29,
+      "price": 229,
+      "priceSale": 200,
       "image": "cardigan4.jpg",
       "category": "cardigan",
       "size": [
@@ -394,12 +431,14 @@
         "yellow",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 10
     },
     {
       "id": 20,
       "title": "CROPPED CARDIGAN WITH BUTTONS",
       "price": 229,
+      "priceSale": "",
       "image": "cardigan5.jpg",
       "category": "cardigan",
       "size": [
@@ -414,12 +453,14 @@
         "green",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 22
     },
     {
       "id": 21,
       "title": "HOODIE",
-      "price": 29,
+      "price": 129,
+      "priceSale": "",
       "image": "hoodie1.jpg",
       "category": "hoodie",
       "size": [
@@ -432,12 +473,14 @@
         "yellow",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 3
     },
     {
       "id": 22,
       "title": "HOODIE",
-      "price": 29,
+      "price": 189,
+      "priceSale": "",
       "image": "hoodie2.jpg",
       "category": "hoodie",
       "size": [
@@ -450,12 +493,14 @@
         "yellow",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 18
     },
     {
       "id": 23,
       "title": "HOODIE",
       "price": 229,
+      "priceSale": 200,
       "image": "hoodie3.jpg",
       "category": "hoodie",
       "size": [
@@ -470,12 +515,14 @@
         "green",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 12
     },
     {
       "id": 24,
       "title": "HOODIE",
-      "price": 29,
+      "price": 229,
+      "priceSale": "",
       "image": "hoodie4.jpg",
       "category": "hoodie",
       "size": [
@@ -488,12 +535,14 @@
         "yellow",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 32
     },
     {
       "id": 25,
       "title": "HOODIE",
       "price": 229,
+      "priceSale": 100,
       "image": "hoodie5.jpg",
       "category": "hoodie",
       "size": [
@@ -508,12 +557,14 @@
         "green",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 25
     },
     {
       "id": 26,
       "title": "HOODIE",
-      "price": 29,
+      "price": 219,
+      "priceSale": 200,
       "image": "hoodie6.jpg",
       "category": "hoodie",
       "size": [
@@ -526,7 +577,8 @@
         "yellow",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 62
     },
     {
       "id": 27,
@@ -546,7 +598,8 @@
         "green",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 11
     },
     {
       "id": 28,
@@ -564,7 +617,111 @@
         "yellow",
         "blue",
         "black"
-      ]
+      ],
+      "inStock": 22
+    }
+  ],
+  "tickets": [
+    {
+      "title": "itrun",
+      "sum": 25,
+      "count": 20
+    },
+    {
+      "title": "Nur",
+      "sum": 16,
+      "count": 200
+    },
+    {
+      "title": "Locoloco",
+      "sum": 10,
+      "count": 200
+    }
+  ],
+  "orders": [
+    {
+      "name": "",
+      "email": "",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "street": "",
+      "home": "",
+      "flat": "",
+      "massage": " ",
+      "clothes": [
+        {
+          "id": 1,
+          "title": " PATTERNED TANK TOP",
+          "image": "t-shirt1.jpg",
+          "color": "white",
+          "size": "s",
+          "count": 2,
+          "price": 200,
+          "category": "T-short"
+        },
+        {
+          "id": 1,
+          "title": " PATTERNED TANK TOP",
+          "image": "t-shirt1.jpg",
+          "color": "white",
+          "size": "xl",
+          "count": 1,
+          "price": 200,
+          "category": "T-short"
+        }
+      ],
+      "price": 600,
+      "user": {
+        "email": "q@q",
+        "login": "wert",
+        "phone": "12345",
+        "orders": [],
+        "id": 1
+      },
+      "id": 1
+    },
+    {
+      "name": "",
+      "email": "",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "street": "",
+      "home": "",
+      "flat": "",
+      "massage": " ",
+      "clothes": [
+        {
+          "id": 1,
+          "title": " PATTERNED TANK TOP",
+          "image": "t-shirt1.jpg",
+          "color": "white",
+          "size": "s",
+          "count": 2,
+          "price": 200,
+          "category": "T-short"
+        },
+        {
+          "id": 1,
+          "title": " PATTERNED TANK TOP",
+          "image": "t-shirt1.jpg",
+          "color": "white",
+          "size": "xl",
+          "count": 1,
+          "price": 200,
+          "category": "T-short"
+        }
+      ],
+      "price": 600,
+      "user": {
+        "email": "q@q",
+        "login": "wert",
+        "phone": "12345",
+        "orders": [],
+        "id": 1
+      },
+      "id": 2
     }
   ]
 }

@@ -29,7 +29,7 @@ const Magic = () => {
                     </div>
                 </div>
 
-                <Link to={'/shop'} className="magic__go">
+                <Link to={'/shop'} onClick={() => window.scrollTo('pageYOffset', 0)} className="magic__go">
                     <button type="button" className="magic__btn" dangerouslySetInnerHTML={{__html: t("about.btn")}}/>
                 </Link>
 

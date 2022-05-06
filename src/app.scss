@@ -27,6 +27,16 @@
     color: black;
   }
 }
+.title{
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+  max-width: 700px;
+  margin-bottom: 26px;
+  color: #000000;
+}
+
 
 html,body{
   height: 100%;
@@ -52,3 +62,10 @@ html,body{
 @import "pages/Profile/profile";
 @import "pages/Contact/contact";
 @import "pages/Shop/shop";
+@import "pages/Product/product";
+@import "pages/Cart/cart";
+@import "pages/Checkout/checkout";
+
+.swiper{
+  max-width: 100%;
+}

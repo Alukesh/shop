@@ -32,6 +32,21 @@
 
       &-cart{
         margin-left: 40px;
+        position: relative;
+        &Num{
+          background-color: lightskyblue;
+          //color: white;
+          width: 20px;
+          height: 20px;
+          display: flex;
+          border-radius: 50%;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          right: -15px;
+          top: -10px;;
+          line-height: 100% ;
+        }
       }
       &-profile{
         display: flex;

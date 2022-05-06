@@ -1,9 +1,12 @@
 import {Link, NavLink} from "react-router-dom";
 import {useTranslation} from 'react-i18next'
+import {useContext} from "react";
+import {CustomContext} from "../../Context";
 
 
 const Footer = () => {
 
+    const {setStatus} = useContext(CustomContext);
     const {t} = useTranslation();
 
     return (
@@ -26,30 +29,30 @@ const Footer = () => {
                     <div className='footer__links'>
                         <ul className='footer__list'>
                             <li className="">
-                                <NavLink to="/" className={'footer__link'}>{t("footer.link1")}</NavLink>
+                                <NavLink to="/" onClick={() =>{  window.scrollTo('pageYOffset', 0)}} className={'footer__link'}>{t("footer.link1")}</NavLink>
                             </li>
                             <li className="">
-                                <NavLink to="/shop" className={'footer__link'}>{t("footer.link2")}</NavLink>
+                                <NavLink to="/shop" onClick={() =>{  window.scrollTo('pageYOffset', 0)}} className={'footer__link'}>{t("footer.link2")}</NavLink>
                                 <div className='footer__category'>
                                     <p className=''>
-                                        <a className='footer__category-link link' href="#">{t("footer.clothes.coat")}</a>
+                                        <Link to={'/shop'} className='footer__category-link link' onClick={() =>{ setStatus('coat');  window.scrollTo('pageYOffset', 0);}} href="#">{t("footer.clothes.coat")}</Link>
                                     </p>
                                     <p className=''>
-                                        <a className='footer__category-link link' href="#">{t("footer.clothes.sweatshirts")}</a>
+                                        <Link to={'/shop'} className='footer__category-link link' onClick={() =>{ setStatus('sweatshirt');  window.scrollTo('pageYOffset', 0);}} href="#">{t("footer.clothes.sweatshirts")}</Link>
                                     </p>
                                     <p className=''>
-                                        <a className='footer__category-link link' href="#">{t("footer.clothes.cardigans")}</a>
+                                        <Link to={'/shop'} className='footer__category-link link' onClick={() =>{ setStatus('cardigan');  window.scrollTo('pageYOffset', 0);}} href="#">{t("footer.clothes.cardigans")}</Link>
                                     </p>
                                     <p className=''>
-                                        <a className='footer__category-link link' href="#">{t("footer.clothes.hoodies")}</a>
+                                        <Link to={'/shop'} className='footer__category-link link' onClick={() =>{ setStatus('hoodie');  window.scrollTo('pageYOffset', 0);}} href="#">{t("footer.clothes.hoodies")}</Link>
                                     </p>
                                 </div>
                             </li>
                             <li className="">
-                                <NavLink to="/brands" className={'footer__link'}>{t("footer.link3")}</NavLink>
+                                <NavLink to="/brands" onClick={() =>{  window.scrollTo('pageYOffset', 0)}} className={'footer__link'}>{t("footer.link3")}</NavLink>
                             </li>
                             <li className="">
-                                <NavLink to="/contact" className={'footer__link'}>{t("footer.link4")}</NavLink>
+                                <NavLink to="/contact" onClick={() =>{  window.scrollTo('pageYOffset', 0)}} className={'footer__link'}>{t("footer.link4")}</NavLink>
                             </li>
                         </ul>
                     </div>

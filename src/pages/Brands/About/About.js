@@ -2,7 +2,7 @@ import React from 'react';
 import {useTranslation} from "react-i18next";
 import {Link, NavLink} from "react-router-dom";
 
-const About = ({title, link1, link2}) => {
+const About = ({path, title, link1, link2, link3}) => {
     const {t} = useTranslation();
 
     return (
@@ -12,7 +12,7 @@ const About = ({title, link1, link2}) => {
                 <div className="about__links">
                     <Link className="about__link" to='/'>{t(link1)}</Link>
                     -
-                    <NavLink className="about__link" to='/brands'>{t(link2)}</NavLink>
+                    <NavLink className="about__link" to={`/brands`}>{t(link2)}</NavLink>
                 </div>
 
             </div>

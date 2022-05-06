@@ -8,6 +8,8 @@ import Cart from "../../pages/Cart/Cart";
 import Login from "../../pages/Login/Login";
 import Register from "../../pages/Register/Register";
 import Profile from "../../pages/Profile/Profile";
+import Product from "../../pages/Product/Product";
+import Checkout from "../../pages/Checkout/Checkout";
 
 const Main = () => {
 
@@ -24,6 +26,10 @@ const Main = () => {
                     <Route path='/login' element={<Login/>}/>
                     <Route path='/register' element={<Register/>}/>
                     <Route path='/profile' element={<Profile/>}/>
+                    <Route path='/product/:id' element={<Product/>}/>
+                    <Route path='/checkout' element={<Checkout/>}/>
+                    {/*   /:... это зовется парамсы. дает дополнительные парметры, которые можно юзать для сортировки, в адресную строку на сайт.    */}
+                    {/*вытащить парамс через хук юзПарамс from 'react-router-dom'*/}
                     <Route path='*' element={<Wrong/>}/>
                 </Routes>
             </div>

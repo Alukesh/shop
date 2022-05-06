@@ -12,7 +12,7 @@ const Team = () => {
                     <div className={'team__info-text'}>
                         <p>Каждая девушка уникальна. Однако, мы схожи в миллионе мелочей.</p>
                         <p>Womazing ищет эти мелочи и создает прекрасные вещи, которые выгодно подчеркивают достоинства каждой девушки.</p>
-                        <Link to={'/brands'} className={'team__info-link'} href="#">Подробнее о бренде</Link>
+                        <Link to={'/brands'} className={'team__info-link'} onClick={() =>  window.scrollTo('pageYOffset', 0)} href="#">Подробнее о бренде</Link>
                     </div>
                 </div>
             </div>
