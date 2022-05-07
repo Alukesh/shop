@@ -7,24 +7,48 @@ import axios from "axios";
 
 const Checkout = () => {
     const {t} = useTranslation();
-    const navigate = useNavigate;
+    const navigate = useNavigate();
 
-    const {cart, ticket, setTicket, user} = useContext(CustomContext);
+    const {cart, ticket, setCart, setTicket,  user, setUser } = useContext(CustomContext);
     const {reset, register, handleSubmit} = useForm();
 
-    const addOrder = (data) =>{
-        axios.post('http://localhost:8080/orders', {
+    const addOrder = async (data) =>{
+        await axios.post('http://localhost:8080/orders', {
             ...data,
             clothes: cart,
             price: Array.isArray(ticket) && ticket.length
-                ? cart.reduce((acc, rec) => +acc + +rec.price * rec.count, 0) / 100 * (100 - ticket[0].sum)
-                : cart.reduce((acc, rec) => +acc + +rec.price * rec.count, 0),
-            user: user,
-        }).then(() =>{
-                console.log('ys');
-                navigate('/order')
-           } );
-        console.log(data)
+                ? cart.reduce((acc, rec) => acc + rec.price * rec.count, 0) / 100 * (100 - ticket[0].sum)
+                : cart.reduce((acc, rec) => acc + rec.price * rec.count, 0),
+            userEmail: user.email,
+            date: new Date()
+        }).then(() =>{ console.log('успешно добавленll');} );
+
+        await axios.patch(`http://localhost:8080/users/${user.id}`, {
+            orders: [
+                ...user.orders,
+                {
+                    clothes: cart,
+                    price: Array.isArray(ticket) && ticket.length
+                        ? cart.reduce((acc, rec) => acc + rec.price * rec.count, 0) / 100 * (100 - ticket[0].sum)
+                        : cart.reduce((acc, rec) => acc + rec.price * rec.count, 0),
+                    date: new Date()
+                }
+                ]})
+            .then(() =>{ console.log('успешно добавлен')});
+
+        await axios(`http://localhost:8080/users/${user.id}`).then((res) => setUser(res.data));
+
+
+        await Array.isArray(ticket) && ticket.length && ticket[0].count > 1 ?
+                axios.patch(`http://localhost:8080/tickets/${ticket[0].id}`, {count: ticket[0].count - 1})
+                .then(() => console.log('успешно потрачено'))
+            : ticket[0].count === 1 ? axios.delete(`http://localhost:8080/tickets/${ticket[0].id}`).then(() => console.log('потрачено до конца')) : console.log('no sale');
+
+        await reset();
+        await setCart([]);
+        await setTicket([]);
+        await navigate('/order');
+
     };
 
 
@@ -45,7 +69,7 @@ const Checkout = () => {
                         <div className={'checkout__form-left'}>
                             <div className={'checkout__form-info'}>
                                 <h2 className={'checkout__title'}>Данные покупателя</h2>
-                                <input {...register('name')} className={'checkout__form-input'} type="text" placeholder={'Имя'}/>
+                                <input {...register('name')} required={true} className={'checkout__form-input'} type="text" placeholder={'Имя'}/>
                                 <input {...register('email')}  className={'checkout__form-input'} type="text" placeholder={'E-mail'}/>
                                 <input {...register('phone')}  className={'checkout__form-input'} type="text" placeholder={'Телефон'}/>
                             </div>
@@ -106,7 +130,7 @@ const Checkout = () => {
                                     <input type="checkbox" id={'cash'} name={'cash'}/>
                                     <label className={'checkout__form-checkbox'} for={'cash'}>Оплата наличными</label>
                                 </div>
-                                <button type="submit" className={'basket__pay-btn2'}>Разместить заказ</button>
+                                <button type="submit" onClick={()=> window.scrollTo('pageYOffset', 0)} className={'basket__pay-btn2'}>Разместить заказ</button>
                             </div>
 
                         </div>

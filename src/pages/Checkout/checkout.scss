@@ -106,3 +106,40 @@
 
   }
 }
+
+.order{
+  padding-top: 100px;
+}
+.orderDone{
+  margin: 220px 0 140px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__check{
+    display: flex;
+    align-items: center;
+    column-gap: 44px;
+  }
+  &__row{
+    //display: flex;
+    //flex-direction: column;
+    //justify-content: center;
+  }
+  &__title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    margin-bottom: 17px;
+  }
+  &__text{
+    font-style: normal;
+    margin: 0;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+}

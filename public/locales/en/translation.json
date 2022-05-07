@@ -94,6 +94,12 @@
     "link2": "Cart",
     "link3": "Cart"
   },
+  "Order": {
+    "title": "Order complete",
+    "link1": "Main",
+    "link2": "Cart",
+    "link3": "Order complete"
+  },
 
 
   "footer": {

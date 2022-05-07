@@ -82,7 +82,7 @@ const Cart = () => {
                                         ? (cart.reduce((acc, rec) => +acc + +rec.price * rec.count, 0) / 100 * (100 - ticket[0].sum)).toFixed()
                                         : cart.reduce((acc, rec) => +acc + +rec.price * rec.count, 0)}
                         </span></p>
-                                    <Link to={'/checkout'} className='basket__pay-btn2'>Оформить заказ</Link>
+                                    <Link to={'/checkout'} onClick={()=>  window.scrollTo('pageYOffset', 400)} className='basket__pay-btn2'>Оформить заказ</Link>
                                 </div>
                             </div>
                         </> : ''

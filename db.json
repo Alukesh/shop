@@ -5,7 +5,114 @@
       "password": "$2a$10$qxpI5UmnEe8YQ2bUUt.siuYJlkno5ZTas3y13ANYRl84195fR7ApK",
       "login": "wert",
       "phone": "12345",
-      "orders": [],
+      "orders": [
+        {
+          "clothes": [
+            {
+              "id": 17,
+              "title": "CROSSOVER CARDIGAN WITH BOW",
+              "image": "cardigan2.jpg",
+              "color": "white",
+              "size": "s",
+              "count": 1,
+              "price": 29,
+              "category": "cardigan"
+            }
+          ],
+          "price": 21.75,
+          "date": "2022-05-07T11:12:48.684Z"
+        },
+        {
+          "clothes": [
+            {
+              "id": 17,
+              "title": "CROSSOVER CARDIGAN WITH BOW",
+              "image": "cardigan2.jpg",
+              "color": "white",
+              "size": "s",
+              "count": 1,
+              "price": 29,
+              "category": "cardigan"
+            }
+          ],
+          "price": 21.75,
+          "date": "2022-05-07T11:16:06.180Z"
+        },
+        {
+          "clothes": [
+            {
+              "id": 16,
+              "title": "3/4 SLEEVE MAXI CARDIGAN",
+              "image": "cardigan1.jpg",
+              "color": "white",
+              "size": "s",
+              "count": 1,
+              "price": 229,
+              "category": "cardigan"
+            }
+          ],
+          "price": 171.75,
+          "date": "2022-05-07T11:22:35.439Z"
+        },
+        {
+          "clothes": [
+            {
+              "id": 16,
+              "title": "3/4 SLEEVE MAXI CARDIGAN",
+              "image": "cardigan1.jpg",
+              "color": "white",
+              "size": "s",
+              "count": 1,
+              "price": 229,
+              "category": "cardigan"
+            }
+          ],
+          "price": 171.75,
+          "date": "2022-05-07T11:23:52.189Z"
+        },
+        {
+          "clothes": [
+            {
+              "id": 18,
+              "title": "LONG JACQUARD CARDIGAN",
+              "image": "cardigan3.jpg",
+              "color": "blue",
+              "size": "l",
+              "count": 2,
+              "price": 229,
+              "category": "cardigan"
+            },
+            {
+              "id": 18,
+              "title": "LONG JACQUARD CARDIGAN",
+              "image": "cardigan3.jpg",
+              "color": "black",
+              "size": "l",
+              "count": 1,
+              "price": 229,
+              "category": "cardigan"
+            }
+          ],
+          "price": 515.25,
+          "date": "2022-05-07T11:28:31.692Z"
+        },
+        {
+          "clothes": [
+            {
+              "id": 16,
+              "title": "3/4 SLEEVE MAXI CARDIGAN",
+              "image": "cardigan1.jpg",
+              "color": "white",
+              "size": "s",
+              "count": 1,
+              "price": 229,
+              "category": "cardigan"
+            }
+          ],
+          "price": 192.36,
+          "date": "2022-05-07T11:29:47.118Z"
+        }
+      ],
       "id": 1
     },
     {
@@ -623,16 +730,13 @@
   ],
   "tickets": [
     {
+      "id": 1,
       "title": "itrun",
       "sum": 25,
-      "count": 20
+      "count": 18
     },
     {
-      "title": "Nur",
-      "sum": 16,
-      "count": 200
-    },
-    {
+      "id": 3,
       "title": "Locoloco",
       "sum": 10,
       "count": 200
@@ -640,7 +744,7 @@
   ],
   "orders": [
     {
-      "name": "",
+      "name": "asdad",
       "email": "",
       "phone": "",
       "country": "",
@@ -651,38 +755,33 @@
       "massage": " ",
       "clothes": [
         {
-          "id": 1,
-          "title": " PATTERNED TANK TOP",
-          "image": "t-shirt1.jpg",
-          "color": "white",
-          "size": "s",
+          "id": 18,
+          "title": "LONG JACQUARD CARDIGAN",
+          "image": "cardigan3.jpg",
+          "color": "blue",
+          "size": "l",
           "count": 2,
-          "price": 200,
-          "category": "T-short"
+          "price": 229,
+          "category": "cardigan"
         },
         {
-          "id": 1,
-          "title": " PATTERNED TANK TOP",
-          "image": "t-shirt1.jpg",
-          "color": "white",
-          "size": "xl",
+          "id": 18,
+          "title": "LONG JACQUARD CARDIGAN",
+          "image": "cardigan3.jpg",
+          "color": "black",
+          "size": "l",
           "count": 1,
-          "price": 200,
-          "category": "T-short"
+          "price": 229,
+          "category": "cardigan"
         }
       ],
-      "price": 600,
-      "user": {
-        "email": "q@q",
-        "login": "wert",
-        "phone": "12345",
-        "orders": [],
-        "id": 1
-      },
+      "price": 515.25,
+      "userEmail": "q@q",
+      "date": "2022-05-07T11:28:31.661Z",
       "id": 1
     },
     {
-      "name": "",
+      "name": "ascas",
       "email": "",
       "phone": "",
       "country": "",
@@ -693,34 +792,19 @@
       "massage": " ",
       "clothes": [
         {
-          "id": 1,
-          "title": " PATTERNED TANK TOP",
-          "image": "t-shirt1.jpg",
+          "id": 16,
+          "title": "3/4 SLEEVE MAXI CARDIGAN",
+          "image": "cardigan1.jpg",
           "color": "white",
           "size": "s",
-          "count": 2,
-          "price": 200,
-          "category": "T-short"
-        },
-        {
-          "id": 1,
-          "title": " PATTERNED TANK TOP",
-          "image": "t-shirt1.jpg",
-          "color": "white",
-          "size": "xl",
           "count": 1,
-          "price": 200,
-          "category": "T-short"
+          "price": 229,
+          "category": "cardigan"
         }
       ],
-      "price": 600,
-      "user": {
-        "email": "q@q",
-        "login": "wert",
-        "phone": "12345",
-        "orders": [],
-        "id": 1
-      },
+      "price": 192.36,
+      "userEmail": "q@q",
+      "date": "2022-05-07T11:29:47.094Z",
       "id": 2
     }
   ]
