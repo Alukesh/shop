@@ -1,4 +1,5 @@
 .profile{
+  padding-bottom: 290px;
   &__{
 
     &top{
@@ -21,15 +22,28 @@
     &user{
       border: 1px solid black;
       padding: 30px;
+      margin-bottom: 20px;
       border-radius: 12px;
+      &-title{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        margin-bottom: 17px;
+      }
       &-btn{
         background-color: #fff;
         border-radius: 8px;
         border: none;
-        color: orange;
+        min-height: 45px;
+        padding: 3px 10px;
         font-size: 17px;
         font-weight: 500;
         cursor: pointer;
+        span{
+          color: orange;
+        }
       }
       &-change{
         display: flex;
@@ -38,11 +52,30 @@
       }
       &-info{
         display: flex;
-        justify-content: space-between;
+        column-gap: 13px;
+        margin-bottom: 20px;
+        input{
+          padding: 3px 15px;
+          outline: none;
+          border: 1px solid #6E9C9F;
+        }
+        //justify-content: space-between;
       }
       &-data{
+        width: 20%;
+        text-align: center;
+        &_title{
+
+        }
         display: flex;
         flex-direction: column;
+        font-style: normal;
+        margin: 0;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        color: #000000;
       }
     }
 

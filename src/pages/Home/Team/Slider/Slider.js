@@ -1,5 +1,7 @@
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -26,13 +28,31 @@ const Slider = () => {
                 className="mySwiper"
             >
                 <SwiperSlide style={{width:100+'%'}}>
-                        <img className={'team__slide'} src="Assets/home/team/slide1.jpg" alt="image"/>
+                    <LazyLoadImage
+                        className={'team__slide'}
+                        alt={'t-short'}
+                        src={'Assets/home/team/slide1.jpg'}
+                        effect={'blur'}
+                        />
+                    {/*<img className={'team__slide'} src="Assets/home/team/slide1.jpg" alt="image"/>*/}
                 </SwiperSlide>
                 <SwiperSlide>
-                        <img className={'team__slide'} src="Assets/home/team/slide2.webp" alt="image"/>
+                    <LazyLoadImage
+                        className={'team__slide'}
+                        alt={'t-short'}
+                        src={'Assets/home/team/slide2.webp'}
+                        effect={'blur'}
+                    />
+                        {/*<img className={'team__slide'} src="Assets/home/team/slide2.webp" alt="image"/>*/}
                 </SwiperSlide>
                 <SwiperSlide>
-                        <img className={'team__slide'} src="Assets/home/team/slide4.jpg" alt="image"/>
+                    <LazyLoadImage
+                        className={'team__slide'}
+                        alt={'t-short'}
+                        src={'Assets/home/team/slide4.jpg'}
+                        effect={'blur'}
+                    />
+                        {/*<img className={'team__slide'} src="Assets/home/team/slide4.jpg" alt="image"/>*/}
                 </SwiperSlide>
 
             </Swiper>

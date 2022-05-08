@@ -1,4 +1,6 @@
 import {useTranslation} from 'react-i18next'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import {Link} from "react-router-dom";
 
 const NewSeason = () => {
@@ -23,7 +25,13 @@ const NewSeason = () => {
 
             </div>
             <div className={'newSeason__photos'}>
-                <img className={'newSeason__img'} src="../Assets/home/season.jpg" alt="a"/>
+                <LazyLoadImage
+                    className={'newSeason__img'}
+                    alt={'t-short'}
+                    src={"../Assets/home/season.jpg"}
+                    effect={'blur'}
+                />
+                {/*<img className={'newSeason__img'} src="../Assets/home/season.jpg" alt="a"/>*/}
             </div>
             <div className="newSeason__right">{''}</div>
         </section>

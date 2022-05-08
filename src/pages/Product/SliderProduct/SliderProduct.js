@@ -1,5 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import {Pagination, Autoplay, Navigation, Mousewheel, Keyboard} from "swiper";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -23,7 +25,6 @@ const SliderProduct = ({shop, product}) => {
                 modules={[Pagination, Autoplay, Navigation,  Mousewheel, Keyboard]}
                 className="mySwiper"
             >
-                Slide 1
                 {
                     shop.filter(item =>{
                         return item.category.includes(product.category) && item.id !== product.id
@@ -31,7 +32,13 @@ const SliderProduct = ({shop, product}) => {
                         <SwiperSlide key={item.id}>
                             <div  className="product__card">
                                 <div className="shop__hover">
-                                    <img className={'shop__img'} src={`../Shop/${item.image}`} />
+                                    <LazyLoadImage
+                                        className={'shop__img'}
+                                        alt={'t-short'}
+                                        src={`../Shop/${item.image}`}
+                                        effect={'blur'}
+                                    />
+                                    {/*<img className={'shop__img'} src={`../Shop/${item.image}`} />*/}
                                     {
                                         !item.inStock  &&
                                         <p className={'shop__info-stock'} style={{textAlign: 'center'}}>Нет в наличии</p>

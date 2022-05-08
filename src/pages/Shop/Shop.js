@@ -2,6 +2,8 @@ import About from "../Brands/About/About";
 import React, {useState, useContext} from "react";
 import {Link, NavLink} from 'react-router-dom'
 import 'antd/dist/antd.css';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import { Pagination } from 'antd';
 import {CustomContext} from "../../Context";
 import {useTranslation} from "react-i18next";
@@ -75,7 +77,13 @@ const Shop = () => {
                     }).map(item =>(
                             <div key={item.id} className="shop__card">
                                 <div className="shop__hover">
-                                    <img className={'shop__img'} src={`../Shop/${item.image}`} />
+                                    <LazyLoadImage
+                                        className={'shop__img'}
+                                        alt={'t-short'}
+                                        src={`../Shop/${item.image}`}
+                                        effect={'blur'}
+                                    />
+                                    {/*<img className={'shop__img'} src={`../Shop/${item.image}`} />*/}
                                     {
                                         !item.inStock  &&
                                         <p className={'shop__info-stock'} style={{textAlign: 'center'}}>Нет в наличии</p>

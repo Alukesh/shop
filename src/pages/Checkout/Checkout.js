@@ -4,6 +4,7 @@ import {useTranslation} from "react-i18next";
 import {CustomContext} from "../../Context";
 import {useForm} from "react-hook-form";
 import axios from "axios";
+import Input from "../Register/Input/Input";
 
 const Checkout = () => {
     const {t} = useTranslation();
@@ -33,8 +34,14 @@ const Checkout = () => {
                         : cart.reduce((acc, rec) => acc + rec.price * rec.count, 0),
                     date: new Date()
                 }
-                ]})
+                ]
+        })
             .then(() =>{ console.log('успешно добавлен')});
+        await cart.map((item) => {
+           axios.patch(`http://localhost:8080/clothes/${item.id}`, {
+               inStock: item
+           })
+        });
 
         await axios(`http://localhost:8080/users/${user.id}`).then((res) => setUser(res.data));
 
@@ -71,6 +78,7 @@ const Checkout = () => {
                                 <h2 className={'checkout__title'}>Данные покупателя</h2>
                                 <input {...register('name')} required={true} className={'checkout__form-input'} type="text" placeholder={'Имя'}/>
                                 <input {...register('email')}  className={'checkout__form-input'} type="text" placeholder={'E-mail'}/>
+                                {/*<Input name={'checkout__form-input'}/>*/}
                                 <input {...register('phone')}  className={'checkout__form-input'} type="text" placeholder={'Телефон'}/>
                             </div>
                             <div className={'checkout__form-address'}>

@@ -4,17 +4,18 @@ import axios from "axios";
 import {useParams} from "react-router-dom";
 import About from "../Brands/About/About";
 import {useTranslation} from "react-i18next";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import {CustomContext} from "../../Context";
 import SliderProduct from "./SliderProduct/SliderProduct";
 
 
 const Product = () => {
     const {t} = useTranslation();
-    const {setStatus, status, shop, cart, addCart} = useContext(CustomContext);
+    const {setStatus, status, shop, cart, addCart, product, setProduct} = useContext(CustomContext);
     const params = useParams();
     const [size, setSize] = useState('');
     const [count, setCount] = useState(1);
-    const [product, setProduct] = useState({});
     const [color, setColor] = useState('');
 
     useEffect(() => {
@@ -50,9 +51,14 @@ const Product = () => {
             { product.title &&
             <>
                     <div className="product__content">
-                        {/*{console.log(product)}*/}
 
-                        <img className={'product__content-img'} src={`../Shop/${product.image}`} alt={product.title}/>
+                        <LazyLoadImage
+                            className={'product__content-img'}
+                            alt={product.title}
+                            src={`../Shop/${product.image}`}
+                            effect={'blur'}
+                        />
+                        {/*<img className={'product__content-img'} src={`../Shop/${product.image}`} alt={product.title}/>*/}
                         <div className="product__info">
                             <p className={'product__info-price'}>
                                 {product.priceSale

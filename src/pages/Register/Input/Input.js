@@ -19,19 +19,21 @@ function PhoneInput(props) {
         </InputMask>
     );
 }
-function Input() {
-    const [phone, setPhone] = useState('');
+function Input({tel = '', name}) {
+    const [phone, setPhone] = useState(tel);
     const handleInput = ({ target: { value } }) => setPhone(value);
     return (
-        <div>
+        <>
             {/*<div style={{paddingTop: '12px'}}>Phone: {phone}</div>*/}
 
             <PhoneInput
+                className={name}//not works
                 value={phone}
+                defaultValue={tel}
                 alwaysShowMask={true}
                 onChange={handleInput}>
             </PhoneInput> <br/> <br/>
-        </div>
+        </>
     );
 }
 

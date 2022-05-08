@@ -11,6 +11,7 @@ export const CustomContext = createContext();
 export const Context = (props) =>{
     const navigate = useNavigate();
     const [page, setPage] = useState(1);
+    const [product, setProduct] = useState({});
     const [status, setStatus] = useState('');
     const [cart, setCart] = useState([]);
 
@@ -110,6 +111,8 @@ export const Context = (props) =>{
         registerUser,
         logOutUser,
         loginUser,
+        product,
+        setProduct,
         shop,
         setTicket,
         ticket,
