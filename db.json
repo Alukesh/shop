@@ -1,10 +1,10 @@
 {
   "users": [
     {
-      "email": "q@q",
-      "password": "$2a$10$qxpI5UmnEe8YQ2bUUt.siuYJlkno5ZTas3y13ANYRl84195fR7ApK",
-      "login": "wert",
-      "phone": "12345",
+      "email": "q@qq",
+      "password": "$2a$10$wr5jwWqQ9nWaSMC.ulVWee8EteLp/6N3L9G..aZju8FNIMdm08Gx6",
+      "login": "wert12",
+      "phone": "+996(123) 000-000",
       "orders": [
         {
           "clothes": [
@@ -113,7 +113,8 @@
           "date": "2022-05-07T11:29:47.118Z"
         }
       ],
-      "id": 1
+      "id": 1,
+      "qwerty": ""
     },
     {
       "email": "wer@mail.ru",

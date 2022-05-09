@@ -13,7 +13,7 @@ import InputMask from 'react-input-mask'
 function PhoneInput(props) {
     return (
         <InputMask placeholder={'Введите номер'} className={'form__input'}
-            mask='(+\9\9\6) 999-999 '
+            mask='+\9\96(999) 999-999 '
             value={props.value}
             onChange={props.onChange}>
         </InputMask>

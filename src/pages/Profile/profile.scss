@@ -24,6 +24,11 @@
       padding: 30px;
       margin-bottom: 20px;
       border-radius: 12px;
+      &-err{
+        color: #E55451;
+        font-size: 14px;
+        margin-top: 10px;
+      }
       &-title{
         font-style: normal;
         font-weight: 500;
