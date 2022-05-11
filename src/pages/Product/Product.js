@@ -1,8 +1,7 @@
 import {useContext, useEffect, useState} from "react";
-import {Link, NavLink} from 'react-router-dom'
+import {Link, NavLink, useLocation} from 'react-router-dom'
 import axios from "axios";
 import {useParams} from "react-router-dom";
-import About from "../Brands/About/About";
 import {useTranslation} from "react-i18next";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
@@ -11,6 +10,7 @@ import SliderProduct from "./SliderProduct/SliderProduct";
 
 
 const Product = () => {
+    const location = useLocation();
     const {t} = useTranslation();
     const {setStatus, status, shop, cart, addCart, product, setProduct} = useContext(CustomContext);
     const params = useParams();
@@ -26,7 +26,7 @@ const Product = () => {
                 setSize(data.size[0]);
                 console.log(params)
             })
-    }, [params]);
+    }, [location]);
 
     {useEffect(() =>{
         console.log(cart)

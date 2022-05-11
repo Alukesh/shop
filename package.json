@@ -1,7 +1,7 @@
 {
   "name": "womazing",
-  "version": "0.1.0",
   "proxy": "http://localhost:8080",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",
@@ -9,7 +9,6 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
-    "admin": "^1.4.1",
     "antd": "^4.20.0",
     "axios": "^0.26.1",
     "i18next": "^21.6.16",
@@ -35,7 +34,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "server": "json-server-auth --watch db.json --port 8080",
+    "server": "json-server-auth --watch db.json --port 8080 --middlewares ./range.js",
     "dev": "concurrently \"yarn start\" \"yarn server\"",
     "build": "react-scripts build",
     "test": "react-scripts test",

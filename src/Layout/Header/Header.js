@@ -32,7 +32,7 @@ const Header = () => {
                         <li><NavLink  className="header__list-item" to="/brands">{t("header.link3")}</NavLink></li>
                         <li><NavLink  className="header__list-item" to="/contact">{t("header.link4")}</NavLink></li>
                         { user.email === 'admin@mail.ru' &&
-                            <li><NavLink  className="header__list-item" to="/admin">{t("header.link5")}</NavLink></li>
+                            <li><NavLink  className="header__list-item" to="/clothes">{t("header.link5")}</NavLink></li>
                         }
                     </ul>
                     <div className='header__links'>
