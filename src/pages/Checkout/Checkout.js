@@ -28,6 +28,7 @@ const Checkout = () => {
             orders: [
                 ...user.orders,
                 {
+                    ...data,
                     clothes: cart,
                     price: Array.isArray(ticket) && ticket.length
                         ? cart.reduce((acc, rec) => acc + rec.price * rec.count, 0) / 100 * (100 - ticket[0].sum)
@@ -35,13 +36,13 @@ const Checkout = () => {
                     date: new Date()
                 }
                 ]
-        })
-            .then(() =>{ console.log('успешно добавлен')});
-        await cart.map((item) => {
-           axios.patch(`http://localhost:8080/clothes/${item.id}`, {
-               inStock: item
-           })
-        });
+        })   .then(() =>{ console.log('успешно добавлен')});
+
+        // await cart.map((item) => {
+        //    axios.patch(`http://localhost:8080/clothes/${item.id}`, {
+        //        inStock: item
+        //    })
+        // });
 
         await axios(`http://localhost:8080/users/${user.id}`).then((res) => setUser(res.data));
 
@@ -49,7 +50,7 @@ const Checkout = () => {
         await Array.isArray(ticket) && ticket.length && ticket[0].count > 1 ?
                 axios.patch(`http://localhost:8080/tickets/${ticket[0].id}`, {count: ticket[0].count - 1})
                 .then(() => console.log('успешно потрачено'))
-            : ticket[0].count === 1 ? axios.delete(`http://localhost:8080/tickets/${ticket[0].id}`).then(() => console.log('потрачено до конца')) : console.log('no sale');
+            : Array.isArray(ticket) && ticket.length && ticket[0].count === 1 ? axios.delete(`http://localhost:8080/tickets/${ticket[0].id}`).then(() => console.log('потрачено до конца')) : console.log('no sale');
 
         await reset();
         await setCart([]);

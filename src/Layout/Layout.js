@@ -20,7 +20,11 @@ const Layout = () => {
             }
             <Main/>
             {
-                location.pathname !== '/login' && location.pathname !== '/register' && location.pathname !== '/*' ? <Footer/> : ''
+                location.pathname !== '/login'
+                && location.pathname !== '/register'
+                && location.pathname !== '/admin'
+                && location.pathname !== '/clothes'
+                && location.pathname !== '/*' ? <Footer/> : ''
             }
         </>
     );

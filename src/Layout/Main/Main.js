@@ -11,9 +11,13 @@ import Profile from "../../pages/Profile/Profile";
 import Product from "../../pages/Product/Product";
 import Checkout from "../../pages/Checkout/Checkout";
 import Order from "../../pages/Checkout/Order";
+import AdminPanel from "../../pages/AdminPanel/AdminPanel";
+import {useContext} from "react";
+import {CustomContext} from "../../Context";
+import {use} from "i18next";
 
 const Main = () => {
-
+    const {user} = useContext(CustomContext);
 
     return (
         <main className={'main'}>
@@ -27,9 +31,11 @@ const Main = () => {
                     <Route path='/login' element={<Login/>}/>
                     <Route path='/register' element={<Register/>}/>
                     <Route path='/profile' element={<Profile/>}/>
-                    <Route path='/product/:id' element={<Product/>}/>
+                    { user.email === 'admin@mail.ru' && <Route path='/admin/*' element={<AdminPanel/>}/>}
+                    { user.email === 'admin@mail.ru' && <Route path='/clothes' element={<AdminPanel/>}/>}
                     <Route path='/checkout' element={<Checkout/>}/>
                     <Route path='/order' element={<Order/>}/>
+                    <Route path='/product/:id' element={<Product/>}/>
                     {/*   /:... это зовется парамсы. дает дополнительные парметры, которые можно юзать для сортировки, в адресную строку на сайт.    */}
                     {/*вытащить парамс через хук юзПарамс from 'react-router-dom'*/}
                     <Route path='*' element={<Wrong/>}/>

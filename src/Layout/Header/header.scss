@@ -12,9 +12,13 @@
     }
     &list{
       display: flex;
-      align-items: center;
-      column-gap: 45px;
+      justify-content: space-around;
+      width: 45%;
+      margin-bottom: 0;
+      //column-gap: 45px;
       &-item{
+        display: flex;
+        align-items: flex-end;
         font-weight: 400;
         font-size: 15px;
         letter-spacing: 0.02em;
@@ -29,10 +33,24 @@
       display: flex;
       align-items: center;
       column-gap: 10px;
-
+      &-profile{
+        display: none;
+        &:hover{
+          color: red;
+        }
+        &.active{
+          color: red;
+        }
+      }
       &-cart{
-        margin-left: 40px;
+        margin-left: 14px;
         position: relative;
+        &:hover{
+          color: red;
+        }
+        &.active{
+          color: red;
+        }
         &Num{
           background-color: lightskyblue;
           //color: white;
@@ -82,3 +100,8 @@
 
   }
 }
+//.header__links-profile.active{
+//  font-size: 50px;
+//  fill: #998E78;
+//  color: blue;
+//}

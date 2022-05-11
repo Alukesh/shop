@@ -1,4 +1,4 @@
-import { FaUserCircle } from 'react-icons/fa';
+import { FaUserCircle , FaUserAlt} from 'react-icons/fa';
 import {Link, NavLink} from "react-router-dom";
 import {useTranslation} from "react-i18next";
 import {loadLanguages, use} from "i18next";
@@ -31,6 +31,9 @@ const Header = () => {
                         <li><NavLink  className="header__list-item" to="/shop">{t("header.link2")}</NavLink></li>
                         <li><NavLink  className="header__list-item" to="/brands">{t("header.link3")}</NavLink></li>
                         <li><NavLink  className="header__list-item" to="/contact">{t("header.link4")}</NavLink></li>
+                        { user.email === 'admin@mail.ru' &&
+                            <li><NavLink  className="header__list-item" to="/admin">{t("header.link5")}</NavLink></li>
+                        }
                     </ul>
                     <div className='header__links'>
                         <a href="tel:+7 (495) 823-54-12">
@@ -55,7 +58,7 @@ const Header = () => {
 </svg>
                     </span>
                             +7 (495) 823-54-12</a>
-                        <Link to="/cart">
+                        <NavLink to="/cart" className={'header__links-cart'}>
                             <span className={'header__links-cart'} >
                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path
@@ -73,7 +76,7 @@ const Header = () => {
 
                                 }
                     </span>
-                        </Link>
+                        </NavLink>
                         <div className={'header__language'}>
                             {/*{i18n.language === 'ru' ? <button className={'header__language-btn'} style={{background: loadLanguages.prototype === 'en' ? 'yellow' : ''}} type='button' onClick={() => changeLanguage("en")}>En</button>*/}
                             {/*        : <button className={'header__language-btn'} style={{background: loadLanguages.prototype === 'ru' ? 'yellow' : ''}} type='button' onClick={() => changeLanguage("ru")}>Ru</button>*/}
@@ -88,7 +91,7 @@ const Header = () => {
                                 :  <Link style={{color: "darkblue"}} to={'/login'}>{t("setUser.login.btn")}</Link>
                         }
                         {
-                            user.login.length ? <Link className={'header__links-profile'} to="/profile"> <FaUserCircle/></Link> : ''
+                            user.login.length ? <NavLink className={'header__links-profile'} to="/profile"><FaUserAlt/></NavLink> : ''
                         }
 
                     </div>

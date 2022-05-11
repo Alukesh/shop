@@ -3,7 +3,8 @@
     "link1": "Main",
     "link2": "Shop",
     "link3": "About Brand",
-    "link4": "Contact"
+    "link4": "Contact",
+    "link5": "Admin Panel"
   },
   "setUser": {
     "login": {

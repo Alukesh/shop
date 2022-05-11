@@ -2,117 +2,10 @@
   "users": [
     {
       "email": "q@qq",
-      "password": "$2a$10$wr5jwWqQ9nWaSMC.ulVWee8EteLp/6N3L9G..aZju8FNIMdm08Gx6",
+      "password": "$2a$10$q53XJqBSwoDmGsm1hcZo0OvA4vtQlXa55H4EbmWgxJiPo/ELcFIDi",
       "login": "wert12",
       "phone": "+996(123) 000-000",
-      "orders": [
-        {
-          "clothes": [
-            {
-              "id": 17,
-              "title": "CROSSOVER CARDIGAN WITH BOW",
-              "image": "cardigan2.jpg",
-              "color": "white",
-              "size": "s",
-              "count": 1,
-              "price": 29,
-              "category": "cardigan"
-            }
-          ],
-          "price": 21.75,
-          "date": "2022-05-07T11:12:48.684Z"
-        },
-        {
-          "clothes": [
-            {
-              "id": 17,
-              "title": "CROSSOVER CARDIGAN WITH BOW",
-              "image": "cardigan2.jpg",
-              "color": "white",
-              "size": "s",
-              "count": 1,
-              "price": 29,
-              "category": "cardigan"
-            }
-          ],
-          "price": 21.75,
-          "date": "2022-05-07T11:16:06.180Z"
-        },
-        {
-          "clothes": [
-            {
-              "id": 16,
-              "title": "3/4 SLEEVE MAXI CARDIGAN",
-              "image": "cardigan1.jpg",
-              "color": "white",
-              "size": "s",
-              "count": 1,
-              "price": 229,
-              "category": "cardigan"
-            }
-          ],
-          "price": 171.75,
-          "date": "2022-05-07T11:22:35.439Z"
-        },
-        {
-          "clothes": [
-            {
-              "id": 16,
-              "title": "3/4 SLEEVE MAXI CARDIGAN",
-              "image": "cardigan1.jpg",
-              "color": "white",
-              "size": "s",
-              "count": 1,
-              "price": 229,
-              "category": "cardigan"
-            }
-          ],
-          "price": 171.75,
-          "date": "2022-05-07T11:23:52.189Z"
-        },
-        {
-          "clothes": [
-            {
-              "id": 18,
-              "title": "LONG JACQUARD CARDIGAN",
-              "image": "cardigan3.jpg",
-              "color": "blue",
-              "size": "l",
-              "count": 2,
-              "price": 229,
-              "category": "cardigan"
-            },
-            {
-              "id": 18,
-              "title": "LONG JACQUARD CARDIGAN",
-              "image": "cardigan3.jpg",
-              "color": "black",
-              "size": "l",
-              "count": 1,
-              "price": 229,
-              "category": "cardigan"
-            }
-          ],
-          "price": 515.25,
-          "date": "2022-05-07T11:28:31.692Z"
-        },
-        {
-          "clothes": [
-            {
-              "id": 16,
-              "title": "3/4 SLEEVE MAXI CARDIGAN",
-              "image": "cardigan1.jpg",
-              "color": "white",
-              "size": "s",
-              "count": 1,
-              "price": 229,
-              "category": "cardigan"
-            }
-          ],
-          "price": 192.36,
-          "date": "2022-05-07T11:29:47.118Z"
-        }
-      ],
+      "orders": [],
       "id": 1,
       "qwerty": ""
     },
@@ -139,6 +32,13 @@
       "phone": "1231",
       "orders": [],
       "id": 4
+    },
+    {
+      "email": "admin@mail.ru",
+      "password": "$2a$10$fPWzJHemVhorQFmrrv3HF.QOdCQQdUlKGxIWo9A1/ubBCFh2Hs5LW",
+      "login": "admin",
+      "orders": [],
+      "id": 5
     }
   ],
   "clothes": [
@@ -162,7 +62,7 @@
         "blue",
         "black"
       ],
-      "inStock": 12
+      "inStock": 399
     },
     {
       "id": 2,
@@ -204,7 +104,7 @@
         "blue",
         "black"
       ],
-      "inStock": 18
+      "inStock": 399
     },
     {
       "id": 4,
@@ -288,7 +188,7 @@
         "blue",
         "black"
       ],
-      "inStock": 8
+      "inStock": 4
     },
     {
       "id": 8,
@@ -308,7 +208,7 @@
         "blue",
         "black"
       ],
-      "inStock": 11
+      "inStock": 89
     },
     {
       "id": 9,
@@ -734,7 +634,7 @@
       "id": 1,
       "title": "itrun",
       "sum": 25,
-      "count": 18
+      "count": 14
     },
     {
       "id": 3,
@@ -745,7 +645,7 @@
   ],
   "orders": [
     {
-      "name": "asdad",
+      "name": "skk",
       "email": "",
       "phone": "",
       "country": "",
@@ -756,57 +656,20 @@
       "massage": " ",
       "clothes": [
         {
-          "id": 18,
-          "title": "LONG JACQUARD CARDIGAN",
-          "image": "cardigan3.jpg",
-          "color": "blue",
-          "size": "l",
-          "count": 2,
-          "price": 229,
-          "category": "cardigan"
-        },
-        {
-          "id": 18,
-          "title": "LONG JACQUARD CARDIGAN",
-          "image": "cardigan3.jpg",
-          "color": "black",
-          "size": "l",
-          "count": 1,
-          "price": 229,
-          "category": "cardigan"
-        }
-      ],
-      "price": 515.25,
-      "userEmail": "q@q",
-      "date": "2022-05-07T11:28:31.661Z",
-      "id": 1
-    },
-    {
-      "name": "ascas",
-      "email": "",
-      "phone": "",
-      "country": "",
-      "city": "",
-      "street": "",
-      "home": "",
-      "flat": "",
-      "massage": " ",
-      "clothes": [
-        {
-          "id": 16,
-          "title": "3/4 SLEEVE MAXI CARDIGAN",
-          "image": "cardigan1.jpg",
+          "id": 7,
+          "title": "DUSTER COAT IN 100% COTTON",
+          "image": "coat2.jpg",
           "color": "white",
           "size": "s",
           "count": 1,
-          "price": 229,
-          "category": "cardigan"
+          "price": 279,
+          "category": "coat"
         }
       ],
-      "price": 192.36,
-      "userEmail": "q@q",
-      "date": "2022-05-07T11:29:47.094Z",
-      "id": 2
+      "price": 209.25,
+      "userEmail": "q@qq",
+      "date": "2022-05-11T08:10:57.495Z",
+      "id": 1
     }
   ]
 }
