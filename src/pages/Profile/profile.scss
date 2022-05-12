@@ -84,6 +84,28 @@
       }
     }
 
+    &orders{
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      &-header{}
+      &-list{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+      }
+      &-item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      &-img{
+        width: 100px;
+      }
+      &-info{}
+    }
+
 
   }
 }

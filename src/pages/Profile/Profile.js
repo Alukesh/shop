@@ -151,9 +151,32 @@ const Profile = () => {
                         </div>
                     </>
                     :
-                    <>
-                        jjj
-                    </>
+                    <div className={'profile__orders'}>
+                        {
+                            user.orders.map((item, idx) => (
+                                <div key={idx} className={'profile__orders-card'}>
+                                    <div className={'profile__orders-header'}>
+                                        <p>{item.name} <span>  {item.date}</span></p>
+                                    </div>
+                                    <ul className={'profile__orders-list'}>
+                                            {
+                                            item.clothes.map(el => (
+                                                <li key={el.id} className={'profile__orders-item'}>
+                                                    <img  className={'profile__orders-img'} src={`Shop/${el.image}`} alt=""/>
+                                                        <p className={'profile__orders-info'}>{el.title}</p>
+                                                        <p className={'profile__orders-info'}>{el.category}</p>
+                                                        <p className={'profile__orders-info'}>кол-во: <span>{el.count}</span></p>
+                                                        <p className={'profile__orders-info'}>{el.color} </p>
+                                                        <p className={'profile__orders-info'}>{el.size}</p>
+                                                        <p className={'profile__orders-info'}>цена:  {el.price}$</p>
+                                                </li>
+                                            ))
+                                            }
+                                        </ul>
+                                </div>
+                            ))
+                        }
+                    </div>
             }
 
 

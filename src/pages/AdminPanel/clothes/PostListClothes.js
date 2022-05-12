@@ -1,4 +1,4 @@
-import { List, Datagrid, Edit, Create, SimpleForm, DateField, TextField, EditButton, TextInput, DateInput } from 'react-admin';
+import { List, Datagrid, Edit, DeleteButton, Create, SimpleForm, DateField, TextField, EditButton, TextInput, DateInput } from 'react-admin';
 
 const PostListClothes = (props) => {
     return (
@@ -6,10 +6,12 @@ const PostListClothes = (props) => {
             <Datagrid>
                 <TextField source="id" />
                 <TextField source="title" />
-                <DateField source="price" />
+                <TextField source="inStock" />
+                <TextField source="price" />
                 <TextField source="priceSale" />
                 <TextField source="category" />
                 <EditButton />
+                <DeleteButton/>
             </Datagrid>
         </List>
     );

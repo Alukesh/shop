@@ -72,6 +72,10 @@
 
     &order{
 
+      &-img{
+        width: 100%;
+        margin-bottom: 10px;
+      }
       &-title{
         margin: 0 18px;
         display: none;

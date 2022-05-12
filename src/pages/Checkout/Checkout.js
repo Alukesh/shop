@@ -1,6 +1,7 @@
 import {Link, NavLink, useNavigate} from "react-router-dom";
 import React, {useContext} from "react";
 import {useTranslation} from "react-i18next";
+import InputMask from "react-input-mask";
 import {CustomContext} from "../../Context";
 import {useForm} from "react-hook-form";
 import axios from "axios";
@@ -80,7 +81,7 @@ const Checkout = () => {
                                 <input {...register('name')} required={true} className={'checkout__form-input'} type="text" placeholder={'Имя'}/>
                                 <input {...register('email')}  className={'checkout__form-input'} type="text" placeholder={'E-mail'}/>
                                 {/*<Input name={'checkout__form-input'}/>*/}
-                                <input {...register('phone')}  className={'checkout__form-input'} type="text" placeholder={'Телефон'}/>
+                                <InputMask mask={`+\\9\\96(999) 999-999`} {...register('phone')}  className={'checkout__form-input'} type="text" placeholder={'Телефон'}/>
                             </div>
                             <div className={'checkout__form-address'}>
                                 <h2 className={'checkout__title'}>Адрес получателя</h2>
@@ -107,15 +108,19 @@ const Checkout = () => {
                                     {
                                         cart.map((item) =>(
                                             <li className={'checkout__order-cart'}>
-                                                <div className={'checkout__order-top'}>
-                                                    <p className={'checkout__order-name'}>{item.title}</p>
-                                                    <p className={'checkout__order'}>{item.count}</p>
+                                                <img className={'checkout__order-img'} src={`Shop/${item.image}`} alt={item.title}/>
+                                                <div>
+                                                    <div className={'checkout__order-top'}>
+                                                        <p className={'checkout__order-name'}>{item.title}</p>
+                                                        <p className={'checkout__order'}>{item.count}</p>
+                                                    </div>
+                                                    <div className={'checkout__order-bot'}>
+                                                        <p>{item.color}</p>
+                                                        <p>{item.size}</p>
+                                                        <p>{item.price * item.count}</p>
+                                                    </div>
                                                 </div>
-                                                <div className={'checkout__order-bot'}>
-                                                    <p>{item.color}</p>
-                                                    <p>{item.size}</p>
-                                                    <p>{item.price * item.count}</p>
-                                                </div>
+
                                             </li>
                                         ))
                                     }

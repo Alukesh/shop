@@ -18,14 +18,6 @@
       "id": 2
     },
     {
-      "email": "asd@ad",
-      "password": "$2a$10$iEc3kE39zd206JSgGDfHI.pRpB04W2MS1FiCAL.QBxq.rpvAOaDbe",
-      "login": "asdasda",
-      "phone": "asdasda",
-      "orders": [],
-      "id": 3
-    },
-    {
       "email": "doc@mail.ru",
       "password": "$2a$10$xgbrpVUsKgWn2O1i6mQTF.BDzuz.wrJ9O7iOn6LXjalUriy95mv9.",
       "login": "asd",
@@ -37,8 +29,155 @@
       "email": "admin@mail.ru",
       "password": "$2a$10$fPWzJHemVhorQFmrrv3HF.QOdCQQdUlKGxIWo9A1/ubBCFh2Hs5LW",
       "login": "admin",
-      "orders": [],
-      "id": 5
+      "orders": [
+        {
+          "name": "lika",
+          "email": "alt@mail.ru",
+          "phone": "1280130",
+          "country": "ioadj",
+          "city": "ijoi",
+          "street": "hiouh",
+          "home": "huihui",
+          "flat": "uhiuh",
+          "massage": " ",
+          "clothes": [
+            {
+              "id": 3,
+              "title": "T-SHIRT IN 100% COTTON WITH PRINT",
+              "image": "t-shirt3.jpg",
+              "color": "white",
+              "size": "s",
+              "count": 2,
+              "price": 229,
+              "category": "T-short"
+            },
+            {
+              "id": 28,
+              "title": "SHIRT WITH ASYMMETRICAL BOTTOM",
+              "image": "shirt2.jpg",
+              "color": "white",
+              "size": "s",
+              "count": 1,
+              "price": 229,
+              "category": "T-short"
+            },
+            {
+              "id": 28,
+              "title": "SHIRT WITH ASYMMETRICAL BOTTOM",
+              "image": "shirt2.jpg",
+              "color": "blue",
+              "size": "s",
+              "count": 2,
+              "price": 229,
+              "category": "T-short"
+            }
+          ],
+          "price": 1145,
+          "date": "2022-05-12T10:21:33.202Z"
+        },
+        {
+          "name": "ыфвф",
+          "email": "",
+          "phone": "+996(433) 424-234",
+          "country": "",
+          "city": "",
+          "street": "",
+          "home": "",
+          "flat": "",
+          "massage": " ",
+          "clothes": [
+            {
+              "id": 18,
+              "title": "LONG JACQUARD CARDIGAN",
+              "image": "cardigan3.jpg",
+              "color": "white",
+              "size": "s",
+              "count": 1,
+              "price": 229,
+              "category": "cardigan"
+            },
+            {
+              "id": 1,
+              "title": " PATTERNED TANK TOP",
+              "image": "t-shirt1.jpg",
+              "color": "green",
+              "size": "l",
+              "count": 3,
+              "price": 200,
+              "category": "T-short"
+            },
+            {
+              "id": 1,
+              "title": " PATTERNED TANK TOP",
+              "image": "t-shirt1.jpg",
+              "color": "blue",
+              "size": "xl",
+              "count": 1,
+              "price": 200,
+              "category": "T-short"
+            },
+            {
+              "id": 5,
+              "title": "TANK TOP IN VISCOSE AND LUREX",
+              "image": "t-shirt5.jpg",
+              "color": "white",
+              "size": "s",
+              "count": 3,
+              "price": 29,
+              "category": "T-short"
+            }
+          ],
+          "price": 1116,
+          "date": "2022-05-12T11:34:17.176Z"
+        },
+        {
+          "name": "Asim",
+          "email": "dilka@mail.ru",
+          "phone": "+996(567) 823-199",
+          "country": "KG",
+          "city": "Bgasu",
+          "street": "aas",
+          "home": "12",
+          "flat": "4",
+          "massage": " ",
+          "clothes": [
+            {
+              "id": 1,
+              "title": " PATTERNED TANK TOP",
+              "image": "t-shirt1.jpg",
+              "color": "white",
+              "size": "s",
+              "count": 3,
+              "price": 200,
+              "category": "T-short"
+            },
+            {
+              "id": 1,
+              "title": " PATTERNED TANK TOP",
+              "image": "t-shirt1.jpg",
+              "color": "blue",
+              "size": "l",
+              "count": 1,
+              "price": 200,
+              "category": "T-short"
+            },
+            {
+              "id": 3,
+              "title": "T-SHIRT IN 100% COTTON WITH PRINT",
+              "image": "t-shirt3.jpg",
+              "color": "yellow",
+              "size": "m",
+              "count": 2,
+              "price": 229,
+              "category": "T-short"
+            }
+          ],
+          "price": 943.5,
+          "date": "2022-05-12T13:42:59.407Z"
+        }
+      ],
+      "id": 5,
+      "phone": "+996(111) 111-112"
     }
   ],
   "clothes": [
@@ -634,7 +773,7 @@
       "id": 1,
       "title": "itrun",
       "sum": 25,
-      "count": 14
+      "count": 13
     },
     {
       "id": 3,
@@ -670,6 +809,157 @@
       "userEmail": "q@qq",
       "date": "2022-05-11T08:10:57.495Z",
       "id": 1
+    },
+    {
+      "name": "lika",
+      "email": "alt@mail.ru",
+      "phone": "1280130",
+      "country": "ioadj",
+      "city": "ijoi",
+      "street": "hiouh",
+      "home": "huihui",
+      "flat": "uhiuh",
+      "massage": " ",
+      "clothes": [
+        {
+          "id": 3,
+          "title": "T-SHIRT IN 100% COTTON WITH PRINT",
+          "image": "t-shirt3.jpg",
+          "color": "white",
+          "size": "s",
+          "count": 2,
+          "price": 229,
+          "category": "T-short"
+        },
+        {
+          "id": 28,
+          "title": "SHIRT WITH ASYMMETRICAL BOTTOM",
+          "image": "shirt2.jpg",
+          "color": "white",
+          "size": "s",
+          "count": 1,
+          "price": 229,
+          "category": "T-short"
+        },
+        {
+          "id": 28,
+          "title": "SHIRT WITH ASYMMETRICAL BOTTOM",
+          "image": "shirt2.jpg",
+          "color": "blue",
+          "size": "s",
+          "count": 2,
+          "price": 229,
+          "category": "T-short"
+        }
+      ],
+      "price": 1145,
+      "userEmail": "admin@mail.ru",
+      "date": "2022-05-12T10:21:33.049Z",
+      "id": 2
+    },
+    {
+      "name": "ыфвф",
+      "email": "",
+      "phone": "+996(433) 424-234",
+      "country": "",
+      "city": "",
+      "street": "",
+      "home": "",
+      "flat": "",
+      "massage": " ",
+      "clothes": [
+        {
+          "id": 18,
+          "title": "LONG JACQUARD CARDIGAN",
+          "image": "cardigan3.jpg",
+          "color": "white",
+          "size": "s",
+          "count": 1,
+          "price": 229,
+          "category": "cardigan"
+        },
+        {
+          "id": 1,
+          "title": " PATTERNED TANK TOP",
+          "image": "t-shirt1.jpg",
+          "color": "green",
+          "size": "l",
+          "count": 3,
+          "price": 200,
+          "category": "T-short"
+        },
+        {
+          "id": 1,
+          "title": " PATTERNED TANK TOP",
+          "image": "t-shirt1.jpg",
+          "color": "blue",
+          "size": "xl",
+          "count": 1,
+          "price": 200,
+          "category": "T-short"
+        },
+        {
+          "id": 5,
+          "title": "TANK TOP IN VISCOSE AND LUREX",
+          "image": "t-shirt5.jpg",
+          "color": "white",
+          "size": "s",
+          "count": 3,
+          "price": 29,
+          "category": "T-short"
+        }
+      ],
+      "price": 1116,
+      "userEmail": "admin@mail.ru",
+      "date": "2022-05-12T11:34:16.818Z",
+      "id": 3
+    },
+    {
+      "name": "Asim",
+      "email": "dilka@mail.ru",
+      "phone": "+996(567) 823-199",
+      "country": "KG",
+      "city": "Bgasu",
+      "street": "aas",
+      "home": "12",
+      "flat": "4",
+      "massage": " ",
+      "clothes": [
+        {
+          "id": 1,
+          "title": " PATTERNED TANK TOP",
+          "image": "t-shirt1.jpg",
+          "color": "white",
+          "size": "s",
+          "count": 3,
+          "price": 200,
+          "category": "T-short"
+        },
+        {
+          "id": 1,
+          "title": " PATTERNED TANK TOP",
+          "image": "t-shirt1.jpg",
+          "color": "blue",
+          "size": "l",
+          "count": 1,
+          "price": 200,
+          "category": "T-short"
+        },
+        {
+          "id": 3,
+          "title": "T-SHIRT IN 100% COTTON WITH PRINT",
+          "image": "t-shirt3.jpg",
+          "color": "yellow",
+          "size": "m",
+          "count": 2,
+          "price": 229,
+          "category": "T-short"
+        }
+      ],
+      "price": 943.5,
+      "userEmail": "admin@mail.ru",
+      "date": "2022-05-12T13:42:59.058Z",
+      "id": 4
     }
   ]
 }
