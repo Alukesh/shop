@@ -80,7 +80,7 @@ const Shop = () => {
                                     <LazyLoadImage
                                         className={'shop__img'}
                                         alt={'t-short'}
-                                        src={`../Shop/${item.image}`}
+                                        src={`../Shop/${item.image[item.colors[0]]}`}
                                         effect={'blur'}
                                     />
                                     {/*<img className={'shop__img'} src={`../Shop/${item.image}`} />*/}

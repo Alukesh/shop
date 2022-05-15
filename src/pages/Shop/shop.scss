@@ -15,7 +15,8 @@
       background: rgba(255, 100 , 0, .3);
     }
     &list{
-
+      flex-wrap: wrap;
+      row-gap: 20px;
       display: flex;
       align-items: center;
       column-gap: 15px;

@@ -11,6 +11,8 @@ const Contact = () => {
 
     return (
         <div className={'contact'}>
+            <div className="container">
+
             <div className="">
                 <h2 className="about__title" dangerouslySetInnerHTML={{__html: t("Contact.title")}}/>
                 <div className="about__links">
@@ -23,6 +25,7 @@ const Contact = () => {
             <MapBlock/>
             <Form/>
 
+            </div>
 
         </div>
     );

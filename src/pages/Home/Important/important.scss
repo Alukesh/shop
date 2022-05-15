@@ -36,3 +36,18 @@
 
   }
 }
+@media (max-width: 860px) {
+  .important{
+    &__card{
+      width: 50%;
+      margin-bottom: 40px;
+    }
+    &__row{
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+}

@@ -63,3 +63,11 @@
     }
   }
 }
+@media (max-width: 860px) {
+  .newSeason{
+    &__img{
+      display: none;
+    }
+  }
+
+}

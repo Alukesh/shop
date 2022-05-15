@@ -28,7 +28,7 @@ const Cart = () => {
 
     return (
         <section className={'basket'}>
-            <div className="">
+            <div className="container">
                 <h2 className="about__title" dangerouslySetInnerHTML={{__html: t("Cart.title")}}/>
                 <div className="about__links">
                     <Link className="about__link" to='/'>{t("Cart.link1")}</Link>

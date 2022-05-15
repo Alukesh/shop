@@ -7,6 +7,7 @@ const CollectionCard = ({img, title, arrow,  price, newPrice}) => {
         <div className="collection__card">
             <div className="collection__hover">
                 <LazyLoadImage
+                    className={'collection__img'}
                     alt={'t-short'}
                     src={`./Assets/home/${img}`}
                     effect={'blur'}

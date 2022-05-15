@@ -9,13 +9,14 @@ import axios from "axios";
 
 const BasketCard = ({item}) => {
     let navigate = useNavigate();
-    const {cart, removeCart, setCart, changeCart, product, setProduct} = useContext(CustomContext);
+    const { removeCart} = useContext(CustomContext);
     const [countCart, setCountCart] = useState(item.count);
+    const [productStock, setProductStock] = useState(0);
 
     useEffect(() => {
         axios(`http://localhost:8080/clothes/${item.id}`)
             .then(({data}) => {
-                setProduct(data);
+                setProductStock(data);
             })
     }, []);
 
@@ -46,7 +47,10 @@ const BasketCard = ({item}) => {
                 <li className="basket__info-item">
                     <input className={'basket__info-input'} min={1} max={item.inStock} value={countCart}
 
-                           onChange={(e) => setCountCart(e.target.value > product.inStock && product.inStock || e.target.value)} type="number"/>
+                           onChange={(e) =>{
+                               setCountCart(e.target.value > productStock.inStock && productStock.inStock || e.target.value)
+
+                           } } type="number"/>
                 </li>
                 <li className="basket__info-item">${item.price * item.count}</li>
             </ul>
