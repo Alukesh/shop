@@ -1,11 +1,12 @@
 import {LazyLoadImage} from 'react-lazy-load-image-component'
 import 'react-lazy-load-image-component/src/effects/blur.css';
+import {Link} from 'react-router-dom'
 
 const CollectionCard = ({img, title, arrow,  price, newPrice}) => {
     return (
 
         <div className="collection__card">
-            <div className="collection__hover">
+            <Link to={'/shop'} className="collection__hover">
                 <LazyLoadImage
                     className={'collection__img'}
                     alt={'t-short'}
@@ -16,7 +17,7 @@ const CollectionCard = ({img, title, arrow,  price, newPrice}) => {
                 <span className={`collection__arrow ${arrow}`}>
                                <svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 12H31M31 12L20.186 1M31 12L20.186 23" stroke="white"/></svg>
                             </span>
-            </div>
+            </Link>
             <h3 className={'collection__card-title'}>{title}</h3>
             <p className={'collection__price'}><span>{price}</span> <span>{newPrice}</span></p>
         </div>

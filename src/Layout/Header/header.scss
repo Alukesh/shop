@@ -15,6 +15,7 @@
       display: flex;
       justify-content: space-around;
       width: 45%;
+      transition: all .5s;
       margin-bottom: 0;
       //column-gap: 45px;
       &-item{
@@ -44,7 +45,6 @@
         }
       }
       &-cart{
-        margin-left: 14px;
         position: relative;
         &:hover{
           color: red;
@@ -101,6 +101,15 @@
 
   }
 }
+.overlay{
+  height: 200vh;
+  width: 300vw;
+  position: fixed;
+  background: rgba(0,0,0,.2);
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
 .burger{
   width: 30px;
   display: none;
@@ -140,7 +149,8 @@
   .burger{
     display: block;
     position: fixed;
-    right: 10px;
+    top: 30px;
+    right: 20px;
     z-index: 100  ;
     &_active{
       .burger__line{
@@ -157,23 +167,78 @@
     }
   }
   .header__list{
-    display: none;
+    opacity: 0;
+    transition: 1s;
+    transform: translateX(200%);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 120px 0;
+    border-radius: 10px 0 0 10px;
+    background-color: #6E9C9F;
     &_active{
-      display: flex;
-      flex-direction: column;
-      row-gap: 20px;
-      text-align: center;
-      position: fixed;
-      z-index: 20;
-      top: 0;
-      right: 0;
-      align-items: center;
-      padding: 120px 0;
-      border-radius: 10px 0 0 10px;
-      background-color: #6E9C9F;
+      opacity: 1;
+      transform: translateX(0);
+      transition: .8s;
     }
     &-item.active{
       color: white;
     }
+  }
+  &.header__wrapper{
+    column-gap: 20px;
+    justify-content: center;
+  }
+}
+@media (max-width: 700px) {
+
+}
+@media (max-width: 595px) {
+  .header{
+    &__{
+      &links{
+        column-gap: 30px;
+      }
+      &wrapper{
+        position: relative;
+        flex-direction: column;
+        row-gap: 10px;
+      }
+      &language{
+        position: absolute;
+        top: 0;
+        right: 10px;
+      }
+
+    }
+  }
+}
+@media (max-width: 427px) {
+  .header{
+    &__links{
+      column-gap: 100px;
+      &-cart{
+        margin: 0;
+        width: 40px;
+      }
+    &-call{
+      position: absolute;
+      display: none;
+      bottom: -60px;
+    }
+    }
+
+    .logo{
+      margin-right: 150px;
+    }
+  }
+  .header__list{
+    width: 100%;
   }
 }

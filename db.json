@@ -10,14 +10,6 @@
       "qwerty": ""
     },
     {
-      "email": "wer@mail.ru",
-      "password": "$2a$10$IGlyWx9V3l6WKaFWBlb2Q.Wf0MFuB1CkwZBZLURVD3KtkYQ1JLn1G",
-      "login": "wer",
-      "phone": "1234",
-      "orders": [],
-      "id": 2
-    },
-    {
       "email": "doc@mail.ru",
       "password": "$2a$10$xgbrpVUsKgWn2O1i6mQTF.BDzuz.wrJ9O7iOn6LXjalUriy95mv9.",
       "login": "asd",
@@ -76,64 +68,179 @@
           "date": "2022-05-14T10:25:34.710Z"
         },
         {
-          "name": "qw",
-          "email": "qw",
-          "phone": "+996(123) 455-555",
-          "country": "23",
-          "city": "ws",
-          "street": "ss",
-          "home": "sd",
-          "flat": "xc",
+          "name": "1",
+          "email": "1",
+          "phone": "+996(111) 111-111",
+          "country": "",
+          "city": "",
+          "street": "",
+          "home": "",
+          "flat": "",
+          "massage": " ",
+          "clothes": [
+            {
+              "id": 3,
+              "title": "T-SHIRT IN 100% COTTON WITH PRINT",
+              "image": "tshirt3/t-shirt3.jpg",
+              "color": "orange",
+              "size": "s",
+              "count": 1,
+              "price": 229,
+              "category": "T-short"
+            }
+          ],
+          "price": 229,
+          "date": "2022-05-15T10:53:08.029Z"
+        },
+        {
+          "name": "Dahsa",
+          "email": "Simons@mail.ru",
+          "phone": "+996(666) 666-666",
+          "country": "Kurgan",
+          "city": "Fistash",
+          "street": "Lolm",
+          "home": "3",
+          "flat": "90",
           "massage": " ",
           "clothes": [
             {
               "id": 4,
               "title": "100% COTTON BOXY FIT T-SHIRT",
-              "image": "tshirt4/t-shirt4.jpg",
-              "color": "orange",
-              "size": "s",
-              "count": 1,
-              "price": 200,
-              "category": "T-short"
-            },
-            {
-              "id": 4,
-              "title": "100% COTTON BOXY FIT T-SHIRT",
-              "image": "tshirt4/yellowt-shirt4.jpg",
-              "color": "yellow",
-              "size": "s",
-              "count": 1,
-              "price": 200,
-              "category": "T-short"
-            },
-            {
-              "id": 5,
-              "title": "TANK TOP IN VISCOSE AND LUREX",
-              "image": "tshirt5/greent-shirt5.jpg",
-              "color": "green",
-              "size": "s",
-              "count": 1,
-              "price": 29,
-              "category": "T-short"
-            },
-            {
-              "id": 1,
-              "title": " PATTERNED TANK TOP",
-              "image": "tshirt1/t-shirt1.jpg",
-              "color": "white",
+              "image": "tshirt4/bluet-shirt4.jpg",
+              "color": "blue",
               "size": "s",
               "count": 2,
               "price": 200,
               "category": "T-short"
             },
             {
-              "id": 1,
-              "title": " PATTERNED TANK TOP",
-              "image": "tshirt1/pinkt-shirt1.jpg",
-              "color": "pink",
+              "id": 4,
+              "title": "100% COTTON BOXY FIT T-SHIRT",
+              "image": "tshirt4/khakit-shirt4.jpg",
+              "color": "khaki",
               "size": "s",
               "count": 1,
               "price": 200,
+              "category": "T-short"
+            },
+            {
+              "id": 13,
+              "title": "SWEATSHIRT WITH BOW AND PUFF SLEEVE",
+              "image": "sweatshirt3.jpg",
+              "color": "black",
+              "size": "xs",
+              "count": 1,
+              "price": 229,
+              "category": "sweatshirt"
+            },
+            {
+              "id": 12,
+              "title": "COTTON BLEND SWEATSHIRT",
+              "image": "sweatshirt2.jpg",
+              "color": "white",
+              "size": "s",
+              "count": 1,
+              "price": 200,
+              "category": "sweatshirt"
+            },
+            {
+              "id": 23,
+              "title": "HOODIE",
+              "image": "hoodie3/whitehoodie3.jpg",
+              "color": "white",
+              "size": "s",
+              "count": 2,
+              "price": 200,
+              "category": "hoodie"
+            },
+            {
+              "id": 20,
+              "title": "CROPPED CARDIGAN WITH BUTTONS",
+              "image": "cardigan5.jpg",
+              "color": "yellow",
+              "size": "s",
+              "count": 1,
+              "price": 229,
+              "category": "cardigan"
+            }
+          ],
+          "price": 1243.4999999999998,
+          "date": "2022-05-15T10:55:18.588Z"
+        },
+        {
+          "name": "ss",
+          "email": "awq@fsd",
+          "phone": "+996(234) 444-444",
+          "country": "sdfs",
+          "city": "sfsd",
+          "street": "",
+          "home": "",
+          "flat": "",
+          "massage": " ",
+          "clothes": [
+            {
+              "id": 24,
+              "title": "HOODIE",
+              "image": "hoodie4.jpg",
+              "color": "yellow",
+              "size": "s",
+              "count": 2,
+              "price": 229,
+              "category": "hoodie"
+            },
+            {
+              "id": 25,
+              "title": "HOODIE",
+              "image": "hoodie5/yellowhoodie5.jpg",
+              "color": "yellow",
+              "size": "s",
+              "count": 1,
+              "price": 100,
+              "category": "hoodie"
+            },
+            {
+              "id": 25,
+              "title": "HOODIE",
+              "image": "hoodie5/whitehoodie5.jpg",
+              "color": "white",
+              "size": "s",
+              "count": 1,
+              "price": 100,
+              "category": "hoodie"
+            }
+          ],
+          "price": 658,
+          "date": "2022-05-16T16:46:36.420Z"
+        },
+        {
+          "name": "ss",
+          "email": "sss",
+          "phone": "+996(111) 111-111",
+          "country": "s",
+          "city": "d",
+          "street": "f",
+          "home": "",
+          "flat": "",
+          "massage": " ",
+          "clothes": [
+            {
+              "id": 5,
+              "title": "TANK TOP IN VISCOSE AND LUREX",
+              "image": "tshirt5/oranget-shirt5.jpg",
+              "color": "orange",
+              "size": "s",
+              "count": 2,
+              "price": 29,
+              "category": "T-short"
+            },
+            {
+              "id": 5,
+              "title": "TANK TOP IN VISCOSE AND LUREX",
+              "image": "tshirt5/yellowt-shirt5.jpg",
+              "color": "yellow",
+              "size": "s",
+              "count": 1,
+              "price": 29,
               "category": "T-short"
             },
             {
@@ -145,10 +252,30 @@
               "count": 1,
               "price": 200,
               "category": "T-short"
+            },
+            {
+              "id": 21,
+              "title": "HOODIE",
+              "image": "hoodie1/blackhoodie1.jpg",
+              "color": "black",
+              "size": "s",
+              "count": 1,
+              "price": 129,
+              "category": "hoodie"
+            },
+            {
+              "id": 21,
+              "title": "HOODIE",
+              "image": "hoodie1/bluehoodie1.jpg",
+              "color": "blue",
+              "size": "s",
+              "count": 1,
+              "price": 129,
+              "category": "hoodie"
             }
           ],
-          "price": 1106.1,
-          "date": "2022-05-14T10:32:11.924Z"
+          "price": 408.75,
+          "date": "2022-05-16T17:28:17.712Z"
         }
       ],
       "id": 5,
@@ -315,10 +442,10 @@
       "price": 279,
       "priceSale": "",
       "image": {
-        "white": "coat2.jpg",
-        "yellow": "coat2.jpg",
-        "blue": "coat2.jpg",
-        "black": "coat2.jpg"
+        "white": "coat2/coat2.jpg",
+        "yellow": "coat2/coat2.jpg",
+        "blue": "coat2/coat2.jpg",
+        "black": "coat2/coat2.jpg"
       },
       "category": "coat",
       "size": [
@@ -328,11 +455,7 @@
         "xl"
       ],
       "colors": [
-        "white",
-        "yellow",
-        "green",
-        "blue",
-        "black"
+        "white"
       ],
       "inStock": 4
     },
@@ -342,10 +465,12 @@
       "price": 256,
       "priceSale": 199,
       "image": {
-        "white": "coat5.jpg",
-        "yellow": "coat5.jpg",
-        "blue": "coat5.jpg",
-        "black": "coat5.jpg"
+        "darkblue": "coat5/coat5.jpg",
+        "palevioletred": "coat5/cyclamencoat5.jpg",
+        "orangered": "coat5/orangecoat5.jpg",
+        "blue": "coat5/coat5.jpg",
+        "beige": "coat5/beigecoat5.jpg",
+        "yellow": "coat5/coat2.jpg"
       },
       "category": "coat",
       "size": [
@@ -354,10 +479,11 @@
         "xl"
       ],
       "colors": [
-        "white",
-        "yellow",
-        "blue",
-        "black"
+        "darkblue",
+        "palevioletred",
+        "orangered",
+        "beige",
+        "yellow"
       ],
       "inStock": 89
     },
@@ -378,11 +504,7 @@
         "xl"
       ],
       "colors": [
-        "white",
-        "yellow",
-        "green",
-        "blue",
-        "black"
+        "white"
       ],
       "inStock": 32
     },
@@ -392,10 +514,10 @@
       "price": 429,
       "priceSale": "",
       "image": {
-        "white": "coat4.jpg",
-        "yellow": "coat4.jpg",
-        "blue": "coat4.jpg",
-        "black": "coat4.jpg"
+        "beige": "coat4/coat4.jpg",
+        "pink": "coat4/pinkcoat4.jpg",
+        "green": "coat4/greencoat4.jpg",
+        "black": "coat4/coat4.jpg"
       },
       "category": "coat",
       "size": [
@@ -405,11 +527,9 @@
         "xl"
       ],
       "colors": [
-        "white",
-        "yellow",
-        "green",
-        "blue",
-        "black"
+        "beige",
+        "pink",
+        "green"
       ],
       "inStock": 12
     },
@@ -446,6 +566,7 @@
       "image": {
         "white": "sweatshirt2.jpg",
         "yellow": "sweatshirt2.jpg",
+        "green": "sweatshirt2.jpg",
         "blue": "sweatshirt2.jpg",
         "black": "sweatshirt2.jpg"
       },
@@ -550,7 +671,8 @@
         "white": "cardigan1.jpg",
         "yellow": "cardigan1.jpg",
         "blue": "cardigan51jpg",
-        "black": "cardigan1.jpg"
+        "black": "cardigan1.jpg",
+        "green": "cardigan1.jpg"
       },
       "category": "cardigan",
       "size": [
@@ -601,6 +723,7 @@
       "image": {
         "white": "cardigan3.jpg",
         "yellow": "cardigan3.jpg",
+        "green": "cardigan3.jpg",
         "blue": "cardigan3.jpg",
         "black": "cardigan3.jpg"
       },
@@ -653,6 +776,7 @@
       "image": {
         "white": "cardigan5.jpg",
         "yellow": "cardigan5.jpg",
+        "green": "cardigan5.jpg",
         "blue": "cardigan5.jpg",
         "black": "cardigan5.jpg"
       },
@@ -815,9 +939,7 @@
       ],
       "colors": [
         "black",
-        "white",
-        "yellow",
-        "blue"
+        "white"
       ],
       "inStock": 62
     },
@@ -876,7 +998,7 @@
       "id": 1,
       "title": "itrun",
       "sum": 25,
-      "count": 12
+      "count": 10
     },
     {
       "id": 3,
@@ -887,9 +1009,9 @@
   ],
   "orders": [
     {
-      "name": "skk",
-      "email": "",
-      "phone": "",
+      "name": "1",
+      "email": "1",
+      "phone": "+996(11_) ___-___",
       "country": "",
       "city": "",
       "street": "",
@@ -898,363 +1020,115 @@
       "massage": " ",
       "clothes": [
         {
-          "id": 7,
-          "title": "DUSTER COAT IN 100% COTTON",
-          "image": "coat2.jpg",
-          "color": "white",
-          "size": "s",
-          "count": 1,
-          "price": 279,
-          "category": "coat"
-        }
-      ],
-      "price": 209.25,
-      "userEmail": "q@qq",
-      "date": "2022-05-11T08:10:57.495Z",
-      "id": 1
-    },
-    {
-      "name": "lika",
-      "email": "alt@mail.ru",
-      "phone": "1280130",
-      "country": "ioadj",
-      "city": "ijoi",
-      "street": "hiouh",
-      "home": "huihui",
-      "flat": "uhiuh",
-      "massage": " ",
-      "clothes": [
-        {
           "id": 3,
           "title": "T-SHIRT IN 100% COTTON WITH PRINT",
-          "image": "t-shirt3.jpg",
-          "color": "white",
-          "size": "s",
-          "count": 2,
-          "price": 229,
-          "category": "T-short"
-        },
-        {
-          "id": 28,
-          "title": "SHIRT WITH ASYMMETRICAL BOTTOM",
-          "image": "shirt2.jpg",
-          "color": "white",
+          "image": "tshirt3/t-shirt3.jpg",
+          "color": "orange",
           "size": "s",
           "count": 1,
           "price": 229,
           "category": "T-short"
-        },
-        {
-          "id": 28,
-          "title": "SHIRT WITH ASYMMETRICAL BOTTOM",
-          "image": "shirt2.jpg",
-          "color": "blue",
-          "size": "s",
-          "count": 2,
-          "price": 229,
-          "category": "T-short"
         }
       ],
-      "price": 1145,
+      "price": 229,
       "userEmail": "admin@mail.ru",
-      "date": "2022-05-12T10:21:33.049Z",
-      "id": 2
-    },
-    {
-      "name": "ыфвф",
-      "email": "",
-      "phone": "+996(433) 424-234",
-      "country": "",
-      "city": "",
-      "street": "",
-      "home": "",
-      "flat": "",
-      "massage": " ",
-      "clothes": [
-        {
-          "id": 18,
-          "title": "LONG JACQUARD CARDIGAN",
-          "image": "cardigan3.jpg",
-          "color": "white",
-          "size": "s",
-          "count": 1,
-          "price": 229,
-          "category": "cardigan"
-        },
-        {
-          "id": 1,
-          "title": " PATTERNED TANK TOP",
-          "image": "t-shirt1.jpg",
-          "color": "green",
-          "size": "l",
-          "count": 3,
-          "price": 200,
-          "category": "T-short"
-        },
-        {
-          "id": 1,
-          "title": " PATTERNED TANK TOP",
-          "image": "t-shirt1.jpg",
-          "color": "blue",
-          "size": "xl",
-          "count": 1,
-          "price": 200,
-          "category": "T-short"
-        },
-        {
-          "id": 5,
-          "title": "TANK TOP IN VISCOSE AND LUREX",
-          "image": "t-shirt5.jpg",
-          "color": "white",
-          "size": "s",
-          "count": 3,
-          "price": 29,
-          "category": "T-short"
-        }
-      ],
-      "price": 1116,
-      "userEmail": "admin@mail.ru",
-      "date": "2022-05-12T11:34:16.818Z",
-      "id": 3
-    },
-    {
-      "name": "Asim",
-      "email": "dilka@mail.ru",
-      "phone": "+996(567) 823-199",
-      "country": "KG",
-      "city": "Bgasu",
-      "street": "aas",
-      "home": "12",
-      "flat": "4",
-      "massage": " ",
-      "clothes": [
-        {
-          "id": 1,
-          "title": " PATTERNED TANK TOP",
-          "image": "t-shirt1.jpg",
-          "color": "white",
-          "size": "s",
-          "count": 3,
-          "price": 200,
-          "category": "T-short"
-        },
-        {
-          "id": 1,
-          "title": " PATTERNED TANK TOP",
-          "image": "t-shirt1.jpg",
-          "color": "blue",
-          "size": "l",
-          "count": 1,
-          "price": 200,
-          "category": "T-short"
-        },
-        {
-          "id": 3,
-          "title": "T-SHIRT IN 100% COTTON WITH PRINT",
-          "image": "t-shirt3.jpg",
-          "color": "yellow",
-          "size": "m",
-          "count": 2,
-          "price": 229,
-          "category": "T-short"
-        }
-      ],
-      "price": 943.5,
-      "userEmail": "admin@mail.ru",
-      "date": "2022-05-12T13:42:59.058Z",
-      "id": 4
-    },
-    {
-      "name": "Biba",
-      "email": "aohak@mail.ru",
-      "phone": "+996(123) 812-121",
-      "country": "Brazil",
-      "city": "Салвадор",
-      "street": "Кцк",
-      "home": "6",
-      "flat": "5",
-      "massage": " ",
-      "clothes": [
-        {
-          "id": 1,
-          "title": " PATTERNED TANK TOP",
-          "image": "t-shirt1.jpg",
-          "color": "white",
-          "size": "s",
-          "count": 1,
-          "price": 200,
-          "category": "T-short"
-        }
-      ],
-      "price": 180,
-      "date": "2022-05-13T13:53:46.103Z",
-      "id": 5
-    },
-    {
-      "name": "Biba",
-      "email": "aohak@mail.ru",
-      "phone": "+996(123) 812-121",
-      "country": "Brazil",
-      "city": "Салвадор",
-      "street": "Кцк",
-      "home": "6",
-      "flat": "5",
-      "massage": " ",
-      "clothes": [
-        {
-          "id": 1,
-          "title": " PATTERNED TANK TOP",
-          "image": "t-shirt1.jpg",
-          "color": "white",
-          "size": "s",
-          "count": 1,
-          "price": 200,
-          "category": "T-short"
-        }
-      ],
-      "price": 180,
-      "date": "2022-05-13T13:53:56.076Z",
-      "id": 6
-    },
-    {
-      "name": "Biba",
-      "email": "aohak@mail.ru",
-      "phone": "+996(123) 812-121",
-      "country": "Brazil",
-      "city": "Салвадор",
-      "street": "Кцк",
-      "home": "6",
-      "flat": "5",
-      "massage": " ",
-      "clothes": [
-        {
-          "id": 1,
-          "title": " PATTERNED TANK TOP",
-          "image": "t-shirt1.jpg",
-          "color": "white",
-          "size": "s",
-          "count": 1,
-          "price": 200,
-          "category": "T-short"
-        }
-      ],
-      "price": 180,
-      "date": "2022-05-13T13:54:02.314Z",
-      "id": 7
-    },
-    {
-      "name": "Biba",
-      "email": "aohak@mail.ru",
-      "phone": "+996(123) 812-121",
-      "country": "Brazil",
-      "city": "Салвадор",
-      "street": "Кцк",
-      "home": "6",
-      "flat": "5",
-      "massage": " ",
-      "clothes": [
-        {
-          "id": 1,
-          "title": " PATTERNED TANK TOP",
-          "image": "t-shirt1.jpg",
-          "color": "white",
-          "size": "s",
-          "count": 1,
-          "price": 200,
-          "category": "T-short"
-        }
-      ],
-      "price": 180,
-      "date": "2022-05-13T13:54:11.192Z",
-      "id": 8
-    },
-    {
-      "name": "Maria",
-      "email": "jamal@mail.ru",
-      "phone": "+996(222) 333-222",
-      "country": "Hogz",
-      "city": "Sasat",
-      "street": "Blia",
-      "home": "1",
-      "flat": "56",
-      "massage": " ",
-      "clothes": [
-        {
-          "id": 3,
-          "title": "T-SHIRT IN 100% COTTON WITH PRINT",
-          "image": "t-shirt3.jpg",
-          "color": "white",
-          "size": "s",
-          "count": 3,
-          "price": 229,
-          "category": "T-short"
-        },
-        {
-          "id": 3,
-          "title": "T-SHIRT IN 100% COTTON WITH PRINT",
-          "image": "t-shirt3.jpg",
-          "color": "blue",
-          "size": "l",
-          "count": 1,
-          "price": 229,
-          "category": "T-short"
-        },
-        {
-          "id": 28,
-          "title": "SHIRT WITH ASYMMETRICAL BOTTOM",
-          "image": "shirt2.jpg",
-          "color": "black",
-          "size": "s",
-          "count": 1,
-          "price": 229,
-          "category": "T-short"
-        }
-      ],
-      "price": 1145,
-      "userEmail": "admin@mail.ru",
-      "date": "2022-05-13T18:15:37.131Z",
+      "date": "2022-05-15T10:50:59.677Z",
       "id": 9
     },
     {
-      "name": "sabis",
-      "email": "ooo@aos.ru",
-      "phone": "+996(233) 310-442",
-      "country": "Jp",
-      "city": "saitama",
-      "street": "monus",
-      "home": "23",
-      "flat": "4",
+      "name": "1",
+      "email": "11",
+      "phone": "+996(111) ___-___",
+      "country": "",
+      "city": "",
+      "street": "",
+      "home": "",
+      "flat": "",
       "massage": " ",
       "clothes": [
         {
-          "id": 1,
-          "title": " PATTERNED TANK TOP",
-          "image": "t-shirt1.jpg",
-          "color": "white",
+          "id": 3,
+          "title": "T-SHIRT IN 100% COTTON WITH PRINT",
+          "image": "tshirt3/t-shirt3.jpg",
+          "color": "orange",
+          "size": "s",
+          "count": 1,
+          "price": 229,
+          "category": "T-short"
+        }
+      ],
+      "price": 229,
+      "userEmail": "admin@mail.ru",
+      "date": "2022-05-15T10:52:28.501Z",
+      "id": 10
+    },
+    {
+      "name": "1",
+      "email": "1",
+      "phone": "+996(111) 111-111",
+      "country": "",
+      "city": "",
+      "street": "",
+      "home": "",
+      "flat": "",
+      "massage": " ",
+      "clothes": [
+        {
+          "id": 3,
+          "title": "T-SHIRT IN 100% COTTON WITH PRINT",
+          "image": "tshirt3/t-shirt3.jpg",
+          "color": "orange",
+          "size": "s",
+          "count": 1,
+          "price": 229,
+          "category": "T-short"
+        }
+      ],
+      "price": 229,
+      "userEmail": "admin@mail.ru",
+      "date": "2022-05-15T10:53:07.684Z",
+      "id": 11
+    },
+    {
+      "name": "Dahsa",
+      "email": "Simons@mail.ru",
+      "phone": "+996(666) 666-666",
+      "country": "Kurgan",
+      "city": "Fistash",
+      "street": "Lolm",
+      "home": "3",
+      "flat": "90",
+      "massage": " ",
+      "clothes": [
+        {
+          "id": 4,
+          "title": "100% COTTON BOXY FIT T-SHIRT",
+          "image": "tshirt4/bluet-shirt4.jpg",
+          "color": "blue",
+          "size": "s",
+          "count": 2,
+          "price": 200,
+          "category": "T-short"
+        },
+        {
+          "id": 4,
+          "title": "100% COTTON BOXY FIT T-SHIRT",
+          "image": "tshirt4/khakit-shirt4.jpg",
+          "color": "khaki",
           "size": "s",
           "count": 1,
           "price": 200,
           "category": "T-short"
         },
         {
-          "id": 5,
-          "title": "TANK TOP IN VISCOSE AND LUREX",
-          "image": "t-shirt5.jpg",
-          "color": "yellow",
-          "size": "s",
-          "count": 3,
-          "price": 29,
-          "category": "T-short"
-        },
-        {
-          "id": 9,
-          "title": "COAT IN RECYCLED FABRIC",
-          "image": "coat3.jpg",
+          "id": 13,
+          "title": "SWEATSHIRT WITH BOW AND PUFF SLEEVE",
+          "image": "sweatshirt3.jpg",
           "color": "black",
-          "size": "m",
-          "count": 3,
-          "price": 200,
-          "category": "coat"
+          "size": "xs",
+          "count": 1,
+          "price": 229,
+          "category": "sweatshirt"
         },
         {
           "id": 12,
@@ -1267,241 +1141,107 @@
           "category": "sweatshirt"
         },
         {
+          "id": 23,
+          "title": "HOODIE",
+          "image": "hoodie3/whitehoodie3.jpg",
+          "color": "white",
+          "size": "s",
+          "count": 2,
+          "price": 200,
+          "category": "hoodie"
+        },
+        {
           "id": 20,
           "title": "CROPPED CARDIGAN WITH BUTTONS",
           "image": "cardigan5.jpg",
-          "color": "white",
+          "color": "yellow",
           "size": "s",
           "count": 1,
           "price": 229,
           "category": "cardigan"
-        },
+        }
+      ],
+      "price": 1243.4999999999998,
+      "userEmail": "admin@mail.ru",
+      "date": "2022-05-15T10:55:18.548Z",
+      "id": 12
+    },
+    {
+      "name": "ss",
+      "email": "awq@fsd",
+      "phone": "+996(234) 444-444",
+      "country": "sdfs",
+      "city": "sfsd",
+      "street": "",
+      "home": "",
+      "flat": "",
+      "massage": " ",
+      "clothes": [
         {
           "id": 24,
           "title": "HOODIE",
           "image": "hoodie4.jpg",
-          "color": "white",
-          "size": "s",
-          "count": 1,
-          "price": 229,
-          "category": "hoodie"
-        },
-        {
-          "id": 26,
-          "title": "HOODIE",
-          "image": "hoodie6.jpg",
-          "color": "white",
-          "size": "s",
-          "count": 1,
-          "price": 200,
-          "category": "hoodie"
-        }
-      ],
-      "price": 1308.75,
-      "userEmail": "admin@mail.ru",
-      "date": "2022-05-14T07:31:20.727Z",
-      "id": 10
-    },
-    {
-      "name": "ff",
-      "email": "eee",
-      "phone": "+996(231) 313-322",
-      "country": "tt",
-      "city": "k",
-      "street": "da",
-      "home": "jaksj",
-      "flat": "9",
-      "massage": " ",
-      "clothes": [
-        {
-          "id": 28,
-          "title": "SHIRT WITH ASYMMETRICAL BOTTOM",
-          "image": "blueshirt2.jpg",
-          "color": "blue",
-          "size": "s",
-          "count": 1,
-          "price": 229,
-          "category": "T-short"
-        },
-        {
-          "id": 28,
-          "title": "SHIRT WITH ASYMMETRICAL BOTTOM",
-          "image": "redshirt2.jpg",
-          "color": "red",
-          "size": "m",
-          "count": 1,
-          "price": 229,
-          "category": "T-short"
-        },
-        {
-          "id": 28,
-          "title": "SHIRT WITH ASYMMETRICAL BOTTOM",
-          "image": "shirt2.jpg",
-          "color": "white",
-          "size": "m",
-          "count": 1,
-          "price": 229,
-          "category": "T-short"
-        },
-        {
-          "id": 1,
-          "title": " PATTERNED TANK TOP",
-          "image": "undefined",
-          "color": "white",
-          "size": "s",
-          "count": 1,
-          "price": 200,
-          "category": "T-short"
-        }
-      ],
-      "price": 887,
-      "userEmail": "admin@mail.ru",
-      "date": "2022-05-14T08:09:40.046Z",
-      "id": 11
-    },
-    {
-      "name": "11",
-      "email": "1212",
-      "phone": "+996(123) 333-312",
-      "country": "e21ds",
-      "city": "s2",
-      "street": "dwe3",
-      "home": "d",
-      "flat": "3",
-      "massage": " ",
-      "clothes": [
-        {
-          "id": 5,
-          "title": "TANK TOP IN VISCOSE AND LUREX",
-          "image": "tshirt5/pinkt-shirt5.jpg",
-          "color": "pink",
-          "size": "s",
-          "count": 1,
-          "price": 29,
-          "category": "T-short"
-        },
-        {
-          "id": 5,
-          "title": "TANK TOP IN VISCOSE AND LUREX",
-          "image": "tshirt5/greent-shirt5.jpg",
-          "color": "green",
+          "color": "yellow",
           "size": "s",
           "count": 2,
-          "price": 29,
-          "category": "T-short"
-        }
-      ],
-      "price": 87,
-      "userEmail": "admin@mail.ru",
-      "date": "2022-05-14T10:08:58.447Z",
-      "id": 12
-    },
-    {
-      "name": "апы ып",
-      "email": "asdasd",
-      "phone": "+996(550) 531-070",
-      "country": "asd",
-      "city": "Bishkek",
-      "street": "Tianjin univercity",
-      "home": "asd",
-      "flat": "asdas",
-      "massage": " ",
-      "clothes": [
-        {
-          "id": 1,
-          "title": " PATTERNED TANK TOP",
-          "image": "tshirt1/pinkt-shirt1.jpg",
-          "color": "pink",
-          "size": "s",
-          "count": 1,
-          "price": 200,
-          "category": "T-short"
-        },
-        {
-          "id": 1,
-          "title": " PATTERNED TANK TOP",
-          "image": "tshirt1/pinkt-shirt1.jpg",
-          "color": "pink",
-          "size": "m",
-          "count": 1,
-          "price": 200,
-          "category": "T-short"
-        },
-        {
-          "id": 3,
-          "title": "T-SHIRT IN 100% COTTON WITH PRINT",
-          "image": "tshirt3/tealt-shirt3.jpg",
-          "color": "teal",
-          "size": "xl",
-          "count": 3,
           "price": 229,
-          "category": "T-short"
-        }
-      ],
-      "price": 1087,
-      "userEmail": "admin@mail.ru",
-      "date": "2022-05-14T10:25:34.689Z",
-      "id": 13
-    },
-    {
-      "name": "qw",
-      "email": "qw",
-      "phone": "+996(123) 455-555",
-      "country": "23",
-      "city": "ws",
-      "street": "ss",
-      "home": "sd",
-      "flat": "xc",
-      "massage": " ",
-      "clothes": [
-        {
-          "id": 4,
-          "title": "100% COTTON BOXY FIT T-SHIRT",
-          "image": "tshirt4/t-shirt4.jpg",
-          "color": "orange",
-          "size": "s",
-          "count": 1,
-          "price": 200,
-          "category": "T-short"
+          "category": "hoodie"
         },
         {
-          "id": 4,
-          "title": "100% COTTON BOXY FIT T-SHIRT",
-          "image": "tshirt4/yellowt-shirt4.jpg",
+          "id": 25,
+          "title": "HOODIE",
+          "image": "hoodie5/yellowhoodie5.jpg",
           "color": "yellow",
           "size": "s",
           "count": 1,
-          "price": 200,
+          "price": 100,
+          "category": "hoodie"
+        },
+        {
+          "id": 25,
+          "title": "HOODIE",
+          "image": "hoodie5/whitehoodie5.jpg",
+          "color": "white",
+          "size": "s",
+          "count": 1,
+          "price": 100,
+          "category": "hoodie"
+        }
+      ],
+      "price": 658,
+      "userEmail": "admin@mail.ru",
+      "date": "2022-05-16T16:46:36.062Z",
+      "id": 13
+    },
+    {
+      "name": "ss",
+      "email": "sss",
+      "phone": "+996(111) 111-111",
+      "country": "s",
+      "city": "d",
+      "street": "f",
+      "home": "",
+      "flat": "",
+      "massage": " ",
+      "clothes": [
+        {
+          "id": 5,
+          "title": "TANK TOP IN VISCOSE AND LUREX",
+          "image": "tshirt5/oranget-shirt5.jpg",
+          "color": "orange",
+          "size": "s",
+          "count": 2,
+          "price": 29,
           "category": "T-short"
         },
         {
           "id": 5,
           "title": "TANK TOP IN VISCOSE AND LUREX",
-          "image": "tshirt5/greent-shirt5.jpg",
-          "color": "green",
+          "image": "tshirt5/yellowt-shirt5.jpg",
+          "color": "yellow",
           "size": "s",
           "count": 1,
           "price": 29,
-          "category": "T-short"
-        },
-        {
-          "id": 1,
-          "title": " PATTERNED TANK TOP",
-          "image": "tshirt1/t-shirt1.jpg",
-          "color": "white",
-          "size": "s",
-          "count": 2,
-          "price": 200,
-          "category": "T-short"
-        },
-        {
-          "id": 1,
-          "title": " PATTERNED TANK TOP",
-          "image": "tshirt1/pinkt-shirt1.jpg",
-          "color": "pink",
-          "size": "s",
-          "count": 1,
-          "price": 200,
           "category": "T-short"
         },
         {
@@ -1513,11 +1253,31 @@
           "count": 1,
           "price": 200,
           "category": "T-short"
+        },
+        {
+          "id": 21,
+          "title": "HOODIE",
+          "image": "hoodie1/blackhoodie1.jpg",
+          "color": "black",
+          "size": "s",
+          "count": 1,
+          "price": 129,
+          "category": "hoodie"
+        },
+        {
+          "id": 21,
+          "title": "HOODIE",
+          "image": "hoodie1/bluehoodie1.jpg",
+          "color": "blue",
+          "size": "s",
+          "count": 1,
+          "price": 129,
+          "category": "hoodie"
         }
       ],
-      "price": 1106.1,
+      "price": 408.75,
       "userEmail": "admin@mail.ru",
-      "date": "2022-05-14T10:32:11.900Z",
+      "date": "2022-05-16T17:28:17.675Z",
       "id": 14
     }
   ]

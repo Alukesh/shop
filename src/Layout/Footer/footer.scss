@@ -116,26 +116,31 @@
 }
 @media (max-width: 780px) {
   .footer{
-    &__wrapper{
-      flex-direction: column;
-      align-items: center;
-      &:nth-child(1){
-        order: 2;
-      }
-      &:nth-child(2){
-        order: -1;
-      }
-      &:nth-child(1){
-        order: 3;
-      }
-
-    }
-    &__list{
-      order: -3;
-    }
     &__about-us{
+      position: absolute;
+      bottom: 0px;
+
       display: flex;
       column-gap: 40px;
     }
+    // &__about-us{
+    //  order: 2;
+    //}
+    &__list{
+      margin-bottom: 150px;
+    }
+    &__contacts{
+      display: none;
+    }
+    &__wrapper{
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+    }
+  }
+}
+@media (max-width: 440px) {
+  .footer{
+    display: none;
   }
 }

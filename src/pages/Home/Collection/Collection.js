@@ -8,7 +8,7 @@ const Collection = () => {
 
     return (
         <section className={'collection'}>
-            <h2 className={'collection__title'}>{t("home.collection.title")}</h2>
+            <h2 className={'collection__title title'}>{t("home.collection.title")}</h2>
             <div className={'collection__row'}>
                 <CollectionCard img={'card1.jpg'} title={`${t("home.collection.text")}`} price={'$229'} newPrice={'$129'}/>
                 <CollectionCard img={'card2.jpg'} title={'Купальник Glow'} price={'$129'}/>

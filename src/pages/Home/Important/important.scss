@@ -38,6 +38,9 @@
 }
 @media (max-width: 860px) {
   .important{
+    &__title{
+      text-align: center;
+    }
     &__card{
       width: 50%;
       margin-bottom: 40px;

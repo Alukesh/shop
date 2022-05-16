@@ -44,6 +44,13 @@ const Shop = () => {
                 <li className={`shop__item ${status === 'cardigan' && 'shop__item_active'}`} onClick={() => {setPage(1); setStatus('cardigan')}}>Кардиганы</li>
                 <li className={`shop__item ${status === 'hoodie' && 'shop__item_active'}`} onClick={() => {setPage(1); setStatus('hoodie')}}>Толстовки</li>
             </ul>
+                <select className={'shop__select'} onChange={(e) => setStatus(e.target.value)} name="categoru" id="shop">
+                    <option value="">Все</option>
+                    <option value="coat">Пальто</option>
+                    <option value="sweatshirt">Свитшоты</option>
+                    <option value="cardigan">Кардиганы</option>
+                    <option value="hoodie">Толстовки</option>
+                </select>
 
             {
                 sort &&

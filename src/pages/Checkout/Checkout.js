@@ -25,6 +25,8 @@ const Checkout = () => {
             date: new Date()
         }).then(() =>{ console.log('успешно добавленll');} );
 
+
+
         await axios.patch(`http://localhost:8080/users/${user.id}`, {
             orders: [
                 ...user.orders,
@@ -44,8 +46,10 @@ const Checkout = () => {
         //        inStock: item
         //    })
         // });
-
-        await axios(`http://localhost:8080/users/${user.id}`).then((res) => setUser(res.data));
+        await axios(`http://localhost:8080/users/${user.id}`).then((res) =>{
+            setUser(res.data);
+            localStorage.setItem('user', JSON.stringify(res.data));
+        });
 
 
         await Array.isArray(ticket) && ticket.length && ticket[0].count > 1 ?

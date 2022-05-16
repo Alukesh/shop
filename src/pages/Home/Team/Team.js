@@ -4,7 +4,7 @@ import Slider from './Slider/Slider'
 const Team = () => {
     return (
         <section className={'team'}>
-            <h2 className={'team__title'}>Команда мечты Womazing</h2>
+            <h2 className={'team__title title'}>Команда мечты Womazing</h2>
             <div className={'team__content'}>
                 <Slider/>
                 <div className="team__info">

@@ -2,10 +2,10 @@
 const MapBlock = () => {
     return (
         <div className={'contact__mapBlock'}>
-            <div className="contact__map" >
-                <iframe
+            <div className="contact__map-block" >
+                <iframe className={'contact__map'}
                     src="https://yandex.ru/map-widget/v1/?um=constructor%3A2a7db89ad20c176deff8474ee3a110c428fa53be89670cd16695fdc0ad761a5f&amp;source=constructor"
-                    width="1110" height="480" frameBorder="0"></iframe>
+                    width="1070" height="480" frameBorder="0"></iframe>
             </div>
             <div className={'contact__mapBlock-links'}>
                 <p>

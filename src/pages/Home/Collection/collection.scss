@@ -6,6 +6,10 @@
     &title{
       text-align-last: left;
       margin-bottom: 92px;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 110%;
+      letter-spacing: 0.02em;
     }
     &row{
       margin-bottom: 70px;
@@ -68,5 +72,41 @@
       border: 1px solid #6E9C9F;
     }
 
+  }
+}
+@media (max-width: 860px) {
+  .collection{
+    padding-top: 180px;
+    &__row{
+      flex-direction: column;
+    }
+    &__hover{
+      display: flex;
+
+      justify-content: center;
+    }
+    &__title{
+      text-align-last: center;
+    }
+    &__card{
+    }
+    &__img{
+      width: 100%;
+      max-width: 90%;
+    }
+    &__arrow{
+      position: absolute;
+      right: 0;
+      max-width: 315px;
+      width: 90%;
+      align-self: center;
+      justify-self: center;
+      margin: 0 auto;
+    }
+  }
+}
+@media (max-width: 450px) {
+  .collection{
+    padding-top: 100px;
   }
 }
