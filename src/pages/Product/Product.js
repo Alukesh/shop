@@ -36,15 +36,15 @@ const Product = () => {
         <section className={'product'}>
             <div className="container">
                     <div className="">
-                        <h2 className="title" dangerouslySetInnerHTML={{__html: `${product.title}`}}/>
+                        <h2 className="title big-title" dangerouslySetInnerHTML={{__html: `${product.title}`}}/>
                         <div className="about__links">
                             <Link className="about__link" to='/'>{t("Shop.link1")}</Link>
                             -
                             <NavLink className="about__link" to={`/shop`} onClick={() => {
                                 setStatus(product.category)
                             }}>{product.category}</NavLink>
-                            -
-                            <NavLink className="about__link" to={``}>{product.title}</NavLink>
+
+                            <NavLink className="about__link about__link-name" to={``}>- {product.title}</NavLink>
                         </div>
 
                         </div>

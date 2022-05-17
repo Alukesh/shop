@@ -27,13 +27,19 @@
     }
 
   }
-  &__info {
+  &__info{
     margin-top: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #CCCCCC;
     padding-bottom: 26px;
+    &-color{
+      margin: 0;
+      border-radius: 50%;
+      height: 20px;
+      width: 20px;
+    }
     &-empty{
       margin: 100px auto 100px;
 
@@ -53,6 +59,7 @@
     &-item {
       display: flex;
       justify-content: center;
+      align-items: center;
       //align-items: center;
       column-gap: 4px;
       font-size: 20px;
@@ -74,6 +81,7 @@
       text-align: center;
 
     }
+
 
   }
   &__product {
@@ -227,6 +235,104 @@
       &:hover{
         color: white;
       }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .basket{
+    &__info-item{
+        width: 80px;
+      }
+
+  }
+}
+@media (max-width: 872px) {
+
+  .basket{
+    &__product-left{
+      column-gap: 10px;
+    }
+    &__info-item{
+      width: 58px;
+    }
+  }
+}
+@media (max-width: 761px) {
+  .basket{
+    &__info{
+      flex-direction: column;
+      &-item{
+        width: 90px;
+      }
+    }
+    &__product{
+      flex-direction: column;
+      row-gap: 20px;
+    }
+  }
+}
+@media (max-width: 680px) {
+  .basket{
+    &__ticket{
+      &-btn{
+        width: 150px;
+      }
+      &-input{
+        width: 200px;
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .basket{
+    &__ticket{
+      flex-direction: column;
+      row-gap: 90px;
+    }
+    &__info-list{
+      column-gap: 0;
+      //width: 60px;
+    }
+    &__pay-header{
+      margin-right: 150px;
+    }
+    &__pay-btns{
+      flex-direction: column;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .basket{
+    padding-top: 50px;
+    &__info{
+      margin-top: 100px;
+    }
+  }
+}
+@media (max-width: 420px) {
+  .basket{
+    &__info{
+      display: none;
+    }
+   &__product{
+     column-gap: 20px;
+     flex-direction: row;
+     &-img{
+       width: 50vw;
+       max-width: 100%;
+     }
+     &-left{
+       flex-direction: column;
+     }
+   }
+    &__info-item{
+      width: 90px;
+    }
+    &__info-list{
+      flex-direction: column;
+      row-gap: 15px;
+      width: 30%;
     }
   }
 }

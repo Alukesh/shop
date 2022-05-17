@@ -8,7 +8,7 @@ const About = ({path, title, link1, link2, link3}) => {
     return (
         <section className="about">
             <div className="container">
-                <h2 className="about__title" dangerouslySetInnerHTML={{__html: t(title)}}/>
+                <h2 className="about__title big-title" dangerouslySetInnerHTML={{__html: t(title)}}/>
                 <div className="about__links">
                     <Link className="about__link" to='/'>{t(link1)}</Link>
                     -

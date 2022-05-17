@@ -59,6 +59,8 @@
         display: flex;
         column-gap: 13px;
         margin-bottom: 20px;
+        flex-wrap: wrap;
+        row-gap: 40px;
         input{
           padding: 3px 15px;
           outline: none;
@@ -69,6 +71,7 @@
       &-data{
         width: 20%;
         text-align: center;
+        min-width: 150px;
         &_title{
 
         }
@@ -133,6 +136,48 @@
         font-size: 20px;
       }
 
+    }
+
+
+  }
+}
+@media (max-width: 626px) {
+  .profile{
+    &__top{
+      flex-direction: column;
+    }
+    &__user{
+      padding: 10px;
+      &-info{
+        justify-content: space-around;
+      }
+      &-data{
+        font-size: 15px;
+
+      }
+    }
+
+    &__orders{
+      &-header{
+        flex-direction: column;
+      }
+      &-list{
+        margin-top: 20px;
+      }
+      &-info{
+        margin-bottom: 10px;
+      }
+      &-item{
+
+        flex-direction: column;
+      }
+      &-img{
+        width: 80vw;
+        margin-bottom: 10px;
+        //position: absolute;
+        //left: 20px;
+        //width: 40vw;
+      }
     }
 
 

@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import {Pagination, Autoplay, Navigation, Mousewheel, Keyboard} from "swiper";
+import {Pagination, Autoplay, Navigation, Mousewheel, Keyboard, EffectFade} from "swiper";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
@@ -7,11 +7,13 @@ import "swiper/css";
 import "swiper/css/pagination";
 import {Link} from "react-router-dom";
 import React from "react";
+import {fade} from "@material-ui/core";
 
 const SliderProduct = ({shop, product}) => {
     return (
         <>
             <Swiper
+                // effect="fade"
                 slidesPerView={2}
                 spaceBetween={40}
                 loop={true}
@@ -22,7 +24,9 @@ const SliderProduct = ({shop, product}) => {
                 pagination={{
                     clickable: true,
                 }}
-                modules={[Pagination, Autoplay, Navigation,  Mousewheel, Keyboard]}
+
+
+                modules={[Pagination, EffectFade, Autoplay, Navigation,  Mousewheel, Keyboard]}
                 className="mySwiper"
             >
                 {

@@ -109,25 +109,27 @@ const Checkout = () => {
                                         <p>Товар</p>
                                         <p>Всего</p>
                                     </li>
-                                    {
-                                        cart.map((item) =>(
-                                            <li className={'checkout__order-cart'}>
-                                                <img className={'checkout__order-img'} src={`Shop/${item.image}`} alt={item.title}/>
-                                                <div>
-                                                    <div className={'checkout__order-top'}>
-                                                        <p className={'checkout__order-name'}>{item.title}</p>
-                                                        <p className={'checkout__order'}>{item.count}</p>
+                                    <li className={'checkout__order-row'}>
+                                        {
+                                            cart.map((item) =>(
+                                                <div className={'checkout__order-cart'}>
+                                                    <img className={'checkout__order-img'} src={`Shop/${item.image}`} alt={item.title}/>
+                                                    <div>
+                                                        <div className={'checkout__order-top'}>
+                                                            <p className={'checkout__order-name'}>{item.title}</p>
+                                                            <p className={'checkout__order'}>{item.count}</p>
+                                                        </div>
+                                                        <div className={'checkout__order-bot'}>
+                                                            <p>{item.color}</p>
+                                                            <p>{item.size}</p>
+                                                            <p>{item.price * item.count}</p>
+                                                        </div>
                                                     </div>
-                                                    <div className={'checkout__order-bot'}>
-                                                        <p>{item.color}</p>
-                                                        <p>{item.size}</p>
-                                                        <p>{item.price * item.count}</p>
-                                                    </div>
-                                                </div>
 
-                                            </li>
-                                        ))
-                                    }
+                                                </div>
+                                            ))
+                                        }
+                                    </li>
                                     <li className={' checkout__order-top checkout__order-title '}>
                                         <p>Подытог</p>
                                         <p>${cart.reduce((acc, rec) =>[+acc + +rec.price * +rec.count], 0)}</p>

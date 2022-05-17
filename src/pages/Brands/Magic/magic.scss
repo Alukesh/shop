@@ -42,3 +42,35 @@
     margin-top: 130px;
   }
 }
+@media (max-width: 840px) {
+  .magic{
+    &__content{
+      column-gap: 40px;
+      justify-content: space-around;
+    }
+    &__img{
+      min-width: 45vw;
+    }
+  }
+}
+@media (max-width: 660px) {
+  .magic{
+    &__text{
+      font-size: 15px;
+    }
+  }
+}
+@media (max-width: 530px) {
+  .magic{
+    &__content{
+      flex-direction: column;
+      row-gap: 10px;
+    }
+    &__inner{
+      width: 80%;
+    }
+    &__btn{
+      margin: 0;
+    }
+  }
+}

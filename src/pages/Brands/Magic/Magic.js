@@ -14,7 +14,8 @@ const Magic = () => {
                 <div className="magic__content">
                     <div className="magic__inner">
                         <LazyLoadImage
-                            className={'shop__img'}
+                            className={'magic__img'}
+                            style={{width:'100%'}}
                             alt={'t-short'}
                             src={'Assets/brands/brand.png'}
                             effect={'blur'}

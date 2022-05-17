@@ -10,7 +10,7 @@ const NewSeason = () => {
     return (
         <section className={'newSeason'}>
             <div className={'newSeason__info'}>
-                <h2 className={'newSeason__title'} dangerouslySetInnerHTML={{__html: t("home.newSeason.title")}} />
+                <h2 className={'newSeason__title big-title'} dangerouslySetInnerHTML={{__html: t("home.newSeason.title")}} />
                 <div className={'newSeason__textblock'}>
                     <p className={'newSeason__subtitle'}>{t("home.newSeason.subtitle")}</p>
                     <div className={'newSeason__btns'}>

@@ -28,7 +28,7 @@ const Shop = () => {
             <div className="shop__inner">
 
             <div className="">
-                <h2 className="about__title" dangerouslySetInnerHTML={{__html: t("Shop.title")}}/>
+                <h2 className="about__title big-title" dangerouslySetInnerHTML={{__html: t("Shop.title")}}/>
                 <div className="about__links">
                     <Link className="about__link" to='/'>{t("Shop.link1")}</Link>
                     -
@@ -43,6 +43,7 @@ const Shop = () => {
                 <li className={`shop__item ${status === 'sweatshirt' && 'shop__item_active'}`} onClick={() => {setPage(1); setStatus('sweatshirt')}}>Свитшоты</li>
                 <li className={`shop__item ${status === 'cardigan' && 'shop__item_active'}`} onClick={() => {setPage(1); setStatus('cardigan')}}>Кардиганы</li>
                 <li className={`shop__item ${status === 'hoodie' && 'shop__item_active'}`} onClick={() => {setPage(1); setStatus('hoodie')}}>Толстовки</li>
+                <li className={`shop__item ${status === 'T-short' && 'shop__item_active'}`} onClick={() => {setPage(1); setStatus('T-short')}}>Футболки</li>
             </ul>
                 <select className={'shop__select'} onChange={(e) => setStatus(e.target.value)} name="categoru" id="shop">
                     <option value="">Все</option>
@@ -50,6 +51,7 @@ const Shop = () => {
                     <option value="sweatshirt">Свитшоты</option>
                     <option value="cardigan">Кардиганы</option>
                     <option value="hoodie">Толстовки</option>
+                    <option value="T-short">Футболки</option>
                 </select>
 
             {

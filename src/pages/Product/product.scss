@@ -34,6 +34,10 @@
         column-gap: 15px;
       }
       &-size{
+        max-width: 5vw;
+        max-height: 5vw;
+        min-width: 25px;
+        min-height: 25px;
         font-weight: 500;
         font-size: 17px;
         line-height: 140%;
@@ -60,6 +64,10 @@
         margin-bottom: 20px;
         cursor: pointer;
         color: orangered;
+        max-width: 5vw;
+        max-height: 5vw;
+        min-width: 25px;
+        min-height: 25px;
         &s{
           display: flex;
           column-gap: 15px;
@@ -143,6 +151,47 @@
 
     &card{
       width:calc(100% - 15px);
+    }
+  }
+}
+
+@media (max-width: 769px) {
+  .product{
+    &__info{
+      margin-top: 0;
+      &-price{
+        font-size: 34px;
+        margin-bottom: 20px;
+      }
+      &-sizes{
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+@media (max-width: 650px) {
+  .product{
+    &__content{
+      position: relative;
+      flex-direction: column;
+      &-img{
+        max-width: 80vw;
+      }
+    }
+
+  }
+}
+@media (max-width: 470px) {
+  .about{
+    &__link-name{
+      display: none;
+    }
+  }
+}
+@media (max-width: 420px) {
+  .product{
+    &__content-img{
+      max-width: 100%;
     }
   }
 }

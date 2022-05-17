@@ -55,6 +55,7 @@
       &-input{
         padding: 16px 0;
         width: 350px;
+        max-width: 80vw;
         border: none;
         border-bottom: 1px solid black;
         font-weight: 500;
@@ -145,5 +146,51 @@
     line-height: 140%;
     letter-spacing: 0.02em;
     color: #000000;
+  }
+}
+@media (max-width: 861px) {
+  .orderDone{
+    flex-direction: column;
+    row-gap: 50px;
+  }
+}
+@media (max-width: 761px) {
+  .checkout{
+    &__order_list{
+      width: 90vw;
+    }
+    &__order-row{
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 10px;
+    }
+    &__order-cart{
+      width: calc(50% - 20px);
+    }
+    &__form{
+      flex-direction: column;
+
+    }
+  }
+}
+@media (max-width: 530px) {
+  .checkout{
+    &__order-cart{
+      width: 100%;
+    }
+    &__form-order{
+      margin-bottom: 80px;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .order{
+    padding-top: 40px;
+    &Done{
+      margin: 180px 0 200px;
+    }
+    &Done__check{
+      column-gap: 20px;
+    }
   }
 }

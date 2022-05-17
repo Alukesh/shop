@@ -39,8 +39,8 @@ const BasketCard = ({item}) => {
             <ul className="basket__info-list">
 
                 <li className="basket__info-item" >
-                    <p key={item} className={`product__info-color'}`}
-                       style={{background: item.color, width:'20px', height:'20px' , border: item.color === 'white' && '1px solid grey'}} />
+                    <p key={item} className={`basket__info-color`}
+                       style={{background: item.color, border: item.color === 'white' && '1px solid grey'}} />
                     {item.color}</li>
                 <li className="basket__info-item">{item.size}</li>
                 <li className="basket__info-item">${item.price}</li>

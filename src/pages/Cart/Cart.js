@@ -29,7 +29,7 @@ const Cart = () => {
     return (
         <section className={'basket'}>
             <div className="container">
-                <h2 className="about__title" dangerouslySetInnerHTML={{__html: t("Cart.title")}}/>
+                <h2 className="about__title big-title" dangerouslySetInnerHTML={{__html: t("Cart.title")}}/>
                 <div className="about__links">
                     <Link className="about__link" to='/'>{t("Cart.link1")}</Link>
                     -
@@ -42,7 +42,7 @@ const Cart = () => {
                         <li className="basket__info-item">Цвет</li>
                         <li className="basket__info-item">Размер</li>
                         <li className="basket__info-item">Цена</li>
-                        <li className="basket__info-item">Количество</li>
+                        <li className="basket__info-item">Кол-во</li>
                         <li className="basket__info-item">Всего</li>
                     </ul>
                 </div>

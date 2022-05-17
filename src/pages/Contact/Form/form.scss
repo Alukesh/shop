@@ -11,6 +11,7 @@
     border: none;
     border-bottom:  1px solid black;
     width: 350px;
+    max-width: 80vw;
     font-weight: 500;
     font-size: 17px;
     line-height: 140%;
@@ -20,6 +21,7 @@
     outline: none;
   }
   &-text{
+    resize: none;
     border: none;
     border-bottom:  1px solid black;
     height: 134px;

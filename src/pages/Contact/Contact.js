@@ -14,7 +14,7 @@ const Contact = () => {
             <div className="container">
 
             <div className="">
-                <h2 className="about__title" dangerouslySetInnerHTML={{__html: t("Contact.title")}}/>
+                <h2 className="about__title big-title" dangerouslySetInnerHTML={{__html: t("Contact.title")}}/>
                 <div className="about__links">
                     <Link className="about__link" to='/'>{t("Contact.link1")}</Link>
                     -

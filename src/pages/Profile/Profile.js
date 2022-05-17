@@ -56,7 +56,7 @@ const Profile = () => {
         <section className={'profile'}>
             <div className="container">
                 <div className={'profile__top'}>
-                    <h1 className={'title'}>Мой профиль</h1>
+                    <h1 className={'title big-title'}>Мой профиль</h1>
                     <div className={'profile__top-btns'}>
                         <button onClick={() => setUserTab('history')} className={`profile__top-btn ${userTab === 'history' ? 'profile__top-active' : ''}`}>История заказов</button>
                         <button onClick={() => setUserTab('setting')} className={`profile__top-btn ${userTab === 'setting' ? 'profile__top-active' : ''}`}>Настройки</button>

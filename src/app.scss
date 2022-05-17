@@ -54,6 +54,9 @@ html,body{
 
 
 
+
+
+
 @import "Layout/Header/header";
 @import "Layout/Footer/footer";
 @import "src/pages/Home/home";
@@ -72,3 +75,18 @@ html,body{
 .swiper{
   max-width: 100%;
 }
+
+@media (max-width: 700px) {
+  .big-title{
+    font-size: 40px;
+
+  }
+}
+@media (max-width: 400px) {
+  .big-title{
+    font-size: 30px;
+    margin-top: 60px;
+  }
+}
+
+

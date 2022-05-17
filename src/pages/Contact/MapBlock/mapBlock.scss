@@ -26,3 +26,29 @@
 
   }
 }
+@media (max-width: 795px) {
+  .contact{
+    &__mapBlock{
+
+      &-links p{
+        width: calc(33% - 6px);
+        min-width: 180px;
+      }
+    }
+  }
+}
+@media (max-width: 605px) {
+  .contact{
+    &__map{
+      padding: 0;
+    }
+    &__mapBlock{
+
+      &-links {
+        row-gap: 20px;
+        flex-wrap: wrap;
+
+      }
+    }
+  }
+}

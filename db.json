@@ -19,7 +19,7 @@
     },
     {
       "email": "admin@mail.ru",
-      "password": "$2a$10$vc1uMT4KUwwUh7QEJne4z.w7uvDnPiwe3Lfnaa/GpKcmwdphskmMS",
+      "password": "$2a$10$aKOlSEYObueqvvikVfl8P.avFXbawZD/0BfHDpDT0YxEFv8yG6n4u",
       "login": "admin",
       "orders": [
         {
@@ -276,11 +276,66 @@
           ],
           "price": 408.75,
           "date": "2022-05-16T17:28:17.712Z"
+        },
+        {
+          "name": "sada",
+          "email": "sdadsc",
+          "phone": "+996(213) 333-333",
+          "country": "adas",
+          "city": "asd",
+          "street": "",
+          "home": "",
+          "flat": "",
+          "massage": " ",
+          "clothes": [
+            {
+              "id": 4,
+              "title": "100% COTTON BOXY FIT T-SHIRT",
+              "image": "tshirt4/t-shirt4.jpg",
+              "color": "orange",
+              "size": "s",
+              "count": 1,
+              "price": 200,
+              "category": "T-short"
+            },
+            {
+              "id": 16,
+              "title": "3/4 SLEEVE MAXI CARDIGAN",
+              "image": "cardigan1.jpg",
+              "color": "white",
+              "size": "s",
+              "count": 1,
+              "price": 229,
+              "category": "cardigan"
+            },
+            {
+              "id": 1,
+              "title": " PATTERNED TANK TOP",
+              "image": "tshirt1/t-shirt1.jpg",
+              "color": "white",
+              "size": "s",
+              "count": 3,
+              "price": 200,
+              "category": "T-short"
+            },
+            {
+              "id": 17,
+              "title": "CROSSOVER CARDIGAN WITH BOW",
+              "image": "cardigan2.jpg",
+              "color": "white",
+              "size": "s",
+              "count": 2,
+              "price": 29,
+              "category": "cardigan"
+            }
+          ],
+          "price": 1087,
+          "date": "2022-05-17T16:14:14.039Z"
         }
       ],
       "id": 5,
       "phone": "+996(177) 777-777",
-      "password_repeat": "$2a$10$vDkWPhXPOrp3x.Xaz0/9GOEOrt5XfdEhXX.oAOYjAn5FG2e48M.NS"
+      "password_repeat": "$2a$10$vc1uMT4KUwwUh7QEJne4z.w7uvDnPiwe3Lfnaa/GpKcmwdphskmMS"
     }
   ],
   "clothes": [
@@ -1279,6 +1334,63 @@
       "userEmail": "admin@mail.ru",
       "date": "2022-05-16T17:28:17.675Z",
       "id": 14
+    },
+    {
+      "name": "sada",
+      "email": "sdadsc",
+      "phone": "+996(213) 333-333",
+      "country": "adas",
+      "city": "asd",
+      "street": "",
+      "home": "",
+      "flat": "",
+      "massage": " ",
+      "clothes": [
+        {
+          "id": 4,
+          "title": "100% COTTON BOXY FIT T-SHIRT",
+          "image": "tshirt4/t-shirt4.jpg",
+          "color": "orange",
+          "size": "s",
+          "count": 1,
+          "price": 200,
+          "category": "T-short"
+        },
+        {
+          "id": 16,
+          "title": "3/4 SLEEVE MAXI CARDIGAN",
+          "image": "cardigan1.jpg",
+          "color": "white",
+          "size": "s",
+          "count": 1,
+          "price": 229,
+          "category": "cardigan"
+        },
+        {
+          "id": 1,
+          "title": " PATTERNED TANK TOP",
+          "image": "tshirt1/t-shirt1.jpg",
+          "color": "white",
+          "size": "s",
+          "count": 3,
+          "price": 200,
+          "category": "T-short"
+        },
+        {
+          "id": 17,
+          "title": "CROSSOVER CARDIGAN WITH BOW",
+          "image": "cardigan2.jpg",
+          "color": "white",
+          "size": "s",
+          "count": 2,
+          "price": 29,
+          "category": "cardigan"
+        }
+      ],
+      "price": 1087,
+      "userEmail": "admin@mail.ru",
+      "date": "2022-05-17T16:14:13.707Z",
+      "id": 15
     }
   ]
 }

@@ -9,7 +9,7 @@ const Order = () => {
     return (
         <section className={'order'}>
             <div className="container">
-                <h2 className="about__title" dangerouslySetInnerHTML={{__html: t("Order.title")}}/>
+                <h2 className="about__title big-title" dangerouslySetInnerHTML={{__html: t("Order.title")}}/>
                 <div className="about__links">
                     <Link className="about__link" to='/'>{t("Order.link1")}</Link>
                     -
