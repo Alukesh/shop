@@ -38,7 +38,7 @@ const Shop = () => {
             </div>
             {/*<About title={"Shop.title"}  link1={"Shop.link1"} link2={"Shop.link2"}/>*/}
             <ul className={'shop__list'}>
-                <li className={`shop__item ${status === '' && 'shop__item_active'}`} onClick={() => {setPage(1); setStatus('')}}>Все</li>
+                <li className={`shop__item ${status === '' && 'shop__item_active'}`} onClick={() => {setPage(1); setStatus('')}}>{t("Shop.")}</li>
                 <li className={`shop__item ${status === 'coat' && 'shop__item_active'}`} onClick={() => {setPage(1); setStatus('coat')}}>Пальто</li>
                 <li className={`shop__item ${status === 'sweatshirt' && 'shop__item_active'}`} onClick={() => {setPage(1); setStatus('sweatshirt')}}>Свитшоты</li>
                 <li className={`shop__item ${status === 'cardigan' && 'shop__item_active'}`} onClick={() => {setPage(1); setStatus('cardigan')}}>Кардиганы</li>

@@ -80,7 +80,8 @@
     "title": "Shop",
     "link1": "Main",
     "link2": "Shop",
-    "sortTitle": "Sort By"
+    "sortTitle": "Sort By",
+    "statusAll": "All"
 
   },
   "Cart": {

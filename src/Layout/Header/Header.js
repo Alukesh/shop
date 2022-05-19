@@ -12,7 +12,7 @@ const Header = () => {
 
 
     const changeLanguage = (lang) =>{
-      i18n.changeLanguage(lang)
+        i18n.changeLanguage(lang)
     };
 
     return (
@@ -35,7 +35,7 @@ const Header = () => {
                         <li><NavLink  className="header__list-item" to="/brands">{t("header.link3")}</NavLink></li>
                         <li><NavLink  className="header__list-item" to="/contact">{t("header.link4")}</NavLink></li>
                         { user.email === 'admin@mail.ru' &&
-                            <li><NavLink  className="header__list-item" to="/clothes">{t("header.link5")}</NavLink></li>
+                        <li><NavLink  className="header__list-item" to="/clothes">{t("header.link5")}</NavLink></li>
                         }
                     </ul>
                     <div className='header__links'>
@@ -105,7 +105,7 @@ const Header = () => {
                 </div>
                 {
                     burger &&
-                        <div onClick={() => setBurger(false)} className={'overlay'}> </div>
+                    <div onClick={() => setBurger(false)} className={'overlay'}> </div>
                 }
             </div>
 

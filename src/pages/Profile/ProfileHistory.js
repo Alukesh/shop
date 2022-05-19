@@ -11,13 +11,21 @@ const ProfileHistory = ({item, idx}) => {
             <div className={'profile__orders-header'}>
                 <div style={{display:"flex", columnGap:10+'px'}}>
                     <p>Заказ: {idx + 1}</p>
-                    <p>  {item.date}</p>
+                    <p>  {(item.date).slice(1,10)}</p>
                 </div>
-                <p className={'profile__orders-info'}>Сумма <span> {item.price} $</span></p>
-                <p className={'profile__orders-info'}>Имя <span>{item.name}</span></p>
-                <p className={'profile__orders-info'}>Почта <span>{item.email}</span></p>
-                <span className={'profile__orders-arrow'} style={{width: '30px'}} onClick={() =>{ setArrow(!arrow) }}>
-                    {   arrow ? 'up' : 'down'   }
+                <p className={'profile__orders-info'}>Сумма: <span> {item.price} $</span></p>
+                <p className={'profile__orders-info'}>Имя: <span>{item.name}</span></p>
+                <p className={'profile__orders-info'}>Почта: <span>{item.email}</span></p>
+                <span className={''} style={{width: '30px'}} onClick={() =>{ setArrow(!arrow) }}>
+                    {   arrow ?
+                        <span className={'profile__orders-arrow_active'}>
+                           up
+                        </span>
+                        :
+                        <span className={'profile__orders-arrow'}>
+                           down
+                        </span>
+                    }
                 </span>
             </div>
             <div className={'profile__orders-footer'}>
