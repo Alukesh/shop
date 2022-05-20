@@ -13,6 +13,7 @@ const SliderProduct = ({shop, product}) => {
     return (
         <>
             <Swiper
+
                 // effect="fade"
                 slidesPerView={2}
                 spaceBetween={40}
@@ -24,7 +25,22 @@ const SliderProduct = ({shop, product}) => {
                 pagination={{
                     clickable: true,
                 }}
+                breakpoints={{
+                    300: {
+                        // width: 640,
+                        slidesPerView: 1,
+                    },
+                    557: {
+                        // width: 640,
+                        slidesPerView: 2,
+                    },
+                    // when window width is >= 768px
+                    768: {
+                        // width: 1268,
+                        slidesPerView: 2,
+                    },
 
+                }}
 
                 modules={[Pagination, EffectFade, Autoplay, Navigation,  Mousewheel, Keyboard]}
                 className="mySwiper"

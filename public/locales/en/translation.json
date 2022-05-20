@@ -74,14 +74,44 @@
   "Contact": {
     "title": "Contacts",
     "link1": "Main",
-    "link2": "Contacts"
+    "link2": "Contacts",
+    "links": {
+      "phone": "Phone",
+      "email": "E-mail",
+      "address": "Address"
+    },
+    "form": {
+      "title": "Write to us",
+      "name": "Name",
+      "phone": "Phone",
+      "message": "Message",
+      "send": "Send"
+    }
   },
   "Shop": {
     "title": "Shop",
     "link1": "Main",
     "link2": "Shop",
+    "nostock": "Out of stock",
     "sortTitle": "Sort By",
-    "statusAll": "All"
+    "statusAll": "All",
+    "statusSweatshirt": "Sweatshirt",
+    "statusCardigan": "Cardigan",
+    "statusHoodie": "Hoodie",
+    "statusT-shirt": "T-shirt",
+    "statusCoat": "Coat",
+    "sort": {
+      "less": "Sort less",
+      "more": "Sort more",
+      "discount": "Sort discount",
+      "text": "Sorted by"
+    },
+    "pagination": {
+      "shown": "Shown",
+      "outof": "out of",
+      "clothes": "clothes"
+    }
+
 
   },
   "Cart": {
@@ -101,6 +131,12 @@
     "link1": "Main",
     "link2": "Cart",
     "link3": "Order complete"
+  },
+  "Product": {
+    "title": "Order complete",
+    "link1": "Main",
+    "link2": "Cart",
+    "related": "Related goods"
   },
 
 

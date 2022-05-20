@@ -19,20 +19,75 @@
     },
     {
       "email": "admin@mail.ru",
-      "password": "$2a$10$aKOlSEYObueqvvikVfl8P.avFXbawZD/0BfHDpDT0YxEFv8yG6n4u",
+      "password": "$2a$10$iiFB3c.DAnhhsbxTTLayw.kb93cr3HvozgfmLpONcHsYiFYbJatNK",
       "login": "admin",
       "orders": [
         {
-          "name": "апы ып",
-          "email": "asdasd",
-          "phone": "+996(550) 531-070",
-          "country": "asd",
-          "city": "Bishkek",
-          "street": "Tianjin univercity",
-          "home": "asd",
-          "flat": "asdas",
+          "name": "dfsf",
+          "email": "sdfs",
+          "phone": "+996(222) 222-222",
+          "country": "",
+          "city": "",
+          "street": "",
+          "home": "",
+          "flat": "",
           "massage": " ",
           "clothes": [
+            {
+              "id": 4,
+              "title": "100% COTTON BOXY FIT T-SHIRT",
+              "image": "tshirt4/bluet-shirt4.jpg",
+              "color": "blue",
+              "size": "s",
+              "count": 2,
+              "price": 200,
+              "category": "T-short"
+            },
+            {
+              "id": 4,
+              "title": "100% COTTON BOXY FIT T-SHIRT",
+              "image": "tshirt4/yellowt-shirt4.jpg",
+              "color": "yellow",
+              "size": "s",
+              "count": 1,
+              "price": 200,
+              "category": "T-short"
+            },
+            {
+              "id": 1,
+              "title": " PATTERNED TANK TOP",
+              "image": "tshirt1/pinkt-shirt1.jpg",
+              "color": "pink",
+              "size": "s",
+              "count": 1,
+              "price": 200,
+              "category": "T-short"
+            }
+          ],
+          "price": 800,
+          "date": "2022-05-20T10:18:36.181Z"
+        },
+        {
+          "name": "Miha",
+          "email": "lllp",
+          "phone": "+996(000) 000-000",
+          "country": "pole",
+          "city": "nan",
+          "street": "k",
+          "home": "aoisd",
+          "flat": "isa",
+          "massage": " ",
+          "clothes": [
+            {
+              "id": 1,
+              "title": " PATTERNED TANK TOP",
+              "image": "tshirt1/t-shirt1.jpg",
+              "color": "white",
+              "size": "s",
+              "count": 2,
+              "price": 200,
+              "category": "T-short"
+            },
             {
               "id": 1,
               "title": " PATTERNED TANK TOP",
@@ -44,33 +99,33 @@
               "category": "T-short"
             },
             {
-              "id": 1,
-              "title": " PATTERNED TANK TOP",
-              "image": "tshirt1/pinkt-shirt1.jpg",
-              "color": "pink",
-              "size": "m",
+              "id": 7,
+              "title": "DUSTER COAT IN 100% COTTON",
+              "image": "coat2/coat2.jpg",
+              "color": "white",
+              "size": "s",
               "count": 1,
-              "price": 200,
-              "category": "T-short"
+              "price": 279,
+              "category": "coat"
             },
             {
-              "id": 3,
-              "title": "T-SHIRT IN 100% COTTON WITH PRINT",
-              "image": "tshirt3/tealt-shirt3.jpg",
-              "color": "teal",
-              "size": "xl",
-              "count": 3,
-              "price": 229,
-              "category": "T-short"
+              "id": 19,
+              "title": "LONG PERFORATED CARDIGAN",
+              "image": "cardigan4.jpg",
+              "color": "yellow",
+              "size": "s",
+              "count": 2,
+              "price": 200,
+              "category": "cardigan"
             }
           ],
-          "price": 1087,
-          "date": "2022-05-14T10:25:34.710Z"
+          "price": 1279,
+          "date": "20.05.2022"
         },
         {
-          "name": "1",
-          "email": "1",
-          "phone": "+996(111) 111-111",
+          "name": "xzczx",
+          "email": "zxc",
+          "phone": "",
           "country": "",
           "city": "",
           "street": "",
@@ -87,226 +142,6 @@
               "count": 1,
               "price": 229,
               "category": "T-short"
-            }
-          ],
-          "price": 229,
-          "date": "2022-05-15T10:53:08.029Z"
-        },
-        {
-          "name": "Dahsa",
-          "email": "Simons@mail.ru",
-          "phone": "+996(666) 666-666",
-          "country": "Kurgan",
-          "city": "Fistash",
-          "street": "Lolm",
-          "home": "3",
-          "flat": "90",
-          "massage": " ",
-          "clothes": [
-            {
-              "id": 4,
-              "title": "100% COTTON BOXY FIT T-SHIRT",
-              "image": "tshirt4/bluet-shirt4.jpg",
-              "color": "blue",
-              "size": "s",
-              "count": 2,
-              "price": 200,
-              "category": "T-short"
-            },
-            {
-              "id": 4,
-              "title": "100% COTTON BOXY FIT T-SHIRT",
-              "image": "tshirt4/khakit-shirt4.jpg",
-              "color": "khaki",
-              "size": "s",
-              "count": 1,
-              "price": 200,
-              "category": "T-short"
-            },
-            {
-              "id": 13,
-              "title": "SWEATSHIRT WITH BOW AND PUFF SLEEVE",
-              "image": "sweatshirt3.jpg",
-              "color": "black",
-              "size": "xs",
-              "count": 1,
-              "price": 229,
-              "category": "sweatshirt"
-            },
-            {
-              "id": 12,
-              "title": "COTTON BLEND SWEATSHIRT",
-              "image": "sweatshirt2.jpg",
-              "color": "white",
-              "size": "s",
-              "count": 1,
-              "price": 200,
-              "category": "sweatshirt"
-            },
-            {
-              "id": 23,
-              "title": "HOODIE",
-              "image": "hoodie3/whitehoodie3.jpg",
-              "color": "white",
-              "size": "s",
-              "count": 2,
-              "price": 200,
-              "category": "hoodie"
-            },
-            {
-              "id": 20,
-              "title": "CROPPED CARDIGAN WITH BUTTONS",
-              "image": "cardigan5.jpg",
-              "color": "yellow",
-              "size": "s",
-              "count": 1,
-              "price": 229,
-              "category": "cardigan"
-            }
-          ],
-          "price": 1243.4999999999998,
-          "date": "2022-05-15T10:55:18.588Z"
-        },
-        {
-          "name": "ss",
-          "email": "awq@fsd",
-          "phone": "+996(234) 444-444",
-          "country": "sdfs",
-          "city": "sfsd",
-          "street": "",
-          "home": "",
-          "flat": "",
-          "massage": " ",
-          "clothes": [
-            {
-              "id": 24,
-              "title": "HOODIE",
-              "image": "hoodie4.jpg",
-              "color": "yellow",
-              "size": "s",
-              "count": 2,
-              "price": 229,
-              "category": "hoodie"
-            },
-            {
-              "id": 25,
-              "title": "HOODIE",
-              "image": "hoodie5/yellowhoodie5.jpg",
-              "color": "yellow",
-              "size": "s",
-              "count": 1,
-              "price": 100,
-              "category": "hoodie"
-            },
-            {
-              "id": 25,
-              "title": "HOODIE",
-              "image": "hoodie5/whitehoodie5.jpg",
-              "color": "white",
-              "size": "s",
-              "count": 1,
-              "price": 100,
-              "category": "hoodie"
-            }
-          ],
-          "price": 658,
-          "date": "2022-05-16T16:46:36.420Z"
-        },
-        {
-          "name": "ss",
-          "email": "sss",
-          "phone": "+996(111) 111-111",
-          "country": "s",
-          "city": "d",
-          "street": "f",
-          "home": "",
-          "flat": "",
-          "massage": " ",
-          "clothes": [
-            {
-              "id": 5,
-              "title": "TANK TOP IN VISCOSE AND LUREX",
-              "image": "tshirt5/oranget-shirt5.jpg",
-              "color": "orange",
-              "size": "s",
-              "count": 2,
-              "price": 29,
-              "category": "T-short"
-            },
-            {
-              "id": 5,
-              "title": "TANK TOP IN VISCOSE AND LUREX",
-              "image": "tshirt5/yellowt-shirt5.jpg",
-              "color": "yellow",
-              "size": "s",
-              "count": 1,
-              "price": 29,
-              "category": "T-short"
-            },
-            {
-              "id": 1,
-              "title": " PATTERNED TANK TOP",
-              "image": "tshirt1/greent-shirt1.jpg",
-              "color": "green",
-              "size": "s",
-              "count": 1,
-              "price": 200,
-              "category": "T-short"
-            },
-            {
-              "id": 21,
-              "title": "HOODIE",
-              "image": "hoodie1/blackhoodie1.jpg",
-              "color": "black",
-              "size": "s",
-              "count": 1,
-              "price": 129,
-              "category": "hoodie"
-            },
-            {
-              "id": 21,
-              "title": "HOODIE",
-              "image": "hoodie1/bluehoodie1.jpg",
-              "color": "blue",
-              "size": "s",
-              "count": 1,
-              "price": 129,
-              "category": "hoodie"
-            }
-          ],
-          "price": 408.75,
-          "date": "2022-05-16T17:28:17.712Z"
-        },
-        {
-          "name": "sada",
-          "email": "sdadsc",
-          "phone": "+996(213) 333-333",
-          "country": "adas",
-          "city": "asd",
-          "street": "",
-          "home": "",
-          "flat": "",
-          "massage": " ",
-          "clothes": [
-            {
-              "id": 4,
-              "title": "100% COTTON BOXY FIT T-SHIRT",
-              "image": "tshirt4/t-shirt4.jpg",
-              "color": "orange",
-              "size": "s",
-              "count": 1,
-              "price": 200,
-              "category": "T-short"
-            },
-            {
-              "id": 16,
-              "title": "3/4 SLEEVE MAXI CARDIGAN",
-              "image": "cardigan1.jpg",
-              "color": "white",
-              "size": "s",
-              "count": 1,
-              "price": 229,
-              "category": "cardigan"
             },
             {
               "id": 1,
@@ -314,28 +149,41 @@
               "image": "tshirt1/t-shirt1.jpg",
               "color": "white",
               "size": "s",
-              "count": 3,
+              "count": 1,
               "price": 200,
               "category": "T-short"
-            },
-            {
-              "id": 17,
-              "title": "CROSSOVER CARDIGAN WITH BOW",
-              "image": "cardigan2.jpg",
-              "color": "white",
-              "size": "s",
-              "count": 2,
-              "price": 29,
-              "category": "cardigan"
             }
           ],
-          "price": 1087,
-          "date": "2022-05-17T16:14:14.039Z"
+          "price": 429,
+          "date": "20.05.2022"
+        },
+        {
+          "name": "xzcz",
+          "email": "zxcz",
+          "phone": "",
+          "country": "",
+          "city": "",
+          "street": "",
+          "home": "",
+          "flat": "",
+          "massage": " ",
+          "clothes": [
+            {
+              "id": 13,
+              "title": "SWEATSHIRT WITH BOW AND PUFF SLEEVE",
+              "image": "sweatshirt3.jpg",
+              "color": "white",
+              "size": "xs",
+              "count": 2,
+              "price": 229,
+              "category": "sweatshirt"
+            }
+          ],
+          "price": 458,
+          "date": "2022,05,20"
         }
       ],
-      "id": 5,
-      "phone": "+996(177) 777-777",
-      "password_repeat": "$2a$10$vc1uMT4KUwwUh7QEJne4z.w7uvDnPiwe3Lfnaa/GpKcmwdphskmMS"
+      "id": 5
     }
   ],
   "clothes": [
@@ -1059,7 +907,7 @@
       "id": 3,
       "title": "Locoloco",
       "sum": 10,
-      "count": 199
+      "count": 198
     }
   ],
   "orders": [
@@ -1391,6 +1239,231 @@
       "userEmail": "admin@mail.ru",
       "date": "2022-05-17T16:14:13.707Z",
       "id": 15
+    },
+    {
+      "name": "Emi",
+      "email": "loj",
+      "phone": "+996(222) 222-222",
+      "country": "stan",
+      "city": "ool",
+      "street": "na",
+      "home": "22",
+      "flat": "32",
+      "massage": " ",
+      "clothes": [
+        {
+          "id": 3,
+          "title": "T-SHIRT IN 100% COTTON WITH PRINT",
+          "image": "tshirt3/tealt-shirt3.jpg",
+          "color": "teal",
+          "size": "s",
+          "count": 2,
+          "price": 229,
+          "category": "T-short"
+        },
+        {
+          "id": 3,
+          "title": "T-SHIRT IN 100% COTTON WITH PRINT",
+          "image": "tshirt3/t-shirt3.jpg",
+          "color": "orange",
+          "size": "l",
+          "count": 1,
+          "price": 229,
+          "category": "T-short"
+        },
+        {
+          "id": 1,
+          "title": " PATTERNED TANK TOP",
+          "image": "tshirt1/t-shirt1.jpg",
+          "color": "white",
+          "size": "s",
+          "count": 1,
+          "price": 200,
+          "category": "T-short"
+        },
+        {
+          "id": 17,
+          "title": "CROSSOVER CARDIGAN WITH BOW",
+          "image": "cardigan2.jpg",
+          "color": "white",
+          "size": "s",
+          "count": 2,
+          "price": 29,
+          "category": "cardigan"
+        }
+      ],
+      "price": 850.4999999999999,
+      "userEmail": "admin@mail.ru",
+      "date": "2022-05-20T10:16:52.273Z",
+      "id": 16
+    },
+    {
+      "name": "dfsf",
+      "email": "sdfs",
+      "phone": "+996(222) 222-222",
+      "country": "",
+      "city": "",
+      "street": "",
+      "home": "",
+      "flat": "",
+      "massage": " ",
+      "clothes": [
+        {
+          "id": 4,
+          "title": "100% COTTON BOXY FIT T-SHIRT",
+          "image": "tshirt4/bluet-shirt4.jpg",
+          "color": "blue",
+          "size": "s",
+          "count": 2,
+          "price": 200,
+          "category": "T-short"
+        },
+        {
+          "id": 4,
+          "title": "100% COTTON BOXY FIT T-SHIRT",
+          "image": "tshirt4/yellowt-shirt4.jpg",
+          "color": "yellow",
+          "size": "s",
+          "count": 1,
+          "price": 200,
+          "category": "T-short"
+        },
+        {
+          "id": 1,
+          "title": " PATTERNED TANK TOP",
+          "image": "tshirt1/pinkt-shirt1.jpg",
+          "color": "pink",
+          "size": "s",
+          "count": 1,
+          "price": 200,
+          "category": "T-short"
+        }
+      ],
+      "price": 800,
+      "userEmail": "admin@mail.ru",
+      "date": "2022-05-20T10:18:36.139Z",
+      "id": 17
+    },
+    {
+      "name": "Miha",
+      "email": "lllp",
+      "phone": "+996(000) 000-000",
+      "country": "pole",
+      "city": "nan",
+      "street": "k",
+      "home": "aoisd",
+      "flat": "isa",
+      "massage": " ",
+      "clothes": [
+        {
+          "id": 1,
+          "title": " PATTERNED TANK TOP",
+          "image": "tshirt1/t-shirt1.jpg",
+          "color": "white",
+          "size": "s",
+          "count": 2,
+          "price": 200,
+          "category": "T-short"
+        },
+        {
+          "id": 1,
+          "title": " PATTERNED TANK TOP",
+          "image": "tshirt1/pinkt-shirt1.jpg",
+          "color": "pink",
+          "size": "s",
+          "count": 1,
+          "price": 200,
+          "category": "T-short"
+        },
+        {
+          "id": 7,
+          "title": "DUSTER COAT IN 100% COTTON",
+          "image": "coat2/coat2.jpg",
+          "color": "white",
+          "size": "s",
+          "count": 1,
+          "price": 279,
+          "category": "coat"
+        },
+        {
+          "id": 19,
+          "title": "LONG PERFORATED CARDIGAN",
+          "image": "cardigan4.jpg",
+          "color": "yellow",
+          "size": "s",
+          "count": 2,
+          "price": 200,
+          "category": "cardigan"
+        }
+      ],
+      "price": 1279,
+      "userEmail": "admin@mail.ru",
+      "date": "20.05.2022",
+      "id": 18
+    },
+    {
+      "name": "xzczx",
+      "email": "zxc",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "street": "",
+      "home": "",
+      "flat": "",
+      "massage": " ",
+      "clothes": [
+        {
+          "id": 3,
+          "title": "T-SHIRT IN 100% COTTON WITH PRINT",
+          "image": "tshirt3/t-shirt3.jpg",
+          "color": "orange",
+          "size": "s",
+          "count": 1,
+          "price": 229,
+          "category": "T-short"
+        },
+        {
+          "id": 1,
+          "title": " PATTERNED TANK TOP",
+          "image": "tshirt1/t-shirt1.jpg",
+          "color": "white",
+          "size": "s",
+          "count": 1,
+          "price": 200,
+          "category": "T-short"
+        }
+      ],
+      "price": 429,
+      "userEmail": "admin@mail.ru",
+      "date": "20.05.2022",
+      "id": 19
+    },
+    {
+      "name": "xzcz",
+      "email": "zxcz",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "street": "",
+      "home": "",
+      "flat": "",
+      "massage": " ",
+      "clothes": [
+        {
+          "id": 13,
+          "title": "SWEATSHIRT WITH BOW AND PUFF SLEEVE",
+          "image": "sweatshirt3.jpg",
+          "color": "white",
+          "size": "xs",
+          "count": 2,
+          "price": 229,
+          "category": "sweatshirt"
+        }
+      ],
+      "price": 458,
+      "userEmail": "admin@mail.ru",
+      "date": "2022,05,20",
+      "id": 20
     }
   ]
 }

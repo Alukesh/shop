@@ -13,6 +13,14 @@ const Checkout = () => {
 
     const {cart, ticket, setCart, setTicket,  user, setUser } = useContext(CustomContext);
     const {reset, register, handleSubmit} = useForm();
+    function toDate (date) {
+        return new Intl.DateTimeFormat('ru-Ru', {
+            year:'2-digit',
+            month:'2-digit',
+            day:'2-digit',
+        }).format(new Date(date))
+    }
+
 
     const addOrder = async (data) =>{
         await axios.post('http://localhost:8080/orders', {
@@ -22,7 +30,7 @@ const Checkout = () => {
                 ? cart.reduce((acc, rec) => acc + rec.price * rec.count, 0) / 100 * (100 - ticket[0].sum)
                 : cart.reduce((acc, rec) => acc + rec.price * rec.count, 0),
             userEmail: user.email,
-            date: new Date()
+            date:  new Date().toLocaleDateString().split('.').reverse().join()
         }).then(() =>{ console.log('успешно добавленll');} );
 
 
@@ -36,16 +44,12 @@ const Checkout = () => {
                     price: Array.isArray(ticket) && ticket.length
                         ? cart.reduce((acc, rec) => acc + rec.price * rec.count, 0) / 100 * (100 - ticket[0].sum)
                         : cart.reduce((acc, rec) => acc + rec.price * rec.count, 0),
-                    date: new Date()
+                    date:  new Date().toLocaleDateString().split('.').reverse().join()
                 }
                 ]
         })   .then(() =>{ console.log('успешно добавлен')});
 
-        // await cart.map((item) => {
-        //    axios.patch(`http://localhost:8080/clothes/${item.id}`, {
-        //        inStock: item
-        //    })
-        // });
+
         await axios(`http://localhost:8080/users/${user.id}`).then((res) =>{
             setUser(res.data);
             localStorage.setItem('user', JSON.stringify(res.data));

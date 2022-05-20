@@ -1,5 +1,10 @@
+import {useContext} from "react";
+import {CustomContext} from "../../../Context";
+import {useTranslation} from "react-i18next";
 
 const MapBlock = () => {
+    let {t} = useTranslation();
+
     return (
         <div className={'contact__mapBlock'}>
             <div className="contact__map-block" >
@@ -9,15 +14,15 @@ const MapBlock = () => {
             </div>
             <div className={'contact__mapBlock-links'}>
                 <p>
-                    <span>Телефон</span>
+                    <span>{t("Contact.links.phone")}</span>
                     <a href="tel:+7 (495) 823-54-12">+7 (495) 823-54-12</a>
                 </p>
                 <p>
-                    <span>E-mail</span>
+                    <span>{t("Contact.links.email")}</span>
                     <a href="#">info@sitename.com</a>
                 </p>
                 <p>
-                    <span>Адрес</span>
+                    <span>{t("Contact.links.address")}</span>
                     <a href="#">г. Москва, 3-я улица Строителей, 25</a>
                 </p>
 

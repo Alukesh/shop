@@ -74,14 +74,43 @@
   "Contact": {
     "title": "Контакты",
     "link1": "Главная",
-    "link2": "Контакты"
+    "link2": "Контакты",
+    "links": {
+      "phone": "Телефон",
+      "email": "E-mail",
+      "address": "Адрес"
+    },
+    "form": {
+      "title": "Напишите нам",
+      "name": "Имя",
+      "phone": "Телефон",
+      "message": "Сообщение",
+      "send": "Отправить"
+    }
   },
   "Shop": {
     "title": "Магазин",
     "link1": "Главная",
     "link2": "Магазин",
-    "sortTitle": "Сортировка по",
-    "statusAll": "Все"
+    "nostock": "Нет в наличии",
+    "statusAll": "Все",
+    "statusSweatshirt": "Кофты",
+    "statusCardigan": "Кардиганы",
+    "statusHoodie": "Толстовки",
+    "statusT-shirt": "Футболки",
+    "statusCoat": "Пальто",
+    "sort": {
+      "less": "Цена ниже",
+      "more": "Цена выше",
+      "discount": "Со скидкой",
+      "text": "Сортировка по"
+    },
+    "pagination": {
+      "shown": "Показано",
+      "outof": "из",
+      "clothes": "товаров"
+    }
+
 
   },
     "Cart": {
@@ -101,12 +130,15 @@
     "link2": "Корзина",
     "link3": "Заказ получен"
   },
-
-
-   "Product": {
+  "Product": {
+    "title": "Order complete",
     "link1": "Главная",
-    "link2": "Магазин"
+    "link2": "Магазин",
+    "related": "Related goods"
   },
+
+
+
 
   "footer": {
     "link1": "Главная",

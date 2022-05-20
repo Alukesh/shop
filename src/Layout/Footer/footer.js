@@ -2,6 +2,8 @@ import {Link, NavLink} from "react-router-dom";
 import {useTranslation} from 'react-i18next'
 import {useContext} from "react";
 import {CustomContext} from "../../Context";
+import {BsInstagram} from 'react-icons/bs'
+import {FaFacebookSquare, FaTwitter} from 'react-icons/fa'
 
 
 const Footer = () => {
@@ -21,9 +23,9 @@ const Footer = () => {
                 </span>
                             Womazing</h1>
                         <div className='footer__rights'>
-                            <a className='footer__rights-link link' href="#">{t("footer.agreements")}</a>
-                            <a className='footer__rights-link link' href="#">{t("footer.agreements2")}</a>
-                            <a className='footer__rights-link link' href="#">{t("footer.agreements3")}</a>
+                            <a className='footer__rights-link link' href="https://github.com/Alukesh/shop/branches">{t("footer.agreements")}</a>
+                            <a className='footer__rights-link link' href="https://github.com/Alukesh/shop/branches">{t("footer.agreements2")}</a>
+                            <a className='footer__rights-link link' href="https://github.com/Alukesh/shop/branches">{t("footer.agreements3")}</a>
                         </div>
                     </div>
                     <div className='footer__links'>
@@ -59,32 +61,17 @@ const Footer = () => {
                     <div className='footer__contacts'>
                         <div className='footer__contacts-link'>
                             <a className={'footer__contacts-link_item'} href="tel:+7 (495) 823-54-12">+7 (495) 823-54-12</a>
-                            <a className={'footer__contacts-link_item'} href="#">hello@womazing.com</a>
+                            <a className={'footer__contacts-link_item'} href="https://github.com/Alukesh/shop/branches">hello@womazing.com</a>
                         </div>
 
                         <div className='footer__icons'>
-                            <p>inst</p>
-                            <p>face</p>
-                            <p>twit</p>
+                            <p><BsInstagram/></p>
+                            <p><FaFacebookSquare/></p>
+                            <p><FaTwitter/></p>
                         </div>
                         <img className={'footer__visa'} src="../Assets/images/visa.png" alt="vis"/>
                     </div>
 
-
-
-                    {/*<div className='footer__left'>*/}
-                    {/*    <div className='footer__links'>*/}
-
-
-                    {/*    </div>*/}
-                    {/*    <div className='footer__politics'>*/}
-                    {/*        <div></div>*/}
-                    {/*        <div></div>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
-                    {/*<div className='footer__right'>*/}
-
-                    {/*</div>*/}
                 </div>
 
             </div>

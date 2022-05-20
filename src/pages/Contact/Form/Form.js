@@ -1,14 +1,17 @@
+import {useTranslation} from "react-i18next";
 
 const Form = () => {
+    let {t} = useTranslation();
+
     return (
         <div>
             <form className={'contact__form'}>
-                <h2 className={'contact__form-title'}>Напишите нам</h2>
-                <input className={'contact__form-input'} type="text" placeholder={'Имя'}/>
+                <h2 className={'contact__form-title'}>{t("Contact.form.title")}</h2>
+                <input className={'contact__form-input'} type="text" placeholder={t("Contact.form.name")}/>
                 <input className={'contact__form-input'} type="text" placeholder={'E-mail'}/>
-                <input className={'contact__form-input'} type="text" placeholder={'Телефон'}/>
-                <textarea className={'contact__form-text'} placeholder={'Сообщение'} name="text" id=""/>
-                <button className={'contact__form-btn'}>Отправить</button>
+                <input className={'contact__form-input'} type="text" placeholder={t("Contact.form.phone")}/>
+                <textarea className={'contact__form-text'} placeholder={t("Contact.form.message")} name="text" id=""/>
+                <button className={'contact__form-btn'} >{t("Contact.form.send")}</button>
             </form>
         </div>
     );

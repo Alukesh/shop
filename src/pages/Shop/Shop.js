@@ -38,38 +38,38 @@ const Shop = () => {
             </div>
             {/*<About title={"Shop.title"}  link1={"Shop.link1"} link2={"Shop.link2"}/>*/}
             <ul className={'shop__list'}>
-                <li className={`shop__item ${status === '' && 'shop__item_active'}`} onClick={() => {setPage(1); setStatus('')}}>{t("Shop.")}</li>
-                <li className={`shop__item ${status === 'coat' && 'shop__item_active'}`} onClick={() => {setPage(1); setStatus('coat')}}>Пальто</li>
-                <li className={`shop__item ${status === 'sweatshirt' && 'shop__item_active'}`} onClick={() => {setPage(1); setStatus('sweatshirt')}}>Свитшоты</li>
-                <li className={`shop__item ${status === 'cardigan' && 'shop__item_active'}`} onClick={() => {setPage(1); setStatus('cardigan')}}>Кардиганы</li>
-                <li className={`shop__item ${status === 'hoodie' && 'shop__item_active'}`} onClick={() => {setPage(1); setStatus('hoodie')}}>Толстовки</li>
-                <li className={`shop__item ${status === 'T-short' && 'shop__item_active'}`} onClick={() => {setPage(1); setStatus('T-short')}}>Футболки</li>
+                <li className={`shop__item ${status === '' && 'shop__item_active'}`} onClick={() => {setPage(1); setStatus('')}}>{t("Shop.statusAll")}</li>
+                <li className={`shop__item ${status === 'coat' && 'shop__item_active'}`} onClick={() => {setPage(1); setStatus('coat')}}>{t("Shop.statusCoat")}</li>
+                <li className={`shop__item ${status === 'sweatshirt' && 'shop__item_active'}`} onClick={() => {setPage(1); setStatus('sweatshirt')}}>{t("Shop.statusSweatshirt")}</li>
+                <li className={`shop__item ${status === 'cardigan' && 'shop__item_active'}`} onClick={() => {setPage(1); setStatus('cardigan')}}>{t("Shop.statusCardigan")}</li>
+                <li className={`shop__item ${status === 'hoodie' && 'shop__item_active'}`} onClick={() => {setPage(1); setStatus('hoodie')}}>{t("Shop.statusHoodie")}</li>
+                <li className={`shop__item ${status === 'T-short' && 'shop__item_active'}`} onClick={() => {setPage(1); setStatus('T-short')}}>{t("Shop.statusT-shirt")}</li>
             </ul>
                 <select className={'shop__select'} onChange={(e) => setStatus(e.target.value)} name="categoru" id="shop">
-                    <option value="">Все</option>
-                    <option value="coat">Пальто</option>
-                    <option value="sweatshirt">Свитшоты</option>
-                    <option value="cardigan">Кардиганы</option>
-                    <option value="hoodie">Толстовки</option>
-                    <option value="T-short">Футболки</option>
+                    <option value="">{t("Shop.statusAll")}</option>
+                    <option value="coat">{t("Shop.statusCoat")}</option>
+                    <option value="sweatshirt">{t("Shop.statusSweatshirt")}</option>
+                    <option value="cardigan">{t("Shop.statusCardigan")}</option>
+                    <option value="hoodie">{t("Shop.statusHoodie")}</option>
+                    <option value="T-short">{t("Shop.statusT-shirt")}</option>
                 </select>
 
             {
                 sort &&
-                    <h2 className={''}>{t("Shop.sortTitle")}: <span>{sort}</span></h2>
+                    <h2 className={''}>{t("Shop.sort.text")}: <span>{sort}</span></h2>
             }
             <div className={'shop__sorts'}>
                 <button type='button' className={`shop__sort ${sort === 'big' ? 'shop__sort-active' : ''}`}
-                onClick={() =>{setPage(1); setSort(sort  !== 'big' ? 'big' : '')}} >Sort Big </button>
+                onClick={() =>{setPage(1); setSort(sort  !== 'big' ? 'big' : '')}} >{t("Shop.sort.more")} </button>
                 <button type='button' className={`shop__sort ${sort === 'less' ? 'shop__sort-active' : ''}`}
-                onClick={() =>{setPage(1); setSort('less' !== sort ? 'less' : '')}} >Sort less </button>
+                onClick={() =>{setPage(1); setSort('less' !== sort ? 'less' : '')}} >{t("Shop.sort.less")} </button>
                 <button type='button' className={`shop__sort ${sort === 'discount' ? 'shop__sort-active' : ''}`}
-                onClick={() =>{setPage(1); setSort('discount' !== sort ? 'discount' : '')}} >Sort discount </button>
+                onClick={() =>{setPage(1); setSort('discount' !== sort ? 'discount' : '')}} >{t("Shop.sort.discount")} </button>
 
             </div>
 
             {/*Shops*/}
-            <p>Показано: {showCount} из {showCountLength} товаров</p>
+            <p>{t("Shop.pagination.shown")}: {showCount} {t("Shop.pagination.outof")}  {showCountLength} {t("Shop.pagination.clothes")}</p>
 
             <div className={'shop__row'}>
                 {
@@ -95,7 +95,7 @@ const Shop = () => {
                                     {/*<img className={'shop__img'} src={`../Shop/${item.image}`} />*/}
                                     {
                                         !item.inStock  &&
-                                        <p className={'shop__info-stock'} style={{textAlign: 'center'}}>Нет в наличии</p>
+                                        <p className={'shop__info-stock'} style={{textAlign: 'center'}}>{t("Shop.nostock")}</p>
                                     }
                                     <Link to={`/product/${item.id}`} onClick={() => {
                                         window.scrollTo('pageYOffset', 150)
@@ -124,7 +124,8 @@ const Shop = () => {
                     ))
                 }
             </div>
-            <p>Показано: {showCount} из {showCountLength} товаров</p>
+
+                <p>{t("Shop.pagination.shown")}: {showCount} {t("Shop.pagination.outof")}  {showCountLength} {t("Shop.pagination.clothes")}</p>
 
 
             {
